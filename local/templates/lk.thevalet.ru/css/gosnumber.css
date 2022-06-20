@@ -1,0 +1,81 @@
+.global__brand{
+    height: 90.8%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.choose__brand__block{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-left: 0.5rem;
+    border-bottom: 1px solid #C7C7C7;
+}
+.btn__block{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+.button{
+    width: 183px;
+    height: 39px;
+    background: #000000;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grey__block{
+    width: 100%;
+    height: 100%;
+    background: #EDEDED;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 134px 0px;
+}
+.enter__gosnumber {
+    box-sizing: border-box;
+    width: 90%;
+    height: 4.5rem;
+    background: #FFFFFF;
+    border: 1px solid #e3dfdf;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 40px;
+    color: #C7C7C7;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 46px;
+}
+@media screen and (max-width: 767px) {
+    .btn__block {
+        width: 90%;
+        display: flex;
+        color: #fff;
+        flex-direction: column;
+        position: fixed;
+        bottom: 0;
+    }
+    .button {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .global__brand{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .grey__block{
+        padding: 100px 3px;
+    }
+    .choose__brand__block {
+        width: 99%;
+    }
+    .enter__gosnumber {
+        padding: 0px 0px 0px 23px;
+    }
+}

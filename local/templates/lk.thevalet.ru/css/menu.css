@@ -1,0 +1,218 @@
+
+.menu{
+    top: 0;
+    left: 0rem;
+    width: 30rem;
+    height: 100%;
+    padding: 28px;
+    margin-bottom: 20px;
+    z-index: 3;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    
+}
+.menu__section {
+    position: absolute;
+    background-color: #ffffff;
+    width: 32rem;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    padding: 28px;
+    box-sizing: border-box;
+    height: 100%;
+    transition: left ease-out 0.3s;
+}
+.menu__close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+.menu__profile {
+    text-align: center;
+    padding-top: 46px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #5a5959;
+}
+.profile__img {
+    width: 97px;
+    height: 97px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.profile__name {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+.profile__link {
+    font-size: 10px;
+    color: #b0b0b0;
+    line-height: 12px;
+}
+.profile__link:hover,
+.profile__link:focus {
+    color: #b0b0b0;
+}
+.menu__list {
+    padding: 30px 0;
+    text-align: center;
+}
+.menu__item {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu__item .menu__link {
+    color: #000000;
+}
+.menu__link {
+    display: block;
+    padding: 11px;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+.menu__link.active {
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+}
+.menu__comm {
+    text-transform: none;
+    display: block;
+    color: #b0b0b0;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+
+@media screen and (max-width: 767px) {
+.user__popup{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease 0s
+}  
+.user__popup.open {
+    opacity: 1;
+    visibility: visible;
+}
+.user__popup.open .menu{
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    top: 0;
+    left: 0rem;
+    padding: 28px;
+    box-sizing: border-box;
+    transition: all ease-out 0.3s;
+    opacity: 1;
+}
+.menu{
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    padding: 28px;
+    box-sizing: border-box;
+    height: 100%;
+    transition: all ease-out 0.3s;
+    margin-bottom: 20px;
+
+}
+.menu__section {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    padding: 28px;
+    box-sizing: border-box;
+    height: 100%;
+    transition: all ease-out 0.3s;
+}
+.menu__close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+.menu__profile {
+    text-align: center;
+    padding-top: 46px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #5a5959;
+}
+.profile__img {
+    width: 97px;
+    height: 97px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.profile__name {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+.profile__link {
+    font-size: 10px;
+    color: #b0b0b0;
+    line-height: 12px;
+}
+.profile__link:hover,
+.profile__link:focus {
+    color: #b0b0b0;
+}
+.menu__list {
+    padding: 30px 0;
+    text-align: center;
+}
+.menu__item {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu__item--active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.menu__item--active .menu__link {
+    color: #ffffff;
+    transition: left ease-out 0.3s;
+}
+.menu__item .menu__link {
+    color: #000000;
+}
+.menu__link {
+    display: block;
+    padding: 11px;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+.menu__comm {
+    text-transform: none;
+    display: block;
+    color: #b0b0b0;
+    font-size: 10px;
+    line-height: 12px;
+}
+}

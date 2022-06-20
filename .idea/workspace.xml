@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="864a6f7a-f999-44f4-b1fa-6ac9ab0f811f" name="Default Changelist" comment="Добавление lk.thevalet.ru">
+      <change afterPath="$PROJECT_DIR$/.access.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/thevalet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.left.menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add__pay__card.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favorites.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/garage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/garageOnOrder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gosnumber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/menu/burger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/.idea/VLTnew.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/main.auth.form/autorization/lang/en/otp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/main.auth.form/autorization/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/main.auth.form/autorization/lang/ru/otp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/main.auth.form/autorization/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/main.auth.form/autorization/otp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/main.auth.form/autorization/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/images/bx-video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/result_modifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/template-old.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/themes/black/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/themes/black/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/themes/blue/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/themes/blue/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/themes/green/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/themes/green/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/themes/red/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/themes/red/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/themes/wood/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/themes/wood/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/themes/yellow/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/themes/yellow/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/search.page/searching/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/search.page/searching/chain_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/search.page/searching/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/search.page/searching/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/search.page/searching/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/search.page/searching/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/components/bitrix/search.page/searching/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/add__pay__card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/appHeader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/brand.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/car.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/car1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/favorites.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/formSearchAdress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/garage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/garageOnOrder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/gosnumber.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/history.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/img/MESSAGE2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/main_mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/orderBasket.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/orderNPS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/orderPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/personalaccount.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/popup-service-info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/serviceListOnOrder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/swiper-bundle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/css/systemPay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/description.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/fonts/GaramondPremrPro.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/fonts/GaramondPremrPro.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/fonts/GaramondPremrPro.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/fonts/GaramondPremrPro.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/fonts/Montserrat-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/fonts/Montserrat-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/fonts/Montserrat-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/fonts/Montserrat-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/MESSAGE 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/burger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/car1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/car2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/car-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/car1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/car2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/detailing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/driver.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/dtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/jag-garage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/jaguar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/parking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/range-rover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/refuel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/refuel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/rr-garage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/tire-service.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/wash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/wash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/data/Слой 5 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/fd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/jaguar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/+_add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/MESSAGE2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/add a map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/add-photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/arrow-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/arrow-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/bg-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/cancel-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/chat-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/check mark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/home__address.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/icon-briefcase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/mb__logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/menu-switcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/park-icon-active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/park-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/phone-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/refuel-icon-active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/refuel-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/search__icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/service-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/services-info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/star-empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/star-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/star-full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/star-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/star-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/visa-300x300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/wash-icon-active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/layout/wash-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/img/search__icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/js/auto_btn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/js/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/js/openServicePopUP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/js/swiper-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/js/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/libs/jquery/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/libs/maskedinput/jquery.maskedinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/libs/owl-carousel/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/libs/owl-carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/lk.thevalet.ru/libs/owl-carousel/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newOrder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderBasket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderNPS.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personalaccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popup-service-info.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serviceListOnOrder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systemPay.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urlrewrite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verification.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Artur" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2AqjXwADGsfZfKI6jSblwKbFSoY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="864a6f7a-f999-44f4-b1fa-6ac9ab0f811f" name="Default Changelist" comment="" />
+      <created>1655744053492</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655744053492</updated>
+      <workItem from="1655744059208" duration="2608000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавление lk.thevalet.ru" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление lk.thevalet.ru" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1655745797680">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1655745797680" />
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1655744775932">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1655744775932" />
+    <state x="457" y="66" key="RollbackChangesDialog" timestamp="1655744138636">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="457" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1655744138636" />
+  </component>
+</project>
