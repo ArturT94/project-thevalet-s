@@ -1,0 +1,2614 @@
+2022-05-15 15:28:40, 5.188.119.65: array (
+  'arguments' => 
+  array (
+    0 => 'rest.event.call',
+    1 => 
+    array (
+      'QUERY' => 
+      array (
+        0 => 
+        array (
+          'client_id' => 'local.6260e5d04f8573.00563372',
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652617720,
+            ),
+          ),
+        ),
+        1 => 
+        array (
+          'client_id' => NULL,
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652617720,
+            ),
+          ),
+        ),
+        2 => 
+        array (
+          'client_id' => 'local.6260e5d04f8573.00563372',
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652617720,
+            ),
+          ),
+        ),
+        3 => 
+        array (
+          'client_id' => NULL,
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652617720,
+            ),
+          ),
+        ),
+        4 => 
+        array (
+          'client_id' => 'local.6260e5d04f8573.00563372',
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652617720,
+            ),
+          ),
+        ),
+        5 => 
+        array (
+          'client_id' => NULL,
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652617720,
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'clientId' => 'bx.610bbc130753b6.61274034',
+  'clientSecret' => '912yeNJWkhrvLRMFJKYNyrlJaIESx9P6yjmnvSVRmWJ4n0qdUz',
+)
+2022-05-15 15:28:40, 5.188.119.65: array (
+  0 => 
+  Bitrix\Main\Web\HttpClient::__set_state(array(
+     'proxyHost' => NULL,
+     'proxyPort' => NULL,
+     'proxyUser' => NULL,
+     'proxyPassword' => NULL,
+     'resource' => NULL,
+     'socketTimeout' => 10,
+     'streamTimeout' => 10,
+     'error' => 
+    array (
+    ),
+     'peerSocketName' => NULL,
+     'requestHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'requestCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'waitResponse' => true,
+     'redirect' => true,
+     'redirectMax' => 5,
+     'redirectCount' => 0,
+     'compress' => false,
+     'version' => '1.0',
+     'requestCharset' => '',
+     'sslVerify' => true,
+     'bodyLengthMax' => 0,
+     'privateIp' => true,
+     'status' => 0,
+     'responseHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'responseCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'result' => '',
+     'outputStream' => NULL,
+     'effectiveIp' => NULL,
+     'effectiveUrl' => NULL,
+     'queryMethod' => NULL,
+     'receivedBytesLength' => 0,
+     'contextOptions' => 
+    array (
+    ),
+     'debugLevel' => 5,
+     'logger' => NULL,
+  )),
+  'url' => 'https://oauth.bitrix.info/rest/rest.event.call',
+  'additionalParams' => 
+  array (
+    'QUERY' => 
+    array (
+      0 => 
+      array (
+        'client_id' => 'local.6260e5d04f8573.00563372',
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652617720,
+          ),
+        ),
+      ),
+      1 => 
+      array (
+        'client_id' => NULL,
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652617720,
+          ),
+        ),
+      ),
+      2 => 
+      array (
+        'client_id' => 'local.6260e5d04f8573.00563372',
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652617720,
+          ),
+        ),
+      ),
+      3 => 
+      array (
+        'client_id' => NULL,
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652617720,
+          ),
+        ),
+      ),
+      4 => 
+      array (
+        'client_id' => 'local.6260e5d04f8573.00563372',
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652617720,
+          ),
+        ),
+      ),
+      5 => 
+      array (
+        'client_id' => NULL,
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652617720,
+          ),
+        ),
+      ),
+    ),
+    'client_id' => 'bx.610bbc130753b6.61274034',
+    'client_secret' => '912yeNJWkhrvLRMFJKYNyrlJaIESx9P6yjmnvSVRmWJ4n0qdUz',
+    'client_redirect_uri' => 'https://it-valet.ru',
+    'member_id' => '45a0dd57984bb422404ba7be4cd79948',
+  ),
+)
+2022-05-15 15:28:41, 5.188.119.65: array (
+  'response' => 
+  array (
+    'result' => NULL,
+    'time' => 
+    array (
+      'start' => 1652617720.997318,
+      'finish' => 1652617721.147175,
+      'duration' => 0.1498570442199707,
+      'processing' => 0.14437198638916016,
+      'date_start' => '2022-05-15T15:28:40+03:00',
+      'date_finish' => '2022-05-15T15:28:41+03:00',
+    ),
+  ),
+)
+2022-05-15 15:29:29, 5.188.119.65: array (
+  'arguments' => 
+  array (
+    0 => 'rest.event.call',
+    1 => 
+    array (
+      'QUERY' => 
+      array (
+        0 => 
+        array (
+          'client_id' => 'local.6260e5d04f8573.00563372',
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652617769,
+            ),
+          ),
+        ),
+        1 => 
+        array (
+          'client_id' => NULL,
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652617769,
+            ),
+          ),
+        ),
+        2 => 
+        array (
+          'client_id' => 'local.6260e5d04f8573.00563372',
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652617769,
+            ),
+          ),
+        ),
+        3 => 
+        array (
+          'client_id' => NULL,
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652617769,
+            ),
+          ),
+        ),
+        4 => 
+        array (
+          'client_id' => 'local.6260e5d04f8573.00563372',
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652617769,
+            ),
+          ),
+        ),
+        5 => 
+        array (
+          'client_id' => NULL,
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652617769,
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'clientId' => 'bx.610bbc130753b6.61274034',
+  'clientSecret' => '912yeNJWkhrvLRMFJKYNyrlJaIESx9P6yjmnvSVRmWJ4n0qdUz',
+)
+2022-05-15 15:29:29, 5.188.119.65: array (
+  0 => 
+  Bitrix\Main\Web\HttpClient::__set_state(array(
+     'proxyHost' => NULL,
+     'proxyPort' => NULL,
+     'proxyUser' => NULL,
+     'proxyPassword' => NULL,
+     'resource' => NULL,
+     'socketTimeout' => 10,
+     'streamTimeout' => 10,
+     'error' => 
+    array (
+    ),
+     'peerSocketName' => NULL,
+     'requestHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'requestCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'waitResponse' => true,
+     'redirect' => true,
+     'redirectMax' => 5,
+     'redirectCount' => 0,
+     'compress' => false,
+     'version' => '1.0',
+     'requestCharset' => '',
+     'sslVerify' => true,
+     'bodyLengthMax' => 0,
+     'privateIp' => true,
+     'status' => 0,
+     'responseHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'responseCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'result' => '',
+     'outputStream' => NULL,
+     'effectiveIp' => NULL,
+     'effectiveUrl' => NULL,
+     'queryMethod' => NULL,
+     'receivedBytesLength' => 0,
+     'contextOptions' => 
+    array (
+    ),
+     'debugLevel' => 5,
+     'logger' => NULL,
+  )),
+  'url' => 'https://oauth.bitrix.info/rest/rest.event.call',
+  'additionalParams' => 
+  array (
+    'QUERY' => 
+    array (
+      0 => 
+      array (
+        'client_id' => 'local.6260e5d04f8573.00563372',
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652617769,
+          ),
+        ),
+      ),
+      1 => 
+      array (
+        'client_id' => NULL,
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652617769,
+          ),
+        ),
+      ),
+      2 => 
+      array (
+        'client_id' => 'local.6260e5d04f8573.00563372',
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652617769,
+          ),
+        ),
+      ),
+      3 => 
+      array (
+        'client_id' => NULL,
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652617769,
+          ),
+        ),
+      ),
+      4 => 
+      array (
+        'client_id' => 'local.6260e5d04f8573.00563372',
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652617769,
+          ),
+        ),
+      ),
+      5 => 
+      array (
+        'client_id' => NULL,
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652617769,
+          ),
+        ),
+      ),
+    ),
+    'client_id' => 'bx.610bbc130753b6.61274034',
+    'client_secret' => '912yeNJWkhrvLRMFJKYNyrlJaIESx9P6yjmnvSVRmWJ4n0qdUz',
+    'client_redirect_uri' => 'https://it-valet.ru',
+    'member_id' => '45a0dd57984bb422404ba7be4cd79948',
+  ),
+)
+2022-05-15 15:29:30, 5.188.119.65: array (
+  'response' => 
+  array (
+    'result' => NULL,
+    'time' => 
+    array (
+      'start' => 1652617769.8716,
+      'finish' => 1652617770.023385,
+      'duration' => 0.15178513526916504,
+      'processing' => 0.14612984657287598,
+      'date_start' => '2022-05-15T15:29:29+03:00',
+      'date_finish' => '2022-05-15T15:29:30+03:00',
+    ),
+  ),
+)
+2022-05-15 15:36:52, 5.188.119.65: array (
+  'arguments' => 
+  array (
+    0 => 'rest.event.call',
+    1 => 
+    array (
+      'QUERY' => 
+      array (
+        0 => 
+        array (
+          'client_id' => 'local.6260e5d04f8573.00563372',
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618211,
+            ),
+          ),
+        ),
+        1 => 
+        array (
+          'client_id' => NULL,
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618211,
+            ),
+          ),
+        ),
+        2 => 
+        array (
+          'client_id' => 'local.6260e5d04f8573.00563372',
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618211,
+            ),
+          ),
+        ),
+        3 => 
+        array (
+          'client_id' => NULL,
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618211,
+            ),
+          ),
+        ),
+        4 => 
+        array (
+          'client_id' => 'local.6260e5d04f8573.00563372',
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618211,
+            ),
+          ),
+        ),
+        5 => 
+        array (
+          'client_id' => NULL,
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618211,
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'clientId' => 'bx.610bbc130753b6.61274034',
+  'clientSecret' => '912yeNJWkhrvLRMFJKYNyrlJaIESx9P6yjmnvSVRmWJ4n0qdUz',
+)
+2022-05-15 15:36:52, 5.188.119.65: array (
+  0 => 
+  Bitrix\Main\Web\HttpClient::__set_state(array(
+     'proxyHost' => NULL,
+     'proxyPort' => NULL,
+     'proxyUser' => NULL,
+     'proxyPassword' => NULL,
+     'resource' => NULL,
+     'socketTimeout' => 10,
+     'streamTimeout' => 10,
+     'error' => 
+    array (
+    ),
+     'peerSocketName' => NULL,
+     'requestHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'requestCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'waitResponse' => true,
+     'redirect' => true,
+     'redirectMax' => 5,
+     'redirectCount' => 0,
+     'compress' => false,
+     'version' => '1.0',
+     'requestCharset' => '',
+     'sslVerify' => true,
+     'bodyLengthMax' => 0,
+     'privateIp' => true,
+     'status' => 0,
+     'responseHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'responseCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'result' => '',
+     'outputStream' => NULL,
+     'effectiveIp' => NULL,
+     'effectiveUrl' => NULL,
+     'queryMethod' => NULL,
+     'receivedBytesLength' => 0,
+     'contextOptions' => 
+    array (
+    ),
+     'debugLevel' => 5,
+     'logger' => NULL,
+  )),
+  'url' => 'https://oauth.bitrix.info/rest/rest.event.call',
+  'additionalParams' => 
+  array (
+    'QUERY' => 
+    array (
+      0 => 
+      array (
+        'client_id' => 'local.6260e5d04f8573.00563372',
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618211,
+          ),
+        ),
+      ),
+      1 => 
+      array (
+        'client_id' => NULL,
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618211,
+          ),
+        ),
+      ),
+      2 => 
+      array (
+        'client_id' => 'local.6260e5d04f8573.00563372',
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618211,
+          ),
+        ),
+      ),
+      3 => 
+      array (
+        'client_id' => NULL,
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618211,
+          ),
+        ),
+      ),
+      4 => 
+      array (
+        'client_id' => 'local.6260e5d04f8573.00563372',
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618211,
+          ),
+        ),
+      ),
+      5 => 
+      array (
+        'client_id' => NULL,
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618211,
+          ),
+        ),
+      ),
+    ),
+    'client_id' => 'bx.610bbc130753b6.61274034',
+    'client_secret' => '912yeNJWkhrvLRMFJKYNyrlJaIESx9P6yjmnvSVRmWJ4n0qdUz',
+    'client_redirect_uri' => 'https://it-valet.ru',
+    'member_id' => '45a0dd57984bb422404ba7be4cd79948',
+  ),
+)
+2022-05-15 15:36:52, 5.188.119.65: array (
+  'response' => 
+  array (
+    'result' => NULL,
+    'time' => 
+    array (
+      'start' => 1652618212.267572,
+      'finish' => 1652618212.416773,
+      'duration' => 0.1492011547088623,
+      'processing' => 0.14258313179016113,
+      'date_start' => '2022-05-15T15:36:52+03:00',
+      'date_finish' => '2022-05-15T15:36:52+03:00',
+    ),
+  ),
+)
+2022-05-15 15:38:11, 5.188.119.65: array (
+  'arguments' => 
+  array (
+    0 => 'rest.event.call',
+    1 => 
+    array (
+      'QUERY' => 
+      array (
+        0 => 
+        array (
+          'client_id' => 'local.6260e5d04f8573.00563372',
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618291,
+            ),
+          ),
+        ),
+        1 => 
+        array (
+          'client_id' => NULL,
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618291,
+            ),
+          ),
+        ),
+        2 => 
+        array (
+          'client_id' => 'local.6260e5d04f8573.00563372',
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618291,
+            ),
+          ),
+        ),
+        3 => 
+        array (
+          'client_id' => NULL,
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618291,
+            ),
+          ),
+        ),
+        4 => 
+        array (
+          'client_id' => 'local.6260e5d04f8573.00563372',
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618291,
+            ),
+          ),
+        ),
+        5 => 
+        array (
+          'client_id' => NULL,
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618291,
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'clientId' => 'bx.610bbc130753b6.61274034',
+  'clientSecret' => '912yeNJWkhrvLRMFJKYNyrlJaIESx9P6yjmnvSVRmWJ4n0qdUz',
+)
+2022-05-15 15:38:11, 5.188.119.65: array (
+  0 => 
+  Bitrix\Main\Web\HttpClient::__set_state(array(
+     'proxyHost' => NULL,
+     'proxyPort' => NULL,
+     'proxyUser' => NULL,
+     'proxyPassword' => NULL,
+     'resource' => NULL,
+     'socketTimeout' => 10,
+     'streamTimeout' => 10,
+     'error' => 
+    array (
+    ),
+     'peerSocketName' => NULL,
+     'requestHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'requestCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'waitResponse' => true,
+     'redirect' => true,
+     'redirectMax' => 5,
+     'redirectCount' => 0,
+     'compress' => false,
+     'version' => '1.0',
+     'requestCharset' => '',
+     'sslVerify' => true,
+     'bodyLengthMax' => 0,
+     'privateIp' => true,
+     'status' => 0,
+     'responseHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'responseCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'result' => '',
+     'outputStream' => NULL,
+     'effectiveIp' => NULL,
+     'effectiveUrl' => NULL,
+     'queryMethod' => NULL,
+     'receivedBytesLength' => 0,
+     'contextOptions' => 
+    array (
+    ),
+     'debugLevel' => 5,
+     'logger' => NULL,
+  )),
+  'url' => 'https://oauth.bitrix.info/rest/rest.event.call',
+  'additionalParams' => 
+  array (
+    'QUERY' => 
+    array (
+      0 => 
+      array (
+        'client_id' => 'local.6260e5d04f8573.00563372',
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618291,
+          ),
+        ),
+      ),
+      1 => 
+      array (
+        'client_id' => NULL,
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618291,
+          ),
+        ),
+      ),
+      2 => 
+      array (
+        'client_id' => 'local.6260e5d04f8573.00563372',
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618291,
+          ),
+        ),
+      ),
+      3 => 
+      array (
+        'client_id' => NULL,
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618291,
+          ),
+        ),
+      ),
+      4 => 
+      array (
+        'client_id' => 'local.6260e5d04f8573.00563372',
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618291,
+          ),
+        ),
+      ),
+      5 => 
+      array (
+        'client_id' => NULL,
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618291,
+          ),
+        ),
+      ),
+    ),
+    'client_id' => 'bx.610bbc130753b6.61274034',
+    'client_secret' => '912yeNJWkhrvLRMFJKYNyrlJaIESx9P6yjmnvSVRmWJ4n0qdUz',
+    'client_redirect_uri' => 'https://it-valet.ru',
+    'member_id' => '45a0dd57984bb422404ba7be4cd79948',
+  ),
+)
+2022-05-15 15:38:12, 5.188.119.65: array (
+  'response' => 
+  array (
+    'result' => NULL,
+    'time' => 
+    array (
+      'start' => 1652618291.97632,
+      'finish' => 1652618292.13064,
+      'duration' => 0.15432000160217285,
+      'processing' => 0.14747905731201172,
+      'date_start' => '2022-05-15T15:38:11+03:00',
+      'date_finish' => '2022-05-15T15:38:12+03:00',
+    ),
+  ),
+)
+2022-05-15 15:38:52, 109.252.137.53: array (
+  'arguments' => 
+  array (
+    0 => 'rest.authorize',
+    1 => 
+    array (
+      'CLIENT_ID' => 'local.6260e5d04f8573.00563372',
+      'SCOPE' => 'crm,mailservice,lists,forum,landing,landing_cloud,faceid,department,contact_center,user,task,documentgenerator,sonet_group,timeman,disk,calendar,delivery,pay_system,tasks_extended,bizproc,userconsent,rpa,rating,smile,imopenlines,user.userfield,user_basic,user_brief,placement,log,entity,messageservice,call,telephony,imbot,mobile,pull_channel,pull,im,cashbox,catalog,intranet,iblock,configuration.import,salescenter,sale,userfieldconfig,socialnetwork,tasks',
+      'PARAMS' => 
+      array (
+        'LOCAL_USER' => '1',
+        'TZ_OFFSET' => 0,
+        'EVENT_SESSION' => 7,
+      ),
+    ),
+  ),
+  'clientId' => 'bx.610bbc130753b6.61274034',
+  'clientSecret' => '912yeNJWkhrvLRMFJKYNyrlJaIESx9P6yjmnvSVRmWJ4n0qdUz',
+)
+2022-05-15 15:38:52, 109.252.137.53: array (
+  0 => 
+  Bitrix\Main\Web\HttpClient::__set_state(array(
+     'proxyHost' => NULL,
+     'proxyPort' => NULL,
+     'proxyUser' => NULL,
+     'proxyPassword' => NULL,
+     'resource' => NULL,
+     'socketTimeout' => 10,
+     'streamTimeout' => 10,
+     'error' => 
+    array (
+    ),
+     'peerSocketName' => NULL,
+     'requestHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'requestCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'waitResponse' => true,
+     'redirect' => true,
+     'redirectMax' => 5,
+     'redirectCount' => 0,
+     'compress' => false,
+     'version' => '1.0',
+     'requestCharset' => '',
+     'sslVerify' => true,
+     'bodyLengthMax' => 0,
+     'privateIp' => true,
+     'status' => 0,
+     'responseHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'responseCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'result' => '',
+     'outputStream' => NULL,
+     'effectiveIp' => NULL,
+     'effectiveUrl' => NULL,
+     'queryMethod' => NULL,
+     'receivedBytesLength' => 0,
+     'contextOptions' => 
+    array (
+    ),
+     'debugLevel' => 5,
+     'logger' => NULL,
+  )),
+  'url' => 'https://oauth.bitrix.info/rest/rest.authorize',
+  'additionalParams' => 
+  array (
+    'CLIENT_ID' => 'local.6260e5d04f8573.00563372',
+    'SCOPE' => 'crm,mailservice,lists,forum,landing,landing_cloud,faceid,department,contact_center,user,task,documentgenerator,sonet_group,timeman,disk,calendar,delivery,pay_system,tasks_extended,bizproc,userconsent,rpa,rating,smile,imopenlines,user.userfield,user_basic,user_brief,placement,log,entity,messageservice,call,telephony,imbot,mobile,pull_channel,pull,im,cashbox,catalog,intranet,iblock,configuration.import,salescenter,sale,userfieldconfig,socialnetwork,tasks',
+    'PARAMS' => 
+    array (
+      'LOCAL_USER' => '1',
+      'TZ_OFFSET' => 0,
+      'EVENT_SESSION' => 7,
+    ),
+    'client_id' => 'bx.610bbc130753b6.61274034',
+    'client_secret' => '912yeNJWkhrvLRMFJKYNyrlJaIESx9P6yjmnvSVRmWJ4n0qdUz',
+    'client_redirect_uri' => 'https://it-valet.ru',
+    'member_id' => '45a0dd57984bb422404ba7be4cd79948',
+  ),
+)
+2022-05-15 15:38:52, 109.252.137.53: array (
+  'response' => 
+  array (
+    'result' => 
+    array (
+      'access_token' => '6c028162005b07080056726000000001000007d673af7a9ad40cdd3125c417be1ed737',
+      'expires' => 1652621932,
+      'expires_in' => 3600,
+      'scope' => 'crm,mailservice,lists,forum,landing,landing_cloud,faceid,department,contact_center,user,task,documentgenerator,sonet_group,timeman,disk,calendar,delivery,pay_system,tasks_extended,bizproc,userconsent,rpa,rating,smile,imopenlines,user.userfield,user_basic,user_brief,placement,log,entity,messageservice,call,telephony,imbot,mobile,pull_channel,pull,im,cashbox,catalog,intranet,iblock,configuration.import,salescenter,sale,userfieldconfig,socialnetwork,tasks',
+      'domain' => 'it-valet.ru',
+      'server_endpoint' => 'https://oauth.bitrix.info/rest/',
+      'status' => 'L',
+      'client_endpoint' => 'https://it-valet.ru/rest/',
+      'member_id' => '45a0dd57984bb422404ba7be4cd79948',
+      'refresh_token' => '5c81a862005b0708005672600000000100000716673b60688d721ba2ec03f2f7d8736b',
+    ),
+    'time' => 
+    array (
+      'start' => 1652618332.742917,
+      'finish' => 1652618332.755529,
+      'duration' => 0.012611865997314453,
+      'processing' => 0.0069959163665771484,
+      'date_start' => '2022-05-15T15:38:52+03:00',
+      'date_finish' => '2022-05-15T15:38:52+03:00',
+    ),
+  ),
+)
+2022-05-15 15:40:57, 5.188.119.65: array (
+  'arguments' => 
+  array (
+    0 => 'rest.event.call',
+    1 => 
+    array (
+      'QUERY' => 
+      array (
+        0 => 
+        array (
+          'client_id' => 'local.6260e5d04f8573.00563372',
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618456,
+            ),
+          ),
+        ),
+        1 => 
+        array (
+          'client_id' => NULL,
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618456,
+            ),
+          ),
+        ),
+        2 => 
+        array (
+          'client_id' => 'local.6260e5d04f8573.00563372',
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618456,
+            ),
+          ),
+        ),
+        3 => 
+        array (
+          'client_id' => NULL,
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618456,
+            ),
+          ),
+        ),
+        4 => 
+        array (
+          'client_id' => 'local.6260e5d04f8573.00563372',
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618456,
+            ),
+          ),
+        ),
+        5 => 
+        array (
+          'client_id' => NULL,
+          'additional' => 
+          array (
+            'category' => 'crm',
+            'sendAuth' => true,
+            'sendRefreshToken' => false,
+          ),
+          'auth' => 
+          array (
+            'EVENT_SESSION' => 7,
+            'LOCAL_USER' => '1',
+            'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+          ),
+          'query' => 
+          array (
+            'DOMAIN' => 'it-valet.ru',
+            'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+            'QUERY_DATA' => 
+            array (
+              'event' => 'ONCRMDEALUPDATE',
+              'data' => 
+              array (
+                'FIELDS' => 
+                array (
+                  'ID' => 386,
+                ),
+              ),
+              'ts' => 1652618456,
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'clientId' => 'bx.610bbc130753b6.61274034',
+  'clientSecret' => '912yeNJWkhrvLRMFJKYNyrlJaIESx9P6yjmnvSVRmWJ4n0qdUz',
+)
+2022-05-15 15:40:57, 5.188.119.65: array (
+  0 => 
+  Bitrix\Main\Web\HttpClient::__set_state(array(
+     'proxyHost' => NULL,
+     'proxyPort' => NULL,
+     'proxyUser' => NULL,
+     'proxyPassword' => NULL,
+     'resource' => NULL,
+     'socketTimeout' => 10,
+     'streamTimeout' => 10,
+     'error' => 
+    array (
+    ),
+     'peerSocketName' => NULL,
+     'requestHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'requestCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'waitResponse' => true,
+     'redirect' => true,
+     'redirectMax' => 5,
+     'redirectCount' => 0,
+     'compress' => false,
+     'version' => '1.0',
+     'requestCharset' => '',
+     'sslVerify' => true,
+     'bodyLengthMax' => 0,
+     'privateIp' => true,
+     'status' => 0,
+     'responseHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'responseCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'result' => '',
+     'outputStream' => NULL,
+     'effectiveIp' => NULL,
+     'effectiveUrl' => NULL,
+     'queryMethod' => NULL,
+     'receivedBytesLength' => 0,
+     'contextOptions' => 
+    array (
+    ),
+     'debugLevel' => 5,
+     'logger' => NULL,
+  )),
+  'url' => 'https://oauth.bitrix.info/rest/rest.event.call',
+  'additionalParams' => 
+  array (
+    'QUERY' => 
+    array (
+      0 => 
+      array (
+        'client_id' => 'local.6260e5d04f8573.00563372',
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618456,
+          ),
+        ),
+      ),
+      1 => 
+      array (
+        'client_id' => NULL,
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618456,
+          ),
+        ),
+      ),
+      2 => 
+      array (
+        'client_id' => 'local.6260e5d04f8573.00563372',
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618456,
+          ),
+        ),
+      ),
+      3 => 
+      array (
+        'client_id' => NULL,
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618456,
+          ),
+        ),
+      ),
+      4 => 
+      array (
+        'client_id' => 'local.6260e5d04f8573.00563372',
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '0b9d5f092b0bc7b55c53acafb4343696',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618456,
+          ),
+        ),
+      ),
+      5 => 
+      array (
+        'client_id' => NULL,
+        'additional' => 
+        array (
+          'category' => 'crm',
+          'sendAuth' => true,
+          'sendRefreshToken' => false,
+        ),
+        'auth' => 
+        array (
+          'EVENT_SESSION' => 7,
+          'LOCAL_USER' => '1',
+          'application_token' => '9s7nof2v8qv7qxfynq9e8ry138k3v13b',
+        ),
+        'query' => 
+        array (
+          'DOMAIN' => 'it-valet.ru',
+          'QUERY_URL' => 'https://it-valet.ru/local/hooks/on-update-deal2.php',
+          'QUERY_DATA' => 
+          array (
+            'event' => 'ONCRMDEALUPDATE',
+            'data' => 
+            array (
+              'FIELDS' => 
+              array (
+                'ID' => 386,
+              ),
+            ),
+            'ts' => 1652618456,
+          ),
+        ),
+      ),
+    ),
+    'client_id' => 'bx.610bbc130753b6.61274034',
+    'client_secret' => '912yeNJWkhrvLRMFJKYNyrlJaIESx9P6yjmnvSVRmWJ4n0qdUz',
+    'client_redirect_uri' => 'https://it-valet.ru',
+    'member_id' => '45a0dd57984bb422404ba7be4cd79948',
+  ),
+)
+2022-05-15 15:40:57, 5.188.119.65: array (
+  'response' => 
+  array (
+    'result' => NULL,
+    'time' => 
+    array (
+      'start' => 1652618457.204918,
+      'finish' => 1652618457.356859,
+      'duration' => 0.15194106101989746,
+      'processing' => 0.1455080509185791,
+      'date_start' => '2022-05-15T15:40:57+03:00',
+      'date_finish' => '2022-05-15T15:40:57+03:00',
+    ),
+  ),
+)

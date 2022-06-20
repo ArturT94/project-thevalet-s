@@ -1,0 +1,1 @@
+<img alt="Valet" src="/local/templates/thevalet.ru/image/photo2_3840x1260.jpg" class="f-bg">

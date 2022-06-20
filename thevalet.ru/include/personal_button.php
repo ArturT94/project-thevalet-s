@@ -1,0 +1,1 @@
+<button type="submit" detail-type="personal-service">ОТПРАВИТЬ</button>

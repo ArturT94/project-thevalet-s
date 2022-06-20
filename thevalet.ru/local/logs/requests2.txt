@@ -1,0 +1,483 @@
+2022-05-15 15:22:03, 5.188.119.65: array (
+  0 => 
+  Bitrix\Main\Web\HttpClient::__set_state(array(
+     'proxyHost' => NULL,
+     'proxyPort' => NULL,
+     'proxyUser' => NULL,
+     'proxyPassword' => NULL,
+     'resource' => NULL,
+     'socketTimeout' => 10,
+     'streamTimeout' => 10,
+     'error' => 
+    array (
+    ),
+     'peerSocketName' => NULL,
+     'requestHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'requestCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'waitResponse' => true,
+     'redirect' => true,
+     'redirectMax' => 5,
+     'redirectCount' => 0,
+     'compress' => false,
+     'version' => '1.0',
+     'requestCharset' => '',
+     'sslVerify' => true,
+     'bodyLengthMax' => 0,
+     'privateIp' => true,
+     'status' => 0,
+     'responseHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'responseCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'result' => '',
+     'outputStream' => NULL,
+     'effectiveIp' => NULL,
+     'effectiveUrl' => NULL,
+     'queryMethod' => NULL,
+     'receivedBytesLength' => 0,
+     'contextOptions' => 
+    array (
+    ),
+     'debugLevel' => 5,
+     'logger' => NULL,
+  )),
+  'url' => 'https://oauth.bitrix.info/rest/rest.event.call',
+)
+2022-05-15 15:22:59, 5.188.119.65: array (
+  0 => 
+  Bitrix\Main\Web\HttpClient::__set_state(array(
+     'proxyHost' => NULL,
+     'proxyPort' => NULL,
+     'proxyUser' => NULL,
+     'proxyPassword' => NULL,
+     'resource' => NULL,
+     'socketTimeout' => 10,
+     'streamTimeout' => 10,
+     'error' => 
+    array (
+    ),
+     'peerSocketName' => NULL,
+     'requestHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'requestCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'waitResponse' => true,
+     'redirect' => true,
+     'redirectMax' => 5,
+     'redirectCount' => 0,
+     'compress' => false,
+     'version' => '1.0',
+     'requestCharset' => '',
+     'sslVerify' => true,
+     'bodyLengthMax' => 0,
+     'privateIp' => true,
+     'status' => 0,
+     'responseHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'responseCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'result' => '',
+     'outputStream' => NULL,
+     'effectiveIp' => NULL,
+     'effectiveUrl' => NULL,
+     'queryMethod' => NULL,
+     'receivedBytesLength' => 0,
+     'contextOptions' => 
+    array (
+    ),
+     'debugLevel' => 5,
+     'logger' => NULL,
+  )),
+  'url' => 'https://oauth.bitrix.info/rest/rest.event.call',
+)
+2022-05-15 15:22:59, 5.188.119.65: array (
+  'response' => 
+  array (
+    'result' => NULL,
+    'time' => 
+    array (
+      'start' => 1652617379.164861,
+      'finish' => 1652617379.31841,
+      'duration' => 0.1535489559173584,
+      'processing' => 0.14842796325683594,
+      'date_start' => '2022-05-15T15:22:59+03:00',
+      'date_finish' => '2022-05-15T15:22:59+03:00',
+    ),
+  ),
+)
+2022-05-15 15:23:26, 5.188.119.65: array (
+  0 => 
+  Bitrix\Main\Web\HttpClient::__set_state(array(
+     'proxyHost' => NULL,
+     'proxyPort' => NULL,
+     'proxyUser' => NULL,
+     'proxyPassword' => NULL,
+     'resource' => NULL,
+     'socketTimeout' => 10,
+     'streamTimeout' => 10,
+     'error' => 
+    array (
+    ),
+     'peerSocketName' => NULL,
+     'requestHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'requestCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'waitResponse' => true,
+     'redirect' => true,
+     'redirectMax' => 5,
+     'redirectCount' => 0,
+     'compress' => false,
+     'version' => '1.0',
+     'requestCharset' => '',
+     'sslVerify' => true,
+     'bodyLengthMax' => 0,
+     'privateIp' => true,
+     'status' => 0,
+     'responseHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'responseCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'result' => '',
+     'outputStream' => NULL,
+     'effectiveIp' => NULL,
+     'effectiveUrl' => NULL,
+     'queryMethod' => NULL,
+     'receivedBytesLength' => 0,
+     'contextOptions' => 
+    array (
+    ),
+     'debugLevel' => 5,
+     'logger' => NULL,
+  )),
+  'url' => 'https://oauth.bitrix.info/rest/rest.event.call',
+)
+2022-05-15 15:23:27, 5.188.119.65: array (
+  'response' => 
+  array (
+    'result' => NULL,
+    'time' => 
+    array (
+      'start' => 1652617407.012922,
+      'finish' => 1652617407.169582,
+      'duration' => 0.15665984153747559,
+      'processing' => 0.15105390548706055,
+      'date_start' => '2022-05-15T15:23:27+03:00',
+      'date_finish' => '2022-05-15T15:23:27+03:00',
+    ),
+  ),
+)
+2022-05-15 15:24:02, 5.188.119.65: array (
+  0 => 
+  Bitrix\Main\Web\HttpClient::__set_state(array(
+     'proxyHost' => NULL,
+     'proxyPort' => NULL,
+     'proxyUser' => NULL,
+     'proxyPassword' => NULL,
+     'resource' => NULL,
+     'socketTimeout' => 10,
+     'streamTimeout' => 10,
+     'error' => 
+    array (
+    ),
+     'peerSocketName' => NULL,
+     'requestHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'requestCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'waitResponse' => true,
+     'redirect' => true,
+     'redirectMax' => 5,
+     'redirectCount' => 0,
+     'compress' => false,
+     'version' => '1.0',
+     'requestCharset' => '',
+     'sslVerify' => true,
+     'bodyLengthMax' => 0,
+     'privateIp' => true,
+     'status' => 0,
+     'responseHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'responseCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'result' => '',
+     'outputStream' => NULL,
+     'effectiveIp' => NULL,
+     'effectiveUrl' => NULL,
+     'queryMethod' => NULL,
+     'receivedBytesLength' => 0,
+     'contextOptions' => 
+    array (
+    ),
+     'debugLevel' => 5,
+     'logger' => NULL,
+  )),
+  'url' => 'https://oauth.bitrix.info/rest/rest.event.call',
+)
+2022-05-15 15:24:02, 5.188.119.65: array (
+  'response' => 
+  array (
+    'result' => NULL,
+    'time' => 
+    array (
+      'start' => 1652617442.685425,
+      'finish' => 1652617442.856114,
+      'duration' => 0.17068886756896973,
+      'processing' => 0.1653120517730713,
+      'date_start' => '2022-05-15T15:24:02+03:00',
+      'date_finish' => '2022-05-15T15:24:02+03:00',
+    ),
+  ),
+)
+2022-05-15 15:25:22, 5.188.119.65: array (
+  0 => 
+  Bitrix\Main\Web\HttpClient::__set_state(array(
+     'proxyHost' => NULL,
+     'proxyPort' => NULL,
+     'proxyUser' => NULL,
+     'proxyPassword' => NULL,
+     'resource' => NULL,
+     'socketTimeout' => 10,
+     'streamTimeout' => 10,
+     'error' => 
+    array (
+    ),
+     'peerSocketName' => NULL,
+     'requestHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'requestCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'waitResponse' => true,
+     'redirect' => true,
+     'redirectMax' => 5,
+     'redirectCount' => 0,
+     'compress' => false,
+     'version' => '1.0',
+     'requestCharset' => '',
+     'sslVerify' => true,
+     'bodyLengthMax' => 0,
+     'privateIp' => true,
+     'status' => 0,
+     'responseHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'responseCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'result' => '',
+     'outputStream' => NULL,
+     'effectiveIp' => NULL,
+     'effectiveUrl' => NULL,
+     'queryMethod' => NULL,
+     'receivedBytesLength' => 0,
+     'contextOptions' => 
+    array (
+    ),
+     'debugLevel' => 5,
+     'logger' => NULL,
+  )),
+  'url' => 'https://oauth.bitrix.info/rest/rest.event.call',
+)
+2022-05-15 15:25:23, 5.188.119.65: array (
+  'response' => 
+  array (
+    'result' => NULL,
+    'time' => 
+    array (
+      'start' => 1652617523.657446,
+      'finish' => 1652617523.810722,
+      'duration' => 0.1532762050628662,
+      'processing' => 0.14448094367980957,
+      'date_start' => '2022-05-15T15:25:23+03:00',
+      'date_finish' => '2022-05-15T15:25:23+03:00',
+    ),
+  ),
+)
+2022-05-15 15:25:24, 79.111.161.234: array (
+  0 => 
+  Bitrix\Main\Web\HttpClient::__set_state(array(
+     'proxyHost' => NULL,
+     'proxyPort' => NULL,
+     'proxyUser' => NULL,
+     'proxyPassword' => NULL,
+     'resource' => NULL,
+     'socketTimeout' => 10,
+     'streamTimeout' => 10,
+     'error' => 
+    array (
+    ),
+     'peerSocketName' => NULL,
+     'requestHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'requestCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'waitResponse' => true,
+     'redirect' => true,
+     'redirectMax' => 5,
+     'redirectCount' => 0,
+     'compress' => false,
+     'version' => '1.0',
+     'requestCharset' => '',
+     'sslVerify' => true,
+     'bodyLengthMax' => 0,
+     'privateIp' => true,
+     'status' => 0,
+     'responseHeaders' => 
+    Bitrix\Main\Web\HttpHeaders::__set_state(array(
+       'headers' => 
+      array (
+      ),
+    )),
+     'responseCookies' => 
+    Bitrix\Main\Web\HttpCookies::__set_state(array(
+       'values' => 
+      array (
+      ),
+    )),
+     'result' => '',
+     'outputStream' => NULL,
+     'effectiveIp' => NULL,
+     'effectiveUrl' => NULL,
+     'queryMethod' => NULL,
+     'receivedBytesLength' => 0,
+     'contextOptions' => 
+    array (
+    ),
+     'debugLevel' => 5,
+     'logger' => NULL,
+  )),
+  'url' => 'https://oauth.bitrix.info/rest/rest.event.call',
+)
+2022-05-15 15:25:24, 79.111.161.234: array (
+  'response' => 
+  array (
+    'result' => NULL,
+    'time' => 
+    array (
+      'start' => 1652617524.649767,
+      'finish' => 1652617524.823085,
+      'duration' => 0.17331814765930176,
+      'processing' => 0.1662452220916748,
+      'date_start' => '2022-05-15T15:25:24+03:00',
+      'date_finish' => '2022-05-15T15:25:24+03:00',
+    ),
+  ),
+)
+2022-05-15 15:26:06, 5.188.119.65: array (
+  'response' => 
+  array (
+    'result' => NULL,
+    'time' => 
+    array (
+      'start' => 1652617566.730105,
+      'finish' => 1652617566.887611,
+      'duration' => 0.15750598907470703,
+      'processing' => 0.15120601654052734,
+      'date_start' => '2022-05-15T15:26:06+03:00',
+      'date_finish' => '2022-05-15T15:26:06+03:00',
+    ),
+  ),
+)
+2022-05-15 15:27:29, 5.188.119.65: array (
+  'response' => 
+  array (
+    'result' => NULL,
+    'time' => 
+    array (
+      'start' => 1652617649.678373,
+      'finish' => 1652617649.838691,
+      'duration' => 0.16031789779663086,
+      'processing' => 0.1544499397277832,
+      'date_start' => '2022-05-15T15:27:29+03:00',
+      'date_finish' => '2022-05-15T15:27:29+03:00',
+    ),
+  ),
+)

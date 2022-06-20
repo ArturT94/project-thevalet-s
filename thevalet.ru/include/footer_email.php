@@ -1,0 +1,1 @@
+<a href="mailto:info@thevalet.ru" type="email" style="color: rgba(255, 255, 255, 0.5)">info@thevalet.ru</a>

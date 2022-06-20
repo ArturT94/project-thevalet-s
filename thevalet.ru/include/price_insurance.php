@@ -1,0 +1,1 @@
+<h4 for-data="price">от 4500₽</h4>

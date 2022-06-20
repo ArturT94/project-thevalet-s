@@ -1,0 +1,185 @@
+2022-05-15 15:36:52, 5.188.119.65: HTTP/1.1 200 OK
+Server: nginx/1.20.2
+Date: Sun, 15 May 2022 12:36:52 GMT
+Content-Type: application/json; charset=utf-8
+Connection: close
+P3P: policyref="/bitrix/p3p.xml", CP="NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA"
+X-Powered-CMS: Bitrix Site Manager (84bb8ad45c3535023e5df4e6d4a77315)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: origin, content-type, accept
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:36:52, 5.188.119.65: HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 15 May 2022 12:36:52 GMT
+Content-Type: text/plain
+Connection: close
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:38:12, 5.188.119.65: HTTP/1.1 200 OK
+Server: nginx/1.20.2
+Date: Sun, 15 May 2022 12:38:12 GMT
+Content-Type: application/json; charset=utf-8
+Connection: close
+P3P: policyref="/bitrix/p3p.xml", CP="NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA"
+X-Powered-CMS: Bitrix Site Manager (84bb8ad45c3535023e5df4e6d4a77315)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: origin, content-type, accept
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:38:12, 5.188.119.65: HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 15 May 2022 12:38:12 GMT
+Content-Type: text/plain
+Connection: close
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:38:46, 94.25.168.121: HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 15 May 2022 12:38:46 GMT
+Content-Type: text/plain
+Connection: close
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:38:52, 109.252.137.53: HTTP/1.1 200 OK
+Server: nginx/1.20.2
+Date: Sun, 15 May 2022 12:38:52 GMT
+Content-Type: application/json; charset=utf-8
+Connection: close
+P3P: policyref="/bitrix/p3p.xml", CP="NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA"
+X-Powered-CMS: Bitrix Site Manager (84bb8ad45c3535023e5df4e6d4a77315)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: origin, content-type, accept
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:40:02, : HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 15 May 2022 12:40:02 GMT
+Content-Type: application/octet-stream
+Connection: close
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:40:02, : HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 15 May 2022 12:40:02 GMT
+Content-Type: text/plain
+Connection: close
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:40:57, 5.188.119.65: HTTP/1.1 200 OK
+Server: nginx/1.20.2
+Date: Sun, 15 May 2022 12:40:57 GMT
+Content-Type: application/json; charset=utf-8
+Connection: close
+P3P: policyref="/bitrix/p3p.xml", CP="NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA"
+X-Powered-CMS: Bitrix Site Manager (84bb8ad45c3535023e5df4e6d4a77315)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: origin, content-type, accept
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:40:57, 5.188.119.65: HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 15 May 2022 12:40:57 GMT
+Content-Type: text/plain
+Connection: close
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:41:59, 5.188.119.65: HTTP/1.1 200 OK
+Server: nginx/1.20.2
+Date: Sun, 15 May 2022 12:41:59 GMT
+Content-Type: application/json; charset=utf-8
+Connection: close
+P3P: policyref="/bitrix/p3p.xml", CP="NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA"
+X-Powered-CMS: Bitrix Site Manager (84bb8ad45c3535023e5df4e6d4a77315)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: origin, content-type, accept
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:41:59, 5.188.119.65: HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 15 May 2022 12:41:59 GMT
+Content-Type: text/plain
+Connection: close
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:43:27, 31.173.81.75: HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 15 May 2022 12:43:27 GMT
+Content-Type: text/plain
+Connection: close
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:43:42, 109.252.137.53: HTTP/1.1 200 OK
+Server: nginx/1.20.2
+Date: Sun, 15 May 2022 12:43:42 GMT
+Content-Type: application/json; charset=utf-8
+Connection: close
+P3P: policyref="/bitrix/p3p.xml", CP="NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA"
+X-Powered-CMS: Bitrix Site Manager (84bb8ad45c3535023e5df4e6d4a77315)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: origin, content-type, accept
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:44:22, 5.188.119.65: HTTP/1.1 200 OK
+Server: nginx/1.20.2
+Date: Sun, 15 May 2022 12:44:22 GMT
+Content-Type: application/json; charset=utf-8
+Connection: close
+P3P: policyref="/bitrix/p3p.xml", CP="NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA"
+X-Powered-CMS: Bitrix Site Manager (84bb8ad45c3535023e5df4e6d4a77315)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: origin, content-type, accept
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:44:22, 5.188.119.65: HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 15 May 2022 12:44:22 GMT
+Content-Type: text/plain
+Connection: close
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:45:02, : HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 15 May 2022 12:45:02 GMT
+Content-Type: application/octet-stream
+Connection: close
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+
+2022-05-15 15:45:02, : HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 15 May 2022 12:45:02 GMT
+Content-Type: text/plain
+Connection: close
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff

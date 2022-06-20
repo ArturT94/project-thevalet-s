@@ -1,0 +1,17 @@
+.lbtrm_crmbpaction_form {
+    display: block;
+	width: 100%;
+}
+
+.lbtrm_crmbpaction_form span {
+    display: block;
+}
+
+.bp_lbtrm_statuses_container .bx-user-info-online-cell {
+    display: none !important;
+}
+
+.bp_lbtrm_statuses_container .crm-entity-widget-client-box-name-container,
+.bp_lbtrm_statuses_container .crm-entity-widget-client-box-name {
+    margin: 0 0 6px;
+}

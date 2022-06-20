@@ -1,0 +1,1 @@
+<img alt="Артем Морозов Hansa" src="/local/templates/thevalet.ru/image/p_morozov.png" class="photo">

@@ -1,0 +1,3 @@
+<?
+$PERM["template.php"]["*"]="X";
+?>

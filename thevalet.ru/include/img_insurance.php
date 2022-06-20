@@ -1,0 +1,1 @@
+<img alt="Лукин Артем, Технорэд" src="/local/templates/thevalet.ru/image/p_zolotuhin.png" for-data="feedback-author-photo" class="photo">

@@ -1,0 +1,1 @@
+<img alt="Сергей Мендоса - Истратов Белый клык" src="/local/templates/thevalet.ru/image/p_mendosa.png" class="photo">
