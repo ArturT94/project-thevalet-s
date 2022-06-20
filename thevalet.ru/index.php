@@ -32,6 +32,7 @@ $APPLICATION->SetTitle("The Valet");
 		</div>
 	</div>
 </div>
+    <h2>TEST</h2>
 <div class="main-slider">
 	<div class="wrapper">
 		<div class="card-container swiper">
