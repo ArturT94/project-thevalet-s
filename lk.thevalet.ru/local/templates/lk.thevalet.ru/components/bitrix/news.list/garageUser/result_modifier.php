@@ -12,12 +12,4 @@ while($getCars = $getGarage->Fetch()){
 
 }
         //echo '<pre>' . print_r($arCars, true) . '</pre>';
-
-
-
-
-
-
-
-
 ?>

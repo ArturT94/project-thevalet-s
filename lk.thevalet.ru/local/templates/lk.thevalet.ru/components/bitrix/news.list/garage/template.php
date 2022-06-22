@@ -21,22 +21,21 @@ while ($result = $res->Fetch()){
     <!--Карточки автомобилей и кнопка добавления-->
     <div class="swiper garage">
         <div class="swiper-wrapper">
-            <?php foreach($arResult['ITEMS'] as $arItem): ?>
+            <?php foreach($arResult['NEW_SECTION'] as $arItem): ?>
+                <!--            --><?php //echo '<pre>' . print_r($arResult, true) . '</pre>'; ?>
+                <?php $carImgs = CFile::GetPath($arItem['PROPERTY_FOTO_VALUE']) ?>
             <button class="swiper-slide auto" onclick="getData('<?=$arItem['NAME']?>')">
                 <a href="#car" class="order__popup__link user__popup__lvl__2__link">
                     <div class="number__message__item">
                         <div class="number__message"><p>2</p></div>
                     </div>
                     <div class="auto_img">
-                        <?php foreach($arItem['PROPERTIES']['FOTO']['VALUE'] as $img): ?>
-                        <?php $urlImg = CFile::GetPath($img); ?>
-                        <img draggable=false src="<?=$urlImg?>" alt=""  style="width: 160px">
-                        <?php endforeach; ?>
+                        <img draggable=false src="<?=$carImgs?>" alt=""  style="width: 160px">
                     </div>
                     <div class="data__auto">
                         <div class="data__model"><?= $arItem['NAME'] ?></div>
 <!--            --><?php //echo '<pre>' . print_r($arItem, true) . '</pre>'; ?>
-                        <div class="data__number"><?= $arItem['PROPERTIES']['GOSNOMER']['VALUE'] ?></div>
+                        <div class="data__number"><?=$arItem['PROPERTY_GOSNOMER_VALUE']?></div>
                     </div>
                 </a>
             </button>

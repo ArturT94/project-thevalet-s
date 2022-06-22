@@ -26,7 +26,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="864a6f7a-f999-44f4-b1fa-6ac9ab0f811f" name="Default Changelist" comment="" />
+    <list default="true" id="864a6f7a-f999-44f4-b1fa-6ac9ab0f811f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/result_modifier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garageUser/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garageUser/result_modifier.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655758634090</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Добавление компонентов услуги и сервис">
+      <created>1655891892798</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655891892798</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,10 +198,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="259" y="9" key="#SSH_Configurations/0.0.1366.728@0.0.1366.728" timestamp="1655756530742" />
-    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1655758633292">
+    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1655891891912">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1655758633292" />
+    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1655891891912" />
     <state x="129" y="54" key="DiffContextDialog" timestamp="1655744775932">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -206,10 +218,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1655744138636" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1655891830673">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1655891908527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1655891830673" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1655891908527" />
     <state x="455" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1655758404273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
