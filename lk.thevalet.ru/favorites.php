@@ -44,35 +44,35 @@
                         </div>
                     </div>
                 </div>
-            <div class="elements__history">
-                <div class="services__block">ВОДИТЕЛИ</div>
-                <section class="driver__person favorites__driver__person">
-                    <img class="driver__img" src="<?=SITE_TEMPLATE_PATH?>/img/data/driver.jpg">
-                    <div class="driver__name">
-                            Константин
-                    </div>
-                </section>
-            </div>
-            <div class="elements__history">
-                <div class="services__block">АДРЕСА</div> 
-                <ul class="favorites__address__block">
-                    <li class="favorites__address">
-                        <div class="favorites__address__wrap">
-                            <a href="#" class="address__block">Пресненская наб., 6, стр. 2, Москва</a>
-                        </div>
-                    </li>
-                    <li class="favorites__address">
-                        <div class="favorites__address__wrap">
-                            <a href="#" class="address__block">Гоголевский б-р, 18, Москва</a>
-                        </div>
-                    </li>
-                    <li class="favorites__address">
-                        <div class="favorites__address__wrap">
-                            <a href="#" class="address__block">Верейская, 17, Москва</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+<!--            <div class="elements__history">-->
+<!--                <div class="services__block">ВОДИТЕЛИ</div>-->
+<!--                <section class="driver__person favorites__driver__person">-->
+<!--                    <img class="driver__img" src="--><?//=SITE_TEMPLATE_PATH?><!--/img/data/driver.jpg">-->
+<!--                    <div class="driver__name">-->
+<!--                            Константин-->
+<!--                    </div>-->
+<!--                </section>-->
+<!--            </div>-->
+<!--            <div class="elements__history">-->
+<!--                <div class="services__block">АДРЕСА</div> -->
+<!--                <ul class="favorites__address__block">-->
+<!--                    <li class="favorites__address">-->
+<!--                        <div class="favorites__address__wrap">-->
+<!--                            <a href="#" class="address__block">Пресненская наб., 6, стр. 2, Москва</a>-->
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                    <li class="favorites__address">-->
+<!--                        <div class="favorites__address__wrap">-->
+<!--                            <a href="#" class="address__block">Гоголевский б-р, 18, Москва</a>-->
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                    <li class="favorites__address">-->
+<!--                        <div class="favorites__address__wrap">-->
+<!--                            <a href="#" class="address__block">Верейская, 17, Москва</a>-->
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
         </div> 
     </div>
 </div> 

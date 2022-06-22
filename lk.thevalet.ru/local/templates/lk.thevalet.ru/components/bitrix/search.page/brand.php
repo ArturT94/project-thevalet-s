@@ -1,5 +1,5 @@
 <?$APPLICATION->IncludeComponent("bitrix:news.list", "listsCar", Array(
-    "COMPONENT_TEMPLATE" => "listsCar",
+    "COMPONENT_TEMPLATE" => ".default",
     "IBLOCK_TYPE" => "lists",	// Тип информационного блока (используется только для проверки)
     "IBLOCK_ID" => "19",	// Код информационного блока
     "NEWS_COUNT" => "20",	// Количество новостей на странице

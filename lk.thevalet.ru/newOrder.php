@@ -1,5 +1,9 @@
 <?php require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php"); ?>
 <?php
+if(!$USER->IsAuthorized()){
+    header("Location: https://lk.thevalet.ru");
+    die();
+}
 $userId = CUser::GetID();
 $userGetParamsFromId = CUser::GetByID($userId);
 $arUsers = $userGetParamsFromId->Fetch();
