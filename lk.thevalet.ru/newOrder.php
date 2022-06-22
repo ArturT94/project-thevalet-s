@@ -1,5 +1,9 @@
-<?php require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetTitle(""); ?>
+<?php require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php"); ?>
+<?php
+$userId = CUser::GetID();
+$userGetParamsFromId = CUser::GetByID($userId);
+$arUsers = $userGetParamsFromId->Fetch();
+?>
 <div class="app">
 	<div class="order">
 		<div class="drag__element">
@@ -9,6 +13,7 @@ $APPLICATION->SetTitle(""); ?>
 			<div class="header__desktop">
 				 <!--Обертка для показа на Desktop--> <!--Иконка бургера и Лого VLT-->
 				<div class="app__header">
+<?php //echo '<pre>' . print_r($arUsers, true) .  '</pre>'; ?>
 					 <?$APPLICATION->IncludeComponent(
 	"bitrix:main.include",
 	"",

@@ -1,13 +1,12 @@
 <?php require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-?>
-<?$APPLICATION->IncludeComponent(
+$APPLICATION->SetTitle(""); ?><?$APPLICATION->IncludeComponent(
 	"bitrix:main.auth.form", 
-	"autorization", 
+	".default", 
 	array(
+		"COMPONENT_TEMPLATE" => ".default",
 		"AUTH_FORGOT_PASSWORD_URL" => "",
 		"AUTH_REGISTER_URL" => "",
-		"AUTH_SUCCESS_URL" => "https://lk.thevalet.ru/newOrder.php",
-		"COMPONENT_TEMPLATE" => "autorization"
+		"AUTH_SUCCESS_URL" => "https://lk.thevalet.ru/newOrder.php"
 	),
 	false
 );?><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

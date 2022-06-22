@@ -22,8 +22,8 @@ while ($result = $res->Fetch()){
     <div class="swiper garage">
         <div class="swiper-wrapper">
             <?php foreach($arResult['ITEMS'] as $arItem): ?>
-            <button class="swiper-slide auto">
-                <a href="#car" onclick="return false" id="clickCar" class="order__popup__link user__popup__lvl__2__link">
+            <button class="swiper-slide auto" onclick="getData('<?=$arItem['NAME']?>')">
+                <a href="#car" class="order__popup__link user__popup__lvl__2__link">
                     <div class="number__message__item">
                         <div class="number__message"><p>2</p></div>
                     </div>
@@ -57,16 +57,27 @@ while ($result = $res->Fetch()){
     </div>
 </section>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script>
-        $("#clickCar").on("click", function () {
-            $.ajax({
-                url: '/car.php',
-                method: 'get',
-                dataType: 'html',
-                data: {"test": "<?= $arItem['NAME'] ?>"},
-                success: function (data) {
-                    console.log(data);
+    function getData(car) {
+        $.ajax({
+            url: '/car.php',
+            method: 'post',
+            dataType: 'html',
+            data: {
+                car: JSON.stringify(car)
+            },
+            success: function(data) {
+                if (data) {
+                    $('#orderPage').append(data)
+                    // Тут должна быть логика открытия попапа
+                    console.log(data)
+
+                } else {
+                    console.err('Произошла ошибка')
+                    // Но можно информировать пользователя, что что-то пошло не так.
                 }
-            })
+            }
         });
+    }
 </script>

@@ -1,5 +1,5 @@
                 <?php
-                print_r($_GET);
+                print_r($_POST['car']);
                 ?>
 <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/car.css">
 <div class="app__window garage-block">

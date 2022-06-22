@@ -1,40 +1,72 @@
-<link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/garage.css">
-
-<div class="app__window garage-block">
-    <div class="coneiner">
-        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
-        <ul class="garage-mobile__list">
-            <li class="garage-mobile__item">
-                <div class="car__profile">
-                    <a href="#car" class="garage__link user__popup__lvl__2__link">
-                        <div class="number__message__item2">
-                            <div class="number__message2"><p>2</p></div> 
-                        </div>
-                        <img class="car__img" src="<?=SITE_TEMPLATE_PATH?>/img/data/rr-garage.png">
-                    </a>
-                    <div class="car__name">Range Rover IV</div>
-                    <div class="car__model"><span class="js-garage-number">А123ВС77</span><a class="car__copy js-garage-copy"><img class="copy__img" width="18" height="18" src="<?=SITE_TEMPLATE_PATH?>/img/layout/copy.png"></a></div>
-                </div>
-            </li>
-            <li class="garage-mobile__item">
-                <div class="car__profile">
-                    <a class="garage__link">
-                        <div class="number__message__item2">
-                            <div class="number__message2"><p>2</p></div> 
-                        </div>
-                        <img class="car__img" src="<?=SITE_TEMPLATE_PATH?>/img/data/jag-garage.png" width="255" height="74">
-                    </a>
-                    <div class="car__name">Jaguar XJ</div>
-                    <div class="car__model"><span class="js-garage-number">В765ВС99</span><a class="car__copy js-garage-copy"><img class="copy__img" width="18" height="18" src="<?=SITE_TEMPLATE_PATH?>/img/layout/copy.png"></a></div>
-
-                </div>
-            </li>
-        </ul>
-        <div class="garage__add">
-            <a href="#car1" class="button__garage__block user__popup__lvl__2__link">
-                <button type="button" class="button__garage"><img src="<?=SITE_TEMPLATE_PATH?>/img/layout/plus.svg" width="20" height="20"></button>
-                <div class="add__text">Добавить</div>
-            </a>
-        </div>
-    </div>            
-</div>
+<?$APPLICATION->IncludeComponent("bitrix:news.list", "garageUser", Array(
+    "COMPONENT_TEMPLATE" => "garageUser",
+    "IBLOCK_TYPE" => "lists",	// Тип информационного блока (используется только для проверки)
+    "IBLOCK_ID" => "93",	// Код информационного блока
+    "NEWS_COUNT" => "20",	// Количество новостей на странице
+    "SORT_BY1" => "ACTIVE_FROM",	// Поле для первой сортировки новостей
+    "SORT_ORDER1" => "DESC",	// Направление для первой сортировки новостей
+    "SORT_BY2" => "SORT",	// Поле для второй сортировки новостей
+    "SORT_ORDER2" => "ASC",	// Направление для второй сортировки новостей
+    "FILTER_NAME" => "",	// Фильтр
+    "FIELD_CODE" => array(	// Поля
+        0 => "",
+        1 => "",
+    ),
+    "PROPERTY_CODE" => array(	// Свойства
+        0 => "GOSNOMER",
+        1 => "GOD_VYPUSKA",
+        2 => "PROBEG",
+        3 => "OSAGO",
+        4 => "SHINY",
+        5 => "VIN",
+        6 => "ID_AVTO",
+        7 => "STATUS",
+        8 => "NOVOE_POLE",
+        9 => "KONTAKT",
+        10 => "FOTO",
+        11 => "",
+    ),
+    "CHECK_DATES" => "Y",	// Показывать только активные на данный момент элементы
+    "DETAIL_URL" => "",	// URL страницы детального просмотра (по умолчанию - из настроек инфоблока)
+    "AJAX_MODE" => "N",	// Включить режим AJAX
+    "AJAX_OPTION_JUMP" => "N",	// Включить прокрутку к началу компонента
+    "AJAX_OPTION_STYLE" => "Y",	// Включить подгрузку стилей
+    "AJAX_OPTION_HISTORY" => "N",	// Включить эмуляцию навигации браузера
+    "AJAX_OPTION_ADDITIONAL" => "",	// Дополнительный идентификатор
+    "CACHE_TYPE" => "N",	// Тип кеширования
+    "CACHE_TIME" => "36000000",	// Время кеширования (сек.)
+    "CACHE_FILTER" => "N",	// Кешировать при установленном фильтре
+    "CACHE_GROUPS" => "Y",	// Учитывать права доступа
+    "PREVIEW_TRUNCATE_LEN" => "",	// Максимальная длина анонса для вывода (только для типа текст)
+    "ACTIVE_DATE_FORMAT" => "d.m.Y",	// Формат показа даты
+    "SET_TITLE" => "Y",	// Устанавливать заголовок страницы
+    "SET_BROWSER_TITLE" => "Y",	// Устанавливать заголовок окна браузера
+    "SET_META_KEYWORDS" => "Y",	// Устанавливать ключевые слова страницы
+    "SET_META_DESCRIPTION" => "Y",	// Устанавливать описание страницы
+    "SET_LAST_MODIFIED" => "N",	// Устанавливать в заголовках ответа время модификации страницы
+    "INCLUDE_IBLOCK_INTO_CHAIN" => "Y",	// Включать инфоблок в цепочку навигации
+    "ADD_SECTIONS_CHAIN" => "Y",	// Включать раздел в цепочку навигации
+    "HIDE_LINK_WHEN_NO_DETAIL" => "N",	// Скрывать ссылку, если нет детального описания
+    "PARENT_SECTION" => "",	// ID раздела
+    "PARENT_SECTION_CODE" => "",	// Код раздела
+    "INCLUDE_SUBSECTIONS" => "Y",	// Показывать элементы подразделов раздела
+    "STRICT_SECTION_CHECK" => "N",	// Строгая проверка раздела для показа списка
+    "DISPLAY_DATE" => "Y",	// Выводить дату элемента
+    "DISPLAY_NAME" => "Y",	// Выводить название элемента
+    "DISPLAY_PICTURE" => "Y",	// Выводить изображение для анонса
+    "DISPLAY_PREVIEW_TEXT" => "Y",	// Выводить текст анонса
+    "PAGER_TEMPLATE" => ".default",	// Шаблон постраничной навигации
+    "DISPLAY_TOP_PAGER" => "N",	// Выводить над списком
+    "DISPLAY_BOTTOM_PAGER" => "Y",	// Выводить под списком
+    "PAGER_TITLE" => "Новости",	// Название категорий
+    "PAGER_SHOW_ALWAYS" => "N",	// Выводить всегда
+    "PAGER_DESC_NUMBERING" => "N",	// Использовать обратную навигацию
+    "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",	// Время кеширования страниц для обратной навигации
+    "PAGER_SHOW_ALL" => "N",	// Показывать ссылку "Все"
+    "PAGER_BASE_LINK_ENABLE" => "N",	// Включить обработку ссылок
+    "SET_STATUS_404" => "N",	// Устанавливать статус 404
+    "SHOW_404" => "N",	// Показ специальной страницы
+    "MESSAGE_404" => "",	// Сообщение для показа (по умолчанию из компонента)
+),
+    false
+);?>

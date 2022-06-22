@@ -27,11 +27,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="864a6f7a-f999-44f4-b1fa-6ac9ab0f811f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/services/result_modifier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garageUser/result_modifier.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/car.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/car.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/garage.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/garage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/main.auth.form/autorization/lang/en/otp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/main.auth.form/autorization/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/main.auth.form/autorization/lang/ru/otp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/main.auth.form/autorization/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/main.auth.form/autorization/otp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/main.auth.form/autorization/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/newOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/newOrder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/personalaccount.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/personalaccount.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +100,7 @@
       <workItem from="1655744059208" duration="4719000" />
       <workItem from="1655753677811" duration="3841000" />
       <workItem from="1655757593194" duration="21435000" />
+      <workItem from="1655814960804" duration="16786000" />
     </task>
     <task id="LOCAL-00001" summary="Добавление lk.thevalet.ru">
       <created>1655747315678</created>
@@ -175,7 +186,8 @@
     <MESSAGE value="Добавление папки lk.thevalet.ru" />
     <MESSAGE value="Добавление thevalet.ru" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Добавление компонентов услуги и сервис" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление компонентов услуги и сервис" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Deployment" timestamp="1655759833900">
@@ -202,22 +214,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1655759562505" />
-    <state x="487" y="287" key="NewPhpFileDialog" timestamp="1655793319376">
+    <state x="487" y="287" key="NewPhpFileDialog" timestamp="1655885654941">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="487" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1655793319376" />
+    <state x="487" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1655885654941" />
     <state x="457" y="66" key="RollbackChangesDialog" timestamp="1655744138636">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1655744138636" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1655758641622">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1655813134973">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1655758641622" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1655813134973" />
     <state x="455" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1655758404273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="455" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1655758404273" />
+    <state x="381" y="104" width="604" height="520" key="find.popup" timestamp="1655884221878">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="381" y="104" width="604" height="520" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1655884221878" />
     <state x="481" y="94" key="ftp.server.browser" timestamp="1655759689455">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -230,9 +246,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1655747969081" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1655793979375">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1655881468491">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1655793979375" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1655881468491" />
   </component>
 </project>
