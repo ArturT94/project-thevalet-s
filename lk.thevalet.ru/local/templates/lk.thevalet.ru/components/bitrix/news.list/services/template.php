@@ -25,7 +25,9 @@ $this->setFrameMode(true);
 
             <?php foreach($arResult["ITEMS"] as $arItems): ?>
                 <?php foreach($arItems['ELEMENTS'] as $arItem): ?>
-            <button class="swiper-slide vlt_servise">
+            <button id="services" class="swiper-slide vlt_servise" onclick="getData({
+                    'services':'<?=$arItem['NAME']?>',
+                    })">
                 <a href="#popup__service" class="service__icon">
                     <img src="<?=SITE_TEMPLATE_PATH?>/img/layout/services-info.svg" width="26" height="26" alt="">
                 </a>
@@ -37,3 +39,46 @@ $this->setFrameMode(true);
             <?php endforeach; ?>
         </div>
     </div>
+<!--<script>-->
+<!--    function getData(car) {-->
+<!--        $.ajax({-->
+<!--            url: '/sender.php',-->
+<!--            method: 'post',-->
+<!--            dataType: 'json',-->
+<!--            data: "param="+JSON.stringify(car),-->
+<!--            success: function(res) {-->
+<!--                if (res) {-->
+<!--                    $("#amenities__name").text(res.services);-->
+<!--                    if($("#amenities__name").text() === 'Припарковать') {-->
+<!--                        $('#park').trigger('click');-->
+<!--                        $('#park_click').fadeIn(5000);-->
+<!--                        false;-->
+<!--                    }-->
+<!--                    if($("#amenities__name").text() === 'Помыть') {-->
+<!--                        $('#wash').trigger('click');-->
+<!--                        $('#wash_click').fadeIn(5000);-->
+<!--                        false;-->
+<!--                    }-->
+<!--                    if($("#amenities__name").text() === 'Заправить') {-->
+<!--                        $('#refuel').trigger('click');-->
+<!--                        $('#refuel_click').fadeIn(5000);-->
+<!--                        false;-->
+<!--                    }-->
+<!--                    // Парсим json объект и записываем полученные данные в data-->
+<!--                    // Например дана имеет такую структуру:-->
+<!--                    // data = {-->
+<!--                    // name: "Иван",-->
+<!--                    // lastname: "Иванов"-->
+<!--                    // }-->
+<!--                    // тогда выбираем элемент, в который хотим поместить-->
+<!--                    // значение data.name и data.lastname по классу либо по идентификатору-->
+<!--                    // данные должны отобразиться-->
+<!---->
+<!--                } else {-->
+<!--                    console.err('Произошла ошибка')-->
+<!--                }-->
+<!---->
+<!--            }-->
+<!--        });-->
+<!--    }-->
+<!--</script>-->

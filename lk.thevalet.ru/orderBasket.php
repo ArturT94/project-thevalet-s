@@ -8,22 +8,15 @@
                     <ul class="amenities__list">
                         <li class="amenities__item">
                             <div class="amenities__wrapper">
-                                <div class="amenities__name">Припарковать</div>
-                                <button class="amenities__trigger"><img class="amenities__icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/minus.svg" width="17"></button>
+                                <div id="amenities__name" class="amenities__name"></div>
                             </div>
                         </li>
-                        <li class="amenities__item">
-                            <div class="amenities__wrapper">
-                                <div class="amenities__name">Заправить</div>
-                                <button class="amenities__trigger"><img class="amenities__icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/minus.svg" width="17"></button>
-                            </div>
-                        </li>
-                        <li class="amenities__item">
-                            <div class="amenities__wrapper">
-                                <div class="amenities__name amenities__add">Добавить услугу</div>
-                                <button class="amenities__trigger"><img class="amenities__icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/plus.svg" width="17"></button>
-                            </div>
-                        </li>
+<!--                        <li class="amenities__item">-->
+<!--                            <div class="amenities__wrapper">-->
+<!--                                <div class="amenities__name amenities__add">Добавить услугу</div>-->
+<!--                                <button class="amenities__trigger"><img class="amenities__icon" src="--><?//=SITE_TEMPLATE_PATH?><!--/img/layout/plus.svg" width="17"></button>-->
+<!--                            </div>-->
+<!--                        </li>-->
                     </ul>
                     <button class="amenities__button" type="button">
                         Запланировать

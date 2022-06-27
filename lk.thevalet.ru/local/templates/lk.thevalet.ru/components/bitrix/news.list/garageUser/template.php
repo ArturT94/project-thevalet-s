@@ -5,20 +5,29 @@
 <div class="app__window garage-block">
     <div class="coneiner">
         <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
-        <ul class="garage-mobile__list">
+        <ul class="garage-mobile__list" >
             <?php foreach($arResult['NEW_SECTION'] as $arItem): ?>
 <!--            --><?php //echo '<pre>' . print_r($arResult, true) . '</pre>'; ?>
             <?php $carImgs = CFile::GetPath($arItem['PROPERTY_FOTO_VALUE']) ?>
-            <li class="garage-mobile__item">
+            <li class="garage-mobile__item" onclick="getData({
+                    'img':'<?=$carImgs?>',
+                    'name':'<?=$arItem['NAME']?>',
+                    'gosNumber':'<?=$arItem['PROPERTY_GOSNOMER_VALUE']?>',
+                    'year':'<?=$arItem['PROPERTY_GOD_VYPUSKA_VALUE']?>',
+                    'probeg':'<?=$arItem['PROPERTY_PROBEG_VALUE']?>',
+                    'osago':'<?=$arItem['PROPERTY_OSAGO_VALUE']?>',
+                    'wheels':'<?=$arItem['PROPERTY_SHINY_VALUE']?>',
+                    'vin':'<?=$arItem['PROPERTY_VIN_VALUE']?>',
+                    })">
                 <div class="car__profile">
                     <a href="#car" class="garage__link user__popup__lvl__2__link">
                         <div class="number__message__item2">
                             <div class="number__message2"><p>2</p></div>
                         </div>
-                        <img style="width: 40%;" class="car__img" src="<?=$carImgs?>">
+                        <img style="width: 40%;" class="" src="<?=$carImgs?>">
                     </a>
-                    <div class="car__name"><?=$arItem['NAME']?></div>
-                    <div class="car__model"><span class="js-garage-number"><?=$arItem['PROPERTY_GOSNOMER_VALUE']?></span><a class="car__copy js-garage-copy"><img class="copy__img" width="18" height="18" src="<?=SITE_TEMPLATE_PATH?>/img/layout/copy.png"></a></div>
+                    <div class=""><?=$arItem['NAME']?></div>
+                    <div class=""><span class="js-garage-number"><?=$arItem['PROPERTY_GOSNOMER_VALUE']?></span><a class="car__copy js-garage-copy"><img class="copy__img" width="18" height="18" src="<?=SITE_TEMPLATE_PATH?>/img/layout/copy.png"></a></div>
                 </div>
             </li>
             <?php endforeach; ?>

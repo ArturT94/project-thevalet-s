@@ -22,9 +22,18 @@ while ($result = $res->Fetch()){
     <div class="swiper garage">
         <div class="swiper-wrapper">
             <?php foreach($arResult['NEW_SECTION'] as $arItem): ?>
-                <!--            --><?php //echo '<pre>' . print_r($arResult, true) . '</pre>'; ?>
+                <?php //echo '<pre>' . print_r($arResult, true) . '</pre>'; ?>
                 <?php $carImgs = CFile::GetPath($arItem['PROPERTY_FOTO_VALUE']) ?>
-            <button class="swiper-slide auto" onclick="getData('<?=$arItem['NAME']?>')">
+            <button class="swiper-slide auto" onclick="getData({
+                    'img':'<?=$carImgs?>',
+                    'name':'<?=$arItem['NAME']?>',
+                    'gosNumber':'<?=$arItem['PROPERTY_GOSNOMER_VALUE']?>',
+                    'year':'<?=$arItem['PROPERTY_GOD_VYPUSKA_VALUE']?>',
+                    'probeg':'<?=$arItem['PROPERTY_PROBEG_VALUE']?>',
+                    'osago':'<?=$arItem['PROPERTY_OSAGO_VALUE']?>',
+                    'wheels':'<?=$arItem['PROPERTY_SHINY_VALUE']?>',
+                    'vin':'<?=$arItem['PROPERTY_VIN_VALUE']?>',
+                    })">
                 <a href="#car" class="order__popup__link user__popup__lvl__2__link">
                     <div class="number__message__item">
                         <div class="number__message"><p>2</p></div>
@@ -34,7 +43,6 @@ while ($result = $res->Fetch()){
                     </div>
                     <div class="data__auto">
                         <div class="data__model"><?= $arItem['NAME'] ?></div>
-<!--            --><?php //echo '<pre>' . print_r($arItem, true) . '</pre>'; ?>
                         <div class="data__number"><?=$arItem['PROPERTY_GOSNOMER_VALUE']?></div>
                     </div>
                 </a>
@@ -60,22 +68,42 @@ while ($result = $res->Fetch()){
 <script>
     function getData(car) {
         $.ajax({
-            url: '/car.php',
+            url: '/sender.php',
             method: 'post',
-            dataType: 'html',
-            data: {
-                car: JSON.stringify(car)
-            },
-            success: function(data) {
-                if (data) {
-                    $('#orderPage').append(data)
-                    // Тут должна быть логика открытия попапа
-                    console.log(data)
+            dataType: 'json',
+            data: "param="+JSON.stringify(car),
+            success: function(res) {
+                if (res) {
+                    $("#amenities__name").text(res.services);
+                    if($("#amenities__name").text() === 'Припарковать') {
+                        $('#park').trigger('click');
+                    }else if($("#amenities__name").text() === 'Помыть') {
+                        $('#wash').trigger('click');
+                    }else if($("#amenities__name").text() === 'Заправить') {
+                        $('#refuel').trigger('click');
+                    }
+                    // Парсим json объект и записываем полученные данные в data
+                    // Например дана имеет такую структуру:
+                    // data = {
+                    // name: "Иван",
+                    // lastname: "Иванов"
+                    // }
+                    // тогда выбираем элемент, в который хотим поместить
+                    // значение data.name и data.lastname по классу либо по идентификатору
+                    $(".car__img").attr('src', res.img);
+                    $(".car__name").text(res.name);
+                    $(".car__model").text(res.gosNumber);
+                    $("#year").text(res.year);
+                    $("#probeg").text(res.probeg);
+                    $("#osago").text(res.osago);
+                    $("#wheels").text(res.wheels);
+                    $("#vin").text(res.vin);
+                    // данные должны отобразиться
 
                 } else {
                     console.err('Произошла ошибка')
-                    // Но можно информировать пользователя, что что-то пошло не так.
                 }
+
             }
         });
     }

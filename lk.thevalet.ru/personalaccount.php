@@ -37,14 +37,14 @@ $imgUser = GarbageDataByArtur::get('accountImg');
 <!--                                <span class="slider round"></span>-->
 <!--                            </label>-->
 <!--                        </div>-->
-<!--                        <div class="driver__chat">-->
-<!--                            <div class="displayed_information__driver">Только чат</div>-->
-<!--                            <label class="switch">-->
-<!--                                <input type="checkbox">-->
-<!--                                <span class="slider round"></span>-->
-<!--                            </label>-->
-<!--                        </div>-->
-<!--                    </div>-->
+                        <div class="driver__chat">
+                            <div class="displayed_information__driver">Только чат</div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
                 </div> 
             </div>
         </div>

@@ -14,7 +14,7 @@
                     <div class="summa check">Чек</div>
                 </div>
                 <div class="address">Рублевское Предместье КП, 8к3</div>
-                <button class="amenities__button2" type="button">Повторить</button>   
+                <!--<button class="amenities__button2" type="button">Повторить</button>-->
             </div>
             <div class="elements__of__history">
                 <div class="elements__of__history2">
@@ -26,7 +26,7 @@
                     <div class="summa check">Чек</div>
                 </div>
                 <div class="address">Пресненская наб., 6, стр. 2, Москва</div>
-                <button class="amenities__button2" type="button">Повторить</button>   
+                <!--<button class="amenities__button2" type="button">Повторить</button>-->
             </div>
             <div class="elements__of__history">
                 <div class="elements__of__history2">
@@ -38,7 +38,7 @@
                     <div class="summa check">Чек</div>
                 </div>
                 <div class="address">Пресненская наб., 6, стр. 2, Москва</div>
-                <button class="amenities__button2" type="button">Повторить</button>   
+                <!--<button class="amenities__button2" type="button">Повторить</button>-->
             </div>
         </div>
     </div>

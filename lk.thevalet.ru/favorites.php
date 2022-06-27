@@ -44,15 +44,15 @@
                         </div>
                     </div>
                 </div>
-<!--            <div class="elements__history">-->
-<!--                <div class="services__block">ВОДИТЕЛИ</div>-->
-<!--                <section class="driver__person favorites__driver__person">-->
-<!--                    <img class="driver__img" src="--><?//=SITE_TEMPLATE_PATH?><!--/img/data/driver.jpg">-->
-<!--                    <div class="driver__name">-->
-<!--                            Константин-->
-<!--                    </div>-->
-<!--                </section>-->
-<!--            </div>-->
+            <div class="elements__history">
+                <div class="services__block">ВОДИТЕЛИ</div>
+                <section class="driver__person favorites__driver__person">
+                    <img class="driver__img" src="<?=SITE_TEMPLATE_PATH?>/img/data/driver.jpg">
+                    <div class="driver__name">
+                            Константин
+                    </div>
+                </section>
+            </div>
 <!--            <div class="elements__history">-->
 <!--                <div class="services__block">АДРЕСА</div> -->
 <!--                <ul class="favorites__address__block">-->
