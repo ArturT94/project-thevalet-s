@@ -4,9 +4,9 @@
         <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
         <div class="global__mobile__block">
             <div class="car__profile car__profile__mobile">
-                <img class="car__img" src="">
-                <div class="car__name">Range Rover IV</div>
-                <div class="car__model"><span id="number">а123вс77</span>
+                <img class="car__img" src="<?=SITE_TEMPLATE_PATH?>/img/test.png">
+                <div class="car__name">Land Rover Defender</div>
+                <div class="car__model"><span id="number">Р352НА710</span>
                     <a class="car__copy" id="car-copy">
                     <img class="copy__img" width="18" height="18" src="<?=SITE_TEMPLATE_PATH?>/img/layout/copy.png">
                     </a>

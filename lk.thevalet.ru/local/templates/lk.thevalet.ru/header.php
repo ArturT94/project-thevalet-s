@@ -2,7 +2,7 @@
 if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)    die();
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title><?php $APPLICATION->ShowTitle(); ?></title>
@@ -17,6 +17,6 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)    die();
     <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/garageOnOrder.css">
     <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/serviceListOnOrder.css">
     <?php $APPLICATION->ShowHead(); ?>
-<?php  $APPLICATION->ShowPanel(); ?>
+<?php  //$APPLICATION->ShowPanel(); ?>
 </head>
 <body>

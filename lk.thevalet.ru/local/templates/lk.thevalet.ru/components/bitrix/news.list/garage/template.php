@@ -21,6 +21,20 @@ while ($result = $res->Fetch()){
     <!--Карточки автомобилей и кнопка добавления-->
     <div class="swiper garage">
         <div class="swiper-wrapper">
+            <button class="swiper-slide auto">
+                <a href="#car" class="order__popup__link user__popup__lvl__2__link">
+                    <div class="number__message__item">
+                        <div class="number__message"><p>2</p></div>
+                    </div>
+                    <div class="auto_img">
+                        <img draggable=false src="<?=SITE_TEMPLATE_PATH?>/img/test.png" alt=""  style="width: 160px">
+                    </div>
+                    <div class="data__auto">
+                        <div class="data__model">Land Rover Defender</div>
+                        <div class="data__number">Р352НА710</div>
+                    </div>
+                </a>
+            </button>
             <?php foreach($arResult['NEW_SECTION'] as $arItem): ?>
                 <?php //echo '<pre>' . print_r($arResult, true) . '</pre>'; ?>
                 <?php $carImgs = CFile::GetPath($arItem['PROPERTY_FOTO_VALUE']) ?>
@@ -48,7 +62,7 @@ while ($result = $res->Fetch()){
                 </a>
             </button>
             <?php endforeach; ?>
-            <a href="#car1" class="swiper-slide auto add__auto user__popup__lvl__2__link">
+            <a href="#brand" class="swiper-slide auto add__auto user__popup__lvl__2__link">
                 <div class="number__message__item">
                     <div class="number__message "><p>2</p></div>
                 </div>

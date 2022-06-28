@@ -90,15 +90,15 @@ input[type="checkbox"] {
 }
 
 .extensions__checkbox:checked ~ .extensions__park {
-    background-image: url("/lk.thevalet.ru/localevalet.ru/local/templates/lk.thevalet.ru/img/layout/park-icon-active.png");
+    background-image: url("/local/templates/lk.thevalet.ru/img/layout/park-icon-active.png");
 }
 
 .extensions__checkbox:checked ~ .extensions__wash {
-    background-image: url("/lk.thevalet.ru/local/templates/lk.thevalet.ru//img/layout/wash-icon-active.png");
+    background-image: url("/local/templates/lk.thevalet.ru/img/layout/wash-icon-active.png");
 }
 
 .extensions__checkbox:checked ~ .extensions__refuel {
-    background-image: url("/lk.thevalet.ru/local/templates/lk.thevalet.ru//img/layout/refuel-icon-active.png");
+    background-image: url("/local/templates/lk.thevalet.ru/img/layout/refuel-icon-active.png");
 }
 .extensions__button {
     display: block;
@@ -115,13 +115,13 @@ input[type="checkbox"] {
     background-position: center;
 }
 .extensions__park {
-    background-image: url("/lk.thevalet.ru/local/templates/lk.thevalet.ru//img/layout/park-icon.png");
+    background-image: url("/local/templates/lk.thevalet.ru/img/layout/park-icon.png");
 }
 .extensions__wash {
-    background-image: url("/lk.thevalet.ru/local/templates/lk.thevalet.ru//img/layout/wash-icon.png");
+    background-image: url("/local/templates/lk.thevalet.ru/img/layout/wash-icon.png");
 }
 .extensions__refuel {
-    background-image: url("/lk.thevalet.ru/local/templates/lk.thevalet.ru//img/layout/refuel-icon.png");
+    background-image: url("/local/templates/lk.thevalet.ru/img/layout/refuel-icon.png");
 }
 .extensions__name {
     font-size: 17px;

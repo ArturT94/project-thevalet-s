@@ -27,27 +27,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="864a6f7a-f999-44f4-b1fa-6ac9ab0f811f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lk.thevalet.ru/sender.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/img/test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/brand.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/brand.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/car.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/car.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/car1.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/car1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/favorites.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/favorites.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/history.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/history.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/template-old.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/lang/ru/template.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/template.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garageUser/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garageUser/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/listsCar/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/listsCar/result_modifier.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/listsCar/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/listsCar/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/services/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/services/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/search.page/brand.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/auth.css" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/auth.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/search.page/searching/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/search.page/searching/lang/ru/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/garage.css" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/garage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/map.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/orderBasket.css" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/orderBasket.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/systemPay.css" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/systemPay.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/map.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/newOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/newOrder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/orderBasket.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/orderBasket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/personalaccount.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/personalaccount.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,16 +81,18 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/listsCar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/img" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\thevalet\lk.thevalet.ru\local\templates\lk.thevalet.ru\components\bitrix\news.list\garage\lang\ru" />
       <recent name="C:\OpenServer\domains\thevalet\lk.thevalet.ru\local\templates\lk.thevalet.ru\components\bitrix\news.list" />
       <recent name="C:\OpenServer\domains\thevalet\thevalet.ru\local\templates\thevalet.ru" />
       <recent name="C:\OpenServer\domains\thevalet\thevalet.ru\local" />
       <recent name="C:\OpenServer\domains\thevalet\lk.thevalet.ru" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\thevalet\lk.thevalet.ru\local\templates\lk.thevalet.ru\img" />
       <recent name="C:\OpenServer\domains\thevalet\lk.thevalet.ru\local\templates\lk.thevalet.ru\components\bitrix\news.list\listsCar" />
     </key>
   </component>
@@ -111,7 +110,9 @@
       <workItem from="1655753677811" duration="3841000" />
       <workItem from="1655757593194" duration="21435000" />
       <workItem from="1655814960804" duration="16786000" />
-      <workItem from="1656138468037" duration="29239000" />
+      <workItem from="1656138468037" duration="53336000" />
+      <workItem from="1656393480099" duration="3308000" />
+      <workItem from="1656400467642" duration="10597000" />
     </task>
     <task id="LOCAL-00001" summary="Добавление lk.thevalet.ru">
       <created>1655747315678</created>
@@ -183,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655934159244</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Изменения на 27.06.2022">
+      <created>1656307951072</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656307951072</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +228,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="Добавление компонентов услуги и сервис" />
     <MESSAGE value="Добавление компонента и список машин, написание класса для добавление авто в crm через rest API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавление компонента и список машин, написание класса для добавление авто в crm через rest API" />
+    <MESSAGE value="Изменения на 27.06.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменения на 27.06.2022" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Deployment" timestamp="1656280116180">
@@ -235,10 +244,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="259" y="9" key="#SSH_Configurations/0.0.1366.728@0.0.1366.728" timestamp="1655756530742" />
-    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1655934158577">
+    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1656307950093">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1655934158577" />
+    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1656307950093" />
     <state x="129" y="54" key="DiffContextDialog" timestamp="1655744775932">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -247,26 +256,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1655759562505" />
-    <state x="487" y="287" key="NewPhpFileDialog" timestamp="1656095904501">
+    <state x="487" y="287" key="NewPhpFileDialog" timestamp="1656317577170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="487" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1656095904501" />
+    <state x="487" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1656317577170" />
     <state x="457" y="66" key="RollbackChangesDialog" timestamp="1655744138636">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1655744138636" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1655934169445">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1656307964583">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1655934169445" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1656307964583" />
     <state x="455" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1655758404273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="455" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1655758404273" />
-    <state x="381" y="104" width="797" height="604" key="find.popup" timestamp="1656272461511">
+    <state x="426" y="90" width="797" height="604" key="find.popup" timestamp="1656426076870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="381" y="104" width="797" height="604" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1656272461511" />
+    <state x="426" y="90" width="797" height="604" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1656426076870" />
     <state x="481" y="94" key="ftp.server.browser" timestamp="1655759689455">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -279,10 +288,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1655747969081" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1656051014989">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1656321589653">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1656051014989" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1656321589653" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1656096624214">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

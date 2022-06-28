@@ -1,45 +1,4 @@
 <?php require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php"); ?>
-<?$APPLICATION->IncludeComponent("bitrix:form","",Array(
-        "AJAX_MODE" => "N",
-        "SEF_MODE" => "Y",
-        "WEB_FORM_ID" => $_REQUEST["WEB_FORM_ID"],
-        "RESULT_ID" => $_REQUEST["RESULT_ID"],
-        "START_PAGE" => "new",
-        "SHOW_LIST_PAGE" => "Y",
-        "SHOW_EDIT_PAGE" => "Y",
-        "SHOW_VIEW_PAGE" => "Y",
-        "SUCCESS_URL" => "",
-        "SHOW_ANSWER_VALUE" => "Y",
-        "SHOW_ADDITIONAL" => "Y",
-        "SHOW_STATUS" => "Y",
-        "EDIT_ADDITIONAL" => "Y",
-        "EDIT_STATUS" => "Y",
-        "NOT_SHOW_FILTER" => Array(),
-        "NOT_SHOW_TABLE" => Array(),
-        "CHAIN_ITEM_TEXT" => "",
-        "CHAIN_ITEM_LINK" => "",
-        "IGNORE_CUSTOM_TEMPLATE" => "Y",
-        "USE_EXTENDED_ERRORS" => "Y",
-        "CACHE_TYPE" => "A",
-        "CACHE_TIME" => "3600",
-        "AJAX_OPTION_JUMP" => "N",
-        "AJAX_OPTION_STYLE" => "Y",
-        "AJAX_OPTION_HISTORY" => "N",
-        "SEF_FOLDER" => "/communication/web-forms/",
-        "SEF_URL_TEMPLATES" => Array(
-            "new" => "#WEB_FORM_ID#/",
-            "list" => "#WEB_FORM_ID#/list/",
-            "edit" => "#WEB_FORM_ID#/edit/#RESULT_ID#/",
-            "view" => "#WEB_FORM_ID#/view/#RESULT_ID#/"
-        ),
-        "VARIABLE_ALIASES" => Array(
-            "new" => Array(),
-            "list" => Array(),
-            "edit" => Array(),
-            "view" => Array(),
-        )
-    )
-);?>
 <?php
 if(!$USER->IsAuthorized()){
     header("Location: https://lk.thevalet.ru");
@@ -116,10 +75,10 @@ $arUsers = $userGetParamsFromId->Fetch();
 		"IBLOCK_TYPE" => "lists",
 		"IBLOCK_ID" => "93",
 		"NEWS_COUNT" => "10",
-		"SORT_BY1" => "ACTIVE_FROM",
-		"SORT_ORDER1" => "DESC",
+		"SORT_BY1" => "SORT",
+		"SORT_ORDER1" => "ASC",
 		"SORT_BY2" => "SORT",
-		"SORT_ORDER2" => "ASC",
+		"SORT_ORDER2" => "DESC",
 		"FILTER_NAME" => "",
 		"FIELD_CODE" => array(
 			0 => "CODE",

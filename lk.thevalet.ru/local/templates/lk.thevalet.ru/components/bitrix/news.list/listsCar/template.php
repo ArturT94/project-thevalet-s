@@ -19,7 +19,6 @@
             </div>
             <div class="global__brand2">
                 <div class="btn__block">
-                    <a href="#" class="button">НАЗАД</a>
                     <a href="#model" class="button user__popup__lvl__2__link">ДАЛЕЕ</a>
                 </div>
             </div>
