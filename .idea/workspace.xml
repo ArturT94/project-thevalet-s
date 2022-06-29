@@ -27,23 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="864a6f7a-f999-44f4-b1fa-6ac9ab0f811f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/img/test.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/car.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/car1.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/car1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garage/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garageUser/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/garageUser/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/listsCar/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/news.list/listsCar/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/search.page/searching/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/components/bitrix/search.page/searching/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/garage.css" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/garage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/map.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/orderBasket.css" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/orderBasket.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/systemPay.css" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/css/systemPay.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/map.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/newOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/newOrder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +97,7 @@
       <workItem from="1655814960804" duration="16786000" />
       <workItem from="1656138468037" duration="53336000" />
       <workItem from="1656393480099" duration="3308000" />
-      <workItem from="1656400467642" duration="10597000" />
+      <workItem from="1656400467642" duration="13290000" />
     </task>
     <task id="LOCAL-00001" summary="Добавление lk.thevalet.ru">
       <created>1655747315678</created>
@@ -191,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656307951072</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Изменения на 27.06.2022">
+      <created>1656430062189</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656430062189</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,10 +236,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="259" y="9" key="#SSH_Configurations/0.0.1366.728@0.0.1366.728" timestamp="1655756530742" />
-    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1656307950093">
+    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1656430056868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1656307950093" />
+    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1656430056868" />
     <state x="129" y="54" key="DiffContextDialog" timestamp="1655744775932">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -264,10 +256,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1655744138636" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1656307964583">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1656430067306">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1656307964583" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1656430067306" />
     <state x="455" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1655758404273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
