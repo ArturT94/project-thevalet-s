@@ -28,8 +28,6 @@
   <component name="ChangeListManager">
     <list default="true" id="864a6f7a-f999-44f4-b1fa-6ac9ab0f811f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.thevalet.ru/newOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.thevalet.ru/newOrder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lk.thevalet.ru/local/templates/lk.thevalet.ru/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -98,6 +96,7 @@
       <workItem from="1656138468037" duration="53336000" />
       <workItem from="1656393480099" duration="3308000" />
       <workItem from="1656400467642" duration="13290000" />
+      <workItem from="1656579451888" duration="382000" />
     </task>
     <task id="LOCAL-00001" summary="Добавление lk.thevalet.ru">
       <created>1655747315678</created>
@@ -224,10 +223,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Изменения на 27.06.2022" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="22" key="#Deployment" timestamp="1656280116180">
+    <state x="275" y="22" key="#Deployment" timestamp="1656579514227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="22" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1656280116180" />
+    <state x="275" y="22" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1656579514227" />
     <state x="273" y="50" key="#Options" timestamp="1655759399118">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -244,10 +243,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1655744775932" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1655759562505">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1656579809481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1655759562505" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1656579809481" />
     <state x="487" y="287" key="NewPhpFileDialog" timestamp="1656317577170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -4,7 +4,7 @@
 
 <div class="app__window garage-block">
     <div class="coneiner">
-        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+<!--        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="--><?//=SITE_TEMPLATE_PATH?><!--/img/layout/arrow-right.png"></button>-->
         <ul class="garage-mobile__list" >
             <li class="garage-mobile__item">
                 <div class="car__profile">

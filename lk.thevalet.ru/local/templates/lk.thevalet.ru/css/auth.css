@@ -20,7 +20,9 @@
 }
 .auth__phone {
     display: grid;
-    margin-bottom: 28px;
+    grid-gap: 28px;
+    grid-template-columns: auto 1fr;
+    margin-bottom: 90px;
 }
 
 .auth__title {
@@ -109,7 +111,6 @@ select.auth__country::-ms-expand {
 }
 
 .input__field {
-    width: 91%;
     border-width: 1px;
     border-color: #cbcbcb;
     border-style: solid;
@@ -164,6 +165,7 @@ select.auth__country::-ms-expand {
     }
     .auth__phone {
         margin-bottom: 38px;
+        grid-gap: 18px;
     }
     
     .auth__title {

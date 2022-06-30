@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/car1.css">
 <div class="app__window garage-block">
     <div class="conteiner">
-        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
         <div class="global__car__profile">
             <div class="global__car__profile1">
                 <div class="car__profile">
@@ -63,8 +62,8 @@
             </div>
             <div class="global__car__profile2">
             <div class="btn__block">
-                    <a href="#gosnumber" class="button user__popup__lvl__2__link">НАЗАД</a>
-                    <a href="#index.php" class="button user__popup__lvl__2__link">ГОТОВО</a>
+                    <a href="#" class="button user__popup__lvl__2__link">НАЗАД</a>
+                    <a href="#" class="button user__popup__lvl__2__link">ГОТОВО</a>
                 </div>
             </div>  
         </div>    

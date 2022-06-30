@@ -1,1 +1,1 @@
-<a href="#user__popup" class="profile"> <img src="/lk.thevalet.ru/localevalet.ru/local/templates/lk.thevalet.ru/img/burger.png" alt=""> </a>
+<a href="#user__popup" class="profile"> <img src="<?=SITE_TEMPLATE_PATH?>/img/burger.png" alt=""> </a>

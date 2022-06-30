@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/favorites.css">
 <div class="app__window garage-block">
     <div class="conteiner">
-        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+<!--        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="--><?//=SITE_TEMPLATE_PATH?><!--/img/layout/arrow-right.png"></button>-->
         <div class="global__mobile__block">
             <div class="history__block favorites__block">ИЗБРАННОЕ</div>
                 <div class="service">
