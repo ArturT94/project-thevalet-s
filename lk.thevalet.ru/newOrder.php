@@ -354,8 +354,8 @@ $arUsers = $userGetParamsFromId->Fetch();
         </div>
     </div>
     <div class="user__popup__lvl__2" id="car">
-        <div class="user__popup__lvl__2__content">
             <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+        <div class="user__popup__lvl__2__content">
             <?php include "car.php"; ?>                       <!--Фрейм Посмотреть автомобиль в гараже клиента в бургере-->
         </div>
     </div>

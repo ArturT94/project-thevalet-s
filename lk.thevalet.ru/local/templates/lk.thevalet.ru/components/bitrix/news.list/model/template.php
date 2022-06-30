@@ -16,7 +16,7 @@ $this->setFrameMode(true);
 
 <div class="app__window garage-block">
     <div class="conteiner">
-        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+<!--        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="--><?//=SITE_TEMPLATE_PATH?><!--/img/layout/arrow-right.png"></button>-->
         <div class="global__brand">
             <div class="global__brand1">
                 <div class="choose__brand__block">
@@ -64,8 +64,8 @@ $this->setFrameMode(true);
 		<?endif?>
 		<?if($arParams["DISPLAY_NAME"]!="N" && $arItem["NAME"]):?>
 			<?if(!$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])):?>
-                        <input type="radio" id="radio<?=$arItem['ID']?>" name="brand" value="<?=$arItem["NAME"]?>" >
-                        <label for="radio<?=$arItem["ID"]?>"><?=$arItem["NAME"]?></label>
+                        <input type="radio" id="model<?=$arItem['ID']?>" name="model" value="<?=$arItem["NAME"]?>" >
+            <label for="model<?=$arItem["ID"]?>"><a href="#gosnumber" class="user__popup__lvl__2__link pop-mod"><?=$arItem["NAME"]?></a></label>
 			<?else:?>
 				<b><?echo $arItem["NAME"]?></b><br />
 			<?endif;?>
@@ -102,7 +102,6 @@ $this->setFrameMode(true);
             <div class="global__brand2">
                 <div class="btn__block">
                     <a href="#brand" class="button user__popup__lvl__2__link">НАЗАД</a>
-                    <a href="#gosnumber" class="button user__popup__lvl__2__link">ДАЛЕЕ</a>
                 </div>
             </div>
     </div>
