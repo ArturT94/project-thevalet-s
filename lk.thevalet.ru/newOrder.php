@@ -310,64 +310,77 @@ $arUsers = $userGetParamsFromId->Fetch();
 	</div>
 </div>
  <?php include "popup-service-info.php"; ?> <!--PopUp Фрейма описания услуг--> <!--PopUp окна меню-->
-<div class="user__popup" id="user__popup">
-	<div class="user__popup__content">
-		 <?php include "menu.php"; ?> <!--Меню из Burger-->
-	</div>
-</div>
-<div class="user__popup__lvl__2" id="garage">
-	<div class="user__popup__lvl__2__content">
-		 <?php include "garage.php"; ?> <!--Фрейм гаража клиента в бургере-->
-	</div>
-</div>
-<div class="user__popup__lvl__2" id="systemPay">
-	<div class="user__popup__lvl__2__content">
-		 <?php include "systemPay.php"; ?> <!--Фрейм списка карт оплаты в бургере-->
-	</div>
-</div>
-<div class="user__popup__lvl__2" id="add__pay__card">
-	<div class="user__popup__lvl__2__content">
-		 <?php include "add__pay__card.php"; ?> <!--Фрейм добавления платежной карты-->
-	</div>
-</div>
-<div class="user__popup__lvl__2" id="history">
-	<div class="user__popup__lvl__2__content">
-		 <?php include "history.php"; ?> <!--Фрейм истории заказов-->
-	</div>
-</div>
-<div class="user__popup__lvl__2" id="favorites">
-	<div class="user__popup__lvl__2__content">
-		 <?php include "favorites.php"; ?> <!--Фрейм избранное-->
-	</div>
-</div>
-<div class="user__popup__lvl__2" id="personalaccount">
-	<div class="user__popup__lvl__2__content">
-		 <?php include "personalaccount.php"; ?> <!--Фрейм Посмотреть профиль-->
-	</div>
-</div>
-<div class="user__popup__lvl__2" id="car">
-	<div class="user__popup__lvl__2__content">
-		 <?php include "car.php"; ?> <!--Фрейм Посмотреть автомобиль в гараже клиента в бургере-->
-	</div>
-</div>
-<div class="user__popup__lvl__2" id="car1">
-	<div class="user__popup__lvl__2__content">
-		 <?php include "car1.php"; ?> <!--Фрейм Добавить автомобиль в гараже клиента в бургере-->
-	</div>
-</div>
-<div class="user__popup__lvl__2" id="brand">
-	<div class="user__popup__lvl__2__content">
-		 <?php include "brand.php"; ?> <!--Фрейм Добавить Марку при добавлении авто в гараже клиента в бургере-->
-	</div>
-</div>
-<div class="user__popup__lvl__2" id="model">
-	<div class="user__popup__lvl__2__content">
-		 <?php include "model.php"; ?> <!--Фрейм Добавить Модель при добавлении авто в гараже клиента в бургере-->
-	</div>
-</div>
-<div class="user__popup__lvl__2" id="gosnumber">
-	<div class="user__popup__lvl__2__content">
-		 <?php include "gosnumber.php"; ?> <!--Фрейм Добавить Госномер при добавлении авто в гараже клиента в бургере-->
-	</div>
-</div>
- <br><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
+    <!--PopUp окна меню-->
+    <div class="user__popup" id="user__popup">
+        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+        <div class="user__popup__content">
+            <?php include "menu.php"; ?>                         <!--Меню из Burger-->
+        </div>
+    </div>
+    <div class="user__popup__lvl__2" id="garage">
+        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+        <div class="user__popup__lvl__2__content">
+            <?php include "garage.php"; ?>                       <!--Фрейм гаража клиента в бургере-->
+        </div>
+    </div>
+    <div class="user__popup__lvl__2" id="systemPay">
+        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+        <div class="user__popup__lvl__2__content">
+            <?php include "systemPay.php"; ?>                    <!--Фрейм списка карт оплаты в бургере-->
+        </div>
+    </div>
+    <div class="user__popup__lvl__2" id="add__pay__card">
+        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+        <div class="user__popup__lvl__2__content">
+            <?php include "add__pay__card.php"; ?>              <!--Фрейм добавления платежной карты-->
+        </div>
+    </div>
+    <div class="user__popup__lvl__2" id="history">
+        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+        <div class="user__popup__lvl__2__content">
+            <?php include "history.php"; ?>                    <!--Фрейм истории заказов-->
+        </div>
+    </div>
+    <div class="user__popup__lvl__2" id="favorites">
+        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+        <div class="user__popup__lvl__2__content">
+            <?php include "favorites.php"; ?>                    <!--Фрейм избранное-->
+        </div>
+    </div>
+    <div class="user__popup__lvl__2" id="personalaccount">
+        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+        <div class="user__popup__lvl__2__content">
+            <?php include "personalaccount.php"; ?>            <!--Фрейм Посмотреть профиль-->
+        </div>
+    </div>
+    <div class="user__popup__lvl__2" id="car">
+        <div class="user__popup__lvl__2__content">
+            <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+            <?php include "car.php"; ?>                       <!--Фрейм Посмотреть автомобиль в гараже клиента в бургере-->
+        </div>
+    </div>
+    <div class="user__popup__lvl__2" id="car1">
+        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+        <div class="user__popup__lvl__2__content">
+            <?php include "car1.php"; ?>                       <!--Фрейм Добавить автомобиль в гараже клиента в бургере-->
+        </div>
+    </div>
+    <div class="user__popup__lvl__2" id="brand">
+        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+        <div class="user__popup__lvl__2__content">
+            <?php include "brand.php"; ?>            <!--Фрейм Добавить Марку при добавлении авто в гараже клиента в бургере-->
+        </div>
+    </div>
+    <div class="user__popup__lvl__2" id="model">
+        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+        <div class="user__popup__lvl__2__content">
+            <?php include "model.php"; ?>            <!--Фрейм Добавить Модель при добавлении авто в гараже клиента в бургере-->
+        </div>
+    </div>
+    <div class="user__popup__lvl__2" id="gosnumber">
+        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+        <div class="user__popup__lvl__2__content">
+            <?php include "gosnumber.php"; ?>            <!--Фрейм Добавить Госномер при добавлении авто в гараже клиента в бургере-->
+        </div>
+    </div>
+    <br><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
