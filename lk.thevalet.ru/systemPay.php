@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/systemPay.css">
 <div class="app__window">
     <div class="conteiner">
-        <button class="car__close Close__user__popup__lvl__2 close__order__popup"><img class="car__close-icon" src="<?=SITE_TEMPLATE_PATH?>/img/layout/arrow-right.png"></button>
+<!--        <button class="car__close Close__user__popup__lvl__2 close__order__popup"><img class="car__close-icon" src="--><?//=SITE_TEMPLATE_PATH?><!--/img/layout/arrow-right.png"></button>-->
         <div class="global__mobile__block">
             <div class="payment">
                 <div class="paymemt__block">
