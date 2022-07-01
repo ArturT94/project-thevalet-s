@@ -22,7 +22,7 @@
     display: grid;
     grid-gap: 28px;
     grid-template-columns: auto 1fr;
-    margin-bottom: 90px;
+    margin-bottom: 27px;
 }
 
 .auth__title {
@@ -111,6 +111,7 @@ select.auth__country::-ms-expand {
 }
 
 .input__field {
+    width: 457px;
     border-width: 1px;
     border-color: #cbcbcb;
     border-style: solid;
@@ -164,6 +165,7 @@ select.auth__country::-ms-expand {
         margin-bottom: 24px;
     }
     .auth__phone {
+        width: 100%;
         margin-bottom: 38px;
         grid-gap: 18px;
     }

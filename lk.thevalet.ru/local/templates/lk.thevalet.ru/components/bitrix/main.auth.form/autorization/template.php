@@ -50,7 +50,7 @@ if ($arResult['AUTHORIZED'])
 
 	<form class="auth__form" name="<?= $arResult['FORM_ID'];?>" method="post" target="_top" action="<?= POST_FORM_ACTION_URI;?>">
         <fieldset class="fieldset auth__phone">
-            <input class="input__field auth__number" type="text" id="auth-phone" name="<?= $arResult['FIELDS']['login'];?>" maxlength="255" value="<?= \htmlspecialcharsbx($arResult['LAST_LOGIN']);?>"><br>
+            <input placeholder="Логин" class="input__field auth__number" type="text" id="auth-phone" name="<?= $arResult['FIELDS']['login'];?>" maxlength="255" value="<?= \htmlspecialcharsbx($arResult['LAST_LOGIN']);?>"><br>
             <?if ($arResult['SECURE_AUTH']):?>
                 <div class="bx-authform-psw-protected" id="bx_auth_secure" style="display:none">
                     <div class="bx-authform-psw-protected-desc"><span></span>
@@ -61,7 +61,7 @@ if ($arResult['AUTHORIZED'])
                     document.getElementById('bx_auth_secure').style.display = '';
                 </script>
             <?endif?>
-            <input class="input__field auth__number" type="password" name="<?= $arResult['FIELDS']['password'];?>" maxlength="255" autocomplete="off" />
+            <input placeholder="Пароль" class="input__field auth__number" type="password" name="<?= $arResult['FIELDS']['password'];?>" maxlength="255" autocomplete="off" />
         </fieldset>
 
 		<?if ($arResult['CAPTCHA_CODE']):?>
@@ -87,7 +87,7 @@ if ($arResult['AUTHORIZED'])
 				</div>
 			</div>
 		<?endif?>
-        <button class="button auth__submit" type="submit"  name="<?= $arResult['FIELDS']['action'];?>" value="<?= Loc::getMessage('MAIN_AUTH_FORM_FIELD_SUBMIT');?>">отправить</button>
+        <button class="button auth__submit" type="submit"  name="<?= $arResult['FIELDS']['action'];?>" value="<?= Loc::getMessage('MAIN_AUTH_FORM_FIELD_SUBMIT');?>">далее</button>
         <p class="auth__agreement">Регистрируясь, Вы принимаете <a class="auth__link" href="#">условия
                 использования</a> и <a class="auth__link" href="#">политику конфиденциальности.</a></p>
 
