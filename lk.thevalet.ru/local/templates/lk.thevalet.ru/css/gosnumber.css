@@ -35,6 +35,7 @@
     padding: 134px 0px;
 }
 .enter__gosnumber {
+    text-transform: uppercase;
     box-sizing: border-box;
     width: 90%;
     height: 4.5rem;

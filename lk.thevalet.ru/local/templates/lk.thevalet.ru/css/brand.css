@@ -5,6 +5,7 @@
     flex-direction: column;
 }
 .choose__brand__block{
+    text-transform: uppercase;
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
