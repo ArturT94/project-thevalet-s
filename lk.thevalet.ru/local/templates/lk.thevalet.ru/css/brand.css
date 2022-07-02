@@ -39,9 +39,7 @@
     margin-left: -2px;
 }
 
-.brand__block label:hover {
-    border: 1px solid #ffffff;
-}
+
 .btn__block{
     display: flex;
     justify-content: space-around;
