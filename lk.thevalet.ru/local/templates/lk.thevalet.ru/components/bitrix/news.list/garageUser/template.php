@@ -10,7 +10,7 @@
                 <div class="car__profile">
                     <a href="#car" class="garage__link user__popup__lvl__2__link">
                         <div class="number__message__item2">
-                            <div class="number__message2"><p>2</p></div>
+                            <div class="number__message2" style="display: none"><p>2</p></div>
                         </div>
                         <img style="width: 40%;" class="" src="<?=SITE_TEMPLATE_PATH?>/img/test.png">
                     </a>
@@ -34,7 +34,7 @@
                 <div class="car__profile">
                     <a href="#car" class="garage__link user__popup__lvl__2__link">
                         <div class="number__message__item2">
-                            <div class="number__message2"><p>2</p></div>
+                            <div class="number__message2" style="display: none"><p>2</p></div>
                         </div>
                         <img style="width: 40%;" class="" src="<?=$carImgs?>">
                     </a>

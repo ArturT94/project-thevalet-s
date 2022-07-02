@@ -24,7 +24,7 @@ while ($result = $res->Fetch()){
             <button class="swiper-slide auto">
                 <a href="#car" class="order__popup__link user__popup__lvl__2__link">
                     <div class="number__message__item">
-                        <div class="number__message"><p>2</p></div>
+                        <div class="number__message"><p></p></div>
                     </div>
                     <div class="auto_img">
                         <img draggable=false src="<?=SITE_TEMPLATE_PATH?>/img/test.png" alt=""  style="width: 160px">
@@ -50,7 +50,7 @@ while ($result = $res->Fetch()){
                     })">
                 <a href="#car" class="order__popup__link user__popup__lvl__2__link">
                     <div class="number__message__item">
-                        <div class="number__message"><p>2</p></div>
+                        <div class="number__message"><p></p></div>
                     </div>
                     <div class="auto_img">
                         <img draggable=false src="<?=$carImgs?>" alt=""  style="width: 160px">
@@ -64,7 +64,7 @@ while ($result = $res->Fetch()){
             <?php endforeach; ?>
             <a href="#brand" class="swiper-slide auto add__auto user__popup__lvl__2__link">
                 <div class="number__message__item">
-                    <div class="number__message "><p>2</p></div>
+                    <div class="number__message"><p></p></div>
                 </div>
                 <div class="auto_img">
                     <img draggable=false src="<?=SITE_TEMPLATE_PATH?>/img/data/add.png" alt="">

@@ -103,6 +103,11 @@ input::placeholder {
   top: 1rem;
 }
 
+/*стили которые забыли внести верстальщик! По-этому их вносит Артур БЭКЕНД ПРОГРАММИСТ! в связи не с желание разбиратся в стилях где что по этому буду писать тут!*/
+.header__desktop{
+  margin-bottom: 36px;
+}
+
 /*---------------------------------*/
 /*--Cтилизуем навигацию слайдеров--*/
 .nav_group {
@@ -177,7 +182,7 @@ input::placeholder {
 
 .chapter__title {
   font-size: 1.3rem;
-  margin-top: 1.5rem;
+  margin-top: 20px;
   margin-bottom: 1rem;
   font-weight: normal;
 }
