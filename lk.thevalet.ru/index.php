@@ -1,6 +1,6 @@
 <?php require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 if ($USER->IsAuthorized()) {
-    header("Location: https://lk.thevalet.ru/newOrder.php");
+    header("Location: http://83.166.242.242/newOrder.php");
     die();
 }
 $APPLICATION->SetTitle(""); ?><?$APPLICATION->IncludeComponent("bitrix:main.auth.form", "autorization", Array(
