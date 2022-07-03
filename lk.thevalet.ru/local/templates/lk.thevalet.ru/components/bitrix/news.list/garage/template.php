@@ -1,7 +1,7 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 
 CModule::IncludeModule("iblock");
-$arFilter = ["IBLOCK_ID" => 93];
+$arFilter = ["IBLOCK_ID" => 8];
 $arSelect = ["IBLOCK_ID", "ID", "IBLOCK_NAME", "NAME", "PROPERTY_FOTO", "PROPERTY_MARKA", "PROPERTY_GOSNOMER"];
 $res = CIBlockElement::GetList([], $arFilter, false, false, $arSelect);
 //$section = CIBlockSection::GetList([], ["IBLOCK_ID" => 19], false, ["ID", "NAME"]);

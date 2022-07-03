@@ -1,7 +1,7 @@
 <?$APPLICATION->IncludeComponent("bitrix:news.list", "garageUser", Array(
     "COMPONENT_TEMPLATE" => "garageUser",
     "IBLOCK_TYPE" => "lists",	// Тип информационного блока (используется только для проверки)
-    "IBLOCK_ID" => "93",	// Код информационного блока
+    "IBLOCK_ID" => "8",	// Код информационного блока
     "NEWS_COUNT" => "20",	// Количество новостей на странице
     "SORT_BY1" => "ACTIVE_FROM",	// Поле для первой сортировки новостей
     "SORT_ORDER1" => "DESC",	// Направление для первой сортировки новостей

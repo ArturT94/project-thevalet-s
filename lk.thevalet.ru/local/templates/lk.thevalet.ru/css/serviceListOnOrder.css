@@ -1,9 +1,12 @@
 .service{
     padding-top: 5%;
 }
+/*тут нужно сделать opacity*/
 .vlt_servise{
+    opacity: 0.5;
 }
 .vlt_servise.active{
+    opacity: 1;
 }
 .service__icon{
     position: absolute;
@@ -12,7 +15,6 @@
     z-index: 100;
 }
 .servise__name{
-    background: rgba(0,0,0, 0.6);
     width: 202px;
     height: 150px;
     position: absolute;
