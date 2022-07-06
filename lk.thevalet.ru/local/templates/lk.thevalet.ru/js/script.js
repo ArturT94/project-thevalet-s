@@ -1,8 +1,5 @@
 $(document).ready(function () {
 
-    $("#auth-phone").mask("+7 (999) 999 99 99", {
-        autoclear: false
-    });
 
     $(".js-verification-sign").keyup(function () {
         if (this.value.length == 1) {
