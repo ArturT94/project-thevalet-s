@@ -20,6 +20,7 @@
 .search__icon{
     border: none;
     outline: none;
+    text-decoration: none;
     width: 100%;
     border-bottom: 1px solid #7a7779;
     padding: 0px 15px 15px 7px;

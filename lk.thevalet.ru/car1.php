@@ -15,6 +15,7 @@
               <div class="option__name">Год выпуска</div>
               <a class="option__link" href="#">Изменить</a>
             </div>
+              <div id="car_year" class="option__comm osago__comm"></div>
           </li>
           <li class="car__option">
             <div class="option__top">

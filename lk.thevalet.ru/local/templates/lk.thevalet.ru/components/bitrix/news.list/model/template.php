@@ -14,7 +14,7 @@ $this->setFrameMode(true);
 // echo '<pre>' . print_r($arResult, true) . '</pre>';
 ?>
 <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/css/brand.css">
-
+<?php echo '<pre>' . print_r($arr, true) . '</pre>'; ?>
 <div class="app__window garage-block">
   <div class="conteiner">
     <!--        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="--><? //=SITE_TEMPLATE_PATH
@@ -50,7 +50,7 @@ $this->setFrameMode(true);
                 <? if ($arParams["DISPLAY_NAME"] != "N" && $arItem["NAME"]) : ?>
                   <? if (!$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])) : ?>
                     <input type="radio" id="model<?= $arItem['ID'] ?>" name="model" value="<?= $arItem["NAME"] ?>">
-                    <label for="model<?= $arItem["ID"] ?>"><a href="#gosnumber" class="user__popup__lvl__2__link pop-mod" onclick="goNextPop(); sendModel('<?= $arItem['NAME'] ?>')"><?= $arItem["NAME"] ?></a></label>
+                    <label for="model<?= $arItem["ID"] ?>"><a href="#gosnumber" class="user__popup__lvl__2__link pop-mod" onclick="window.modelName = '<?=$arItem["NAME"]?>'; goNextPop(); goUploadAjax(window.brandId, window.brandName, window.modelName, null);"><?= $arItem["NAME"] ?></a></label>
                   <? else : ?>
                     <b><? echo $arItem["NAME"] ?></b><br />
                   <? endif; ?>

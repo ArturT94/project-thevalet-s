@@ -8,6 +8,7 @@ $userId = CUser::GetID();
 $userGetParamsFromId = CUser::GetByID($userId);
 $arUsers = $userGetParamsFromId->Fetch();
 ?>
+
 <div class="app">
   <div class="order">
     <div class="drag__element">
@@ -33,41 +34,42 @@ $arUsers = $userGetParamsFromId->Fetch();
         </div>
         <!--Иконка бургера и Лого VLT-->
       </div>
-      <!--Фрейм поиска адреса--> <? $APPLICATION->IncludeComponent(
-                                    "bitrix:search.page",
-                                    "searching",
-                                    array(
-                                      "AJAX_MODE" => "Y",
-                                      "AJAX_OPTION_ADDITIONAL" => "",
-                                      "AJAX_OPTION_HISTORY" => "N",
-                                      "AJAX_OPTION_JUMP" => "N",
-                                      "AJAX_OPTION_STYLE" => "Y",
-                                      "CACHE_TIME" => "3600",
-                                      "CACHE_TYPE" => "N",
-                                      "CHECK_DATES" => "N",
-                                      "COMPONENT_TEMPLATE" => "searching",
-                                      "DEFAULT_SORT" => "rank",
-                                      "DISPLAY_BOTTOM_PAGER" => "Y",
-                                      "DISPLAY_TOP_PAGER" => "Y",
-                                      "FILTER_NAME" => "",
-                                      "NO_WORD_LOGIC" => "N",
-                                      "PAGER_SHOW_ALWAYS" => "Y",
-                                      "PAGER_TEMPLATE" => "",
-                                      "PAGER_TITLE" => "Результаты поиска",
-                                      "PAGE_RESULT_COUNT" => "50",
-                                      "PATH_TO_USER_PROFILE" => "",
-                                      "RATING_TYPE" => "",
-                                      "RESTART" => "N",
-                                      "SHOW_RATING" => "",
-                                      "SHOW_WHEN" => "N",
-                                      "SHOW_WHERE" => "Y",
-                                      "USE_LANGUAGE_GUESS" => "Y",
-                                      "USE_SUGGEST" => "N",
-                                      "USE_TITLE_RANK" => "N",
-                                      "arrFILTER" => array(),
-                                      "arrWHERE" => array()
-                                    )
-                                  ); ?>
+      <!--Фрейм поиска адреса-->
+      <? $APPLICATION->IncludeComponent(
+        "bitrix:search.page",
+        "searching",
+        array(
+          "AJAX_MODE" => "Y",
+          "AJAX_OPTION_ADDITIONAL" => "",
+          "AJAX_OPTION_HISTORY" => "N",
+          "AJAX_OPTION_JUMP" => "N",
+          "AJAX_OPTION_STYLE" => "Y",
+          "CACHE_TIME" => "3600",
+          "CACHE_TYPE" => "N",
+          "CHECK_DATES" => "N",
+          "COMPONENT_TEMPLATE" => "searching",
+          "DEFAULT_SORT" => "rank",
+          "DISPLAY_BOTTOM_PAGER" => "Y",
+          "DISPLAY_TOP_PAGER" => "Y",
+          "FILTER_NAME" => "",
+          "NO_WORD_LOGIC" => "N",
+          "PAGER_SHOW_ALWAYS" => "Y",
+          "PAGER_TEMPLATE" => "",
+          "PAGER_TITLE" => "Результаты поиска",
+          "PAGE_RESULT_COUNT" => "50",
+          "PATH_TO_USER_PROFILE" => "",
+          "RATING_TYPE" => "",
+          "RESTART" => "N",
+          "SHOW_RATING" => "",
+          "SHOW_WHEN" => "N",
+          "SHOW_WHERE" => "Y",
+          "USE_LANGUAGE_GUESS" => "Y",
+          "USE_SUGGEST" => "N",
+          "USE_TITLE_RANK" => "N",
+          "arrFILTER" => array(),
+          "arrWHERE" => array()
+        )
+      ); ?>
       <!--Фрейм поиска адреса-->
       <div class="header__desktop">
         <? $APPLICATION->IncludeComponent(
@@ -292,122 +294,122 @@ $arUsers = $userGetParamsFromId->Fetch();
       <section class="order-button"> <button type="button" class="button__order js-button-order" disabled=""><a href="#addition" class="order__popup__link">выберите услугу</a></button> <button type="button" class="button__order js-button-order button__hide js-button-next">далее</button> </section>
     </div>
   </div>
-  <?php include "map.php"; ?>
+  <?php require_once "map.php"; ?>
   <!--Google Карта-->
   <div class="header__mobile">
     <!--Обертка для показа на Mobile-->
     <div class="conteiner">
-      <?php include "appHeader.php"; ?>
+      <?php include_once "appHeader.php"; ?>
       <!--Иконка бургера и Лого VLT-->
     </div>
-    <?php include "garageOnOrder.php"; ?>
+    <?php include_once "garageOnOrder.php"; ?>
     <!--Фрейм списка автомобилей-->
   </div>
 </div>
 <!--PopUp окна в заказе-->
 <div class="order__popup" id="addition">
   <div class="order__popup__content">
-    <?php include "orderBasket.php"; ?>
+    <?php include_once "orderBasket.php"; ?>
     <!--Фрейм подтверждения заказа-->
   </div>
 </div>
 <div class="order__popup" id="orderPage">
   <div class="order__popup__content">
-    <?php include "orderPage.php"; ?>
+    <?php include_once "orderPage.php"; ?>
     <!--Фрейм Водитель в пути-->
   </div>
 </div>
 <div class="order__popup" id="orderNPS">
   <div class="order__popup__content">
-    <?php include "orderNPS.php"; ?>
+    <?php include_once "orderNPS.php"; ?>
     <!--Фрейм Водитель в пути-->
   </div>
 </div>
-<?php include "popup-service-info.php"; ?>
+<?php include_once "popup-service-info.php"; ?>
 <!--PopUp Фрейма описания услуг-->
 <!--PopUp окна меню-->
 <!--PopUp окна меню-->
 <div class="user__popup" id="user__popup">
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__content">
-    <?php include "menu.php"; ?>
+    <?php include_once "menu.php"; ?>
     <!--Меню из Burger-->
   </div>
 </div>
 <div class="user__popup__lvl__2" id="garage">
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
-    <?php include "garage.php"; ?>
+    <?php include_once "garage.php"; ?>
     <!--Фрейм гаража клиента в бургере-->
   </div>
 </div>
 <div class="user__popup__lvl__2" id="systemPay">
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
-    <?php include "systemPay.php"; ?>
+    <?php include_once "systemPay.php"; ?>
     <!--Фрейм списка карт оплаты в бургере-->
   </div>
 </div>
 <div class="user__popup__lvl__2" id="add__pay__card">
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
-    <?php include "add__pay__card.php"; ?>
+    <?php include_once "add__pay__card.php"; ?>
     <!--Фрейм добавления платежной карты-->
   </div>
 </div>
 <div class="user__popup__lvl__2" id="history">
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
-    <?php include "history.php"; ?>
+    <?php include_once "history.php"; ?>
     <!--Фрейм истории заказов-->
   </div>
 </div>
 <div class="user__popup__lvl__2" id="favorites">
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
-    <?php include "favorites.php"; ?>
+    <?php include_once "favorites.php"; ?>
     <!--Фрейм избранное-->
   </div>
 </div>
 <div class="user__popup__lvl__2" id="personalaccount">
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
-    <?php include "personalaccount.php"; ?>
+    <?php include_once "personalaccount.php"; ?>
     <!--Фрейм Посмотреть профиль-->
   </div>
 </div>
 <div class="user__popup__lvl__2" id="car">
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
-    <?php include "car.php"; ?>
+    <?php include_once "car.php"; ?>
     <!--Фрейм Посмотреть автомобиль в гараже клиента в бургере-->
   </div>
 </div>
 <div class="user__popup__lvl__2" id="car1">
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
-    <?php include "car1.php"; ?>
+<?php include_once "car1.php"; ?>
     <!--Фрейм Добавить автомобиль в гараже клиента в бургере-->
   </div>
 </div>
 <div class="user__popup__lvl__2" id="brand">
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
-    <?php include "brand.php"; ?>
+    <?php include_once "brand.php"; ?>
     <!--Фрейм Добавить Марку при добавлении авто в гараже клиента в бургере-->
   </div>
 </div>
 <div class="user__popup__lvl__2" id="model">
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
-    <?php include "model.php"; ?>
+
     <!--Фрейм Добавить Модель при добавлении авто в гараже клиента в бургере-->
   </div>
 </div>
 <div class="user__popup__lvl__2" id="gosnumber">
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
-    <?php include "gosnumber.php"; ?>
+    <?php include_once "gosnumber.php"; ?>
     <!--Фрейм Добавить Госномер при добавлении авто в гараже клиента в бургере-->
   </div>
 </div>

@@ -1,3 +1,2 @@
 <?php
-$arUrlRewrite=array (
-);
+$arUrlRewrite = array();

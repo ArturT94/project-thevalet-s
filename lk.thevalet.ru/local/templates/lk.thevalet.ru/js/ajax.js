@@ -1,14 +1,25 @@
-function goUploadAjax(numberOfBrand, nameModel) {
+const inputBtnGosN = document.querySelector(".enter__gosnumber");
+const submitBtn = document.querySelector(".get-gosnumber");
+
+if (inputBtnGosN) {
+  inputBtnGosN.oninput = function () {
+    // console.log();
+  };
+}
+
+function goUploadAjax(brandId = null, brandName = null, modelName = null, gosNumber = null) {
   $.ajax({
     url: "/sender2.php",
     type: "POST",
     dataType: "html",
     data: {
-      model: nameModel,
-      brand: numberOfBrand,
+      brandId: brandId,
+      brandName: brandName,
+      modelName: modelName,
+      gosNumber: gosNumber,
     },
     success: function (html) {
-      console.log(numberOfBrand, nameModel);
+      console.log(brandId, brandName, modelName, gosNumber);
       $("#model .user__popup__lvl__2__content").html(html);
     },
     error: function (err) {
@@ -16,38 +27,3 @@ function goUploadAjax(numberOfBrand, nameModel) {
     },
   });
 }
-
-function sendModel(numberOfModel) {
-  $.ajax({
-    url: "/sender2.php",
-    type: "POST",
-    dataType: "html",
-    data: {
-      model: numberOfModel
-    },
-    success: function (html) {
-      console.log(numberOfModel)
-      $("#model .user__popup__lvl__2__content").html(html);
-    },
-    error: function (err) {
-      console.log(err);
-    },
-  });
-}
-
-  $('#sendNumber').on("submit", function () {
-    let dataForm = $(this).serialize();
-
-  $.ajax({
-    url: "/sender2.php",
-    type: "POST",
-    dataType: "html",
-    data: dataForm,
-    success: function (data) {
-      console.log(data)
-    },
-    error: function (err) {
-      console.log(err);
-    },
-  });
-  });

@@ -1,41 +1,43 @@
-.service{
-    padding-top: 5%;
+.vlt_servise.active .servise__name {
+  background: transparent;
 }
-/*тут нужно сделать opacity*/
-.vlt_servise{
-    opacity: 0.5;
+.service__icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 100;
 }
-.vlt_servise.active{
-    opacity: 1;
+.hearth__icon {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  z-index: 100;
 }
-.service__icon{
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    z-index: 100;
+.hearth__icon svg {
+  width: 24px;
+  height: 24px;
 }
-.servise__name{
-    width: 202px;
-    height: 150px;
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-size: 15px;
+.servise__name {
+  transition: all 0.3s ease 0s;
+  background: rgba(0, 0, 0, 0.5);
+  width: 202px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 15px;
 }
 @media screen and (max-width: 767px) {
-    .vlt_servise{
-        
-    }
-    .vlt_servise.active{
-        
-    }
-    .service__icon{
-
-    }
-    .servise__name{
-        font-size: 0.7rem;
-    }
+  .vlt_servise {
+  }
+  .vlt_servise.active {
+  }
+  .service__icon {
+  }
+  .servise__name {
+    font-size: 0.7rem;
+  }
 }
