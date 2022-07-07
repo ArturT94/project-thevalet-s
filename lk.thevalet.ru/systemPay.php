@@ -46,11 +46,6 @@
             </div>
           </div>
         </div>
-        <div class="global__card1">
-          <a href="#orderPage" class="user__popup__lvl__2__link">
-            <button type="button" class="button__order2">Заказать</button>
-          </a>
-        </div>
       </div>
     </div>
   </div>

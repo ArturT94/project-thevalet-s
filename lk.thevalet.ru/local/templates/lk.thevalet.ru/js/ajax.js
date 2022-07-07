@@ -1,13 +1,7 @@
 const inputBtnGosN = document.querySelector(".enter__gosnumber");
 const submitBtn = document.querySelector(".get-gosnumber");
 
-if (inputBtnGosN) {
-  inputBtnGosN.oninput = function () {
-    // console.log();
-  };
-}
-
-function goUploadAjax(brandId = null, brandName = null, modelName = null, gosNumber = null) {
+function goUploadAjax(brandId, brandName, modelName, gosNumber) {
   $.ajax({
     url: "/sender2.php",
     type: "POST",
@@ -27,3 +21,4 @@ function goUploadAjax(brandId = null, brandName = null, modelName = null, gosNum
     },
   });
 }
+

@@ -28,7 +28,6 @@
                       'id':'149',
                       'money':'100',
                       'time':'1:00',
-                      'checkbox':'true',
                       })">
               </label>
               <div class="extensions__name">Припарковать</div>
@@ -40,7 +39,6 @@
                       'id':'151',
                       'money':'100',
                       'time':'1:00',
-                      'checkbox':'true',
                       })">
               </label>
               <div class="extensions__name">Помыть</div>
@@ -52,7 +50,6 @@
                       'id':'150',
                       'money':'100',
                       'time':'1:00',
-                      'checkbox':'true',
                       })">
               </label>
               <div class="extensions__name">Заправить</div>

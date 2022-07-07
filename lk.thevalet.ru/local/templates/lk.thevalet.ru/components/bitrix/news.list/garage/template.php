@@ -98,22 +98,26 @@ while ($result = $res->Fetch()) {
             success: function (res) {
                 if (res) {
                     let amenities_item = $(".amenities__item"),
+                        service = $("#service_"+res.id),
                         addHtml = true;
 
                     if (amenities_item.length > 0) {
                         amenities_item.each((index, value) => {
                             if ($(value).data('id') == res.id) {
+                                if (!service.is(':checked')) {
+                                    $(value).remove();
+                                }
                                 addHtml = false;
                             }
                         });
                     }
 
                     if (addHtml) {
-                        $("#service_"+res.id).prop('checked', true);
+                        service.prop('checked', true);
                         $("#amenities__list").append(
                             `<li class="amenities__item" data-id="${res.id}">
                                 <div class="amenities__wrapper">
-                                    <div class="amenities__name">${res.services}</div>
+                                    <div class="amenities__name">${res.services.toUpperCase()}</div>
                                 </div>
                             </li>`
                         );

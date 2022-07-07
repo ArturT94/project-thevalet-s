@@ -14,10 +14,7 @@
               <div class="driver__name">
                 Константин
               </div>
-              <div class="driver__rating">
-                <img class="driver__star" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/star-small.png">
-                <span>&nbsp;5,00</span>
-              </div>
+              <img src="<?= SITE_TEMPLATE_PATH ?>/img/layout/hearth.svg" alt="" class="driver__favorite">
             </section>
             <section class="driver__car">
               <img class="driver__carpic" src="<?= SITE_TEMPLATE_PATH ?>/img/data/car-big.png">

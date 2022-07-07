@@ -211,7 +211,25 @@ input::placeholder {
 .button__hide {
   display: none;
 }
-
+.driver__favorite {
+  width: 28px;
+  height: 28px;
+  top: -5%;
+  position: absolute;
+  right: 28%;
+}
+.driver__favoritee {
+  width: 24px;
+  height: 24px;
+  top: -5%;
+  right: 32%;
+  position: absolute;
+}
+.driver__person {
+  position: relative;
+  text-align: center;
+  margin-bottom: 57px;
+}
 .order-button {
   display: flex;
   justify-content: center;
@@ -219,6 +237,7 @@ input::placeholder {
   background-color: #fff;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  margin-bottom: 15px;
 }
 
 .button__order {
@@ -304,6 +323,10 @@ input::placeholder {
   top: 0;
   transition: left ease-out 0.3s;
   opacity: 1;
+}
+
+.button-mar {
+  margin-bottom: 15px;
 }
 .user__popup__lvl__2.open .user__popup__lvl__2__content::-webkit-scrollbar {
   width: 5px; /* ширина всей полосы прокрутки */
@@ -408,6 +431,7 @@ input::placeholder {
   justify-content: space-between;
   margin-top: 0.5rem;
 }
+
 .switch {
   position: relative;
   display: inline-block;
@@ -450,4 +474,15 @@ input:checked + .slider:before {
   -webkit-transform: translateX(24px);
   -ms-transform: translateX(24px);
   transform: translateX(24px);
+}
+
+.chat__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 36px;
 }

@@ -295,6 +295,7 @@ $arUsers = $userGetParamsFromId->Fetch();
     </div>
   </div>
   <?php require_once "map.php"; ?>
+  <?php require_once "popUps.php"; ?>
   <!--Google Карта-->
   <div class="header__mobile">
     <!--Обертка для показа на Mobile-->
@@ -371,6 +372,13 @@ $arUsers = $userGetParamsFromId->Fetch();
     <!--Фрейм избранное-->
   </div>
 </div>
+<div class="user__popup__lvl__2" id="chat">
+  <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
+  <div class="user__popup__lvl__2__content">
+    <?php include_once "chat.php"; ?>
+    <!--Фрейм избранное-->
+  </div>
+</div>
 <div class="user__popup__lvl__2" id="personalaccount">
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
@@ -388,7 +396,7 @@ $arUsers = $userGetParamsFromId->Fetch();
 <div class="user__popup__lvl__2" id="car1">
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
-<?php include_once "car1.php"; ?>
+    <?php include_once "car1.php"; ?>
     <!--Фрейм Добавить автомобиль в гараже клиента в бургере-->
   </div>
 </div>

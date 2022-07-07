@@ -9,6 +9,8 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
   <!--Отвечает за открытие PopUp-->
   <script src="<?= SITE_TEMPLATE_PATH ?>/js/ajax.js"></script>
   <!--Передача AJAX запросов-->
+  <script src="<?= SITE_TEMPLATE_PATH ?>/js/js.js"></script>
+  <!--Скрипты-->
   <script src="<?= SITE_TEMPLATE_PATH ?>/js/auto_btn.js"></script>
   <!--Отвечает за активность кнопок в заказе-->
   <script src="<?= SITE_TEMPLATE_PATH ?>/js/swiper-bundle.min.js"></script>
@@ -22,6 +24,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
   <?php global $APPLICATION; ?>
   <?php $APPLICATION->AddHeadScript("/libs/jquery/jquery-3.6.0.min.js"); ?>
   <?php $APPLICATION->AddHeadScript("/js/ajax.js"); ?>
+  <?php $APPLICATION->AddHeadScript("/js/js.js"); ?>
   <?php $APPLICATION->AddHeadScript("/js/script.js"); ?>
   <?php $APPLICATION->AddHeadScript("/js/openServicePopUP.js"); ?>
   <?php $APPLICATION->AddHeadScript("/js/auto_btn.js"); ?>
