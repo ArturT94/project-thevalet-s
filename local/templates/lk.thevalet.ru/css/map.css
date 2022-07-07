@@ -1,0 +1,67 @@
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .map {
+    width: 100%;
+    height: 50%;
+  }
+}
+
+.popup {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease 0s;
+}
+.popup.open {
+  opacity: 1;
+  visibility: visible;
+}
+.popup.open .popup__service__content {
+  opacity: 1;
+}
+.popup__service__content {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 15%;
+  width: 35rem;
+  background-color: #ededed;
+  border-radius: 5px;
+  padding: 1.5rem;
+  transition: all 0.3s ease 0s;
+  opacity: 0;
+  color: #000000;
+  box-sizing: border-box;
+}
+.menu__close__popup {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  .popup {
+  }
+  .popup.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  .popup.open .popup__service__content {
+    opacity: 1;
+  }
+  .popup__service__content {
+    margin-top: 45%;
+    width: 90%;
+  }
+  .menu__close__popup {
+  }
+}
