@@ -14,7 +14,7 @@ $this->setFrameMode(true);
 // echo '<pre>' . print_r($arResult, true) . '</pre>';
 ?>
 <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/css/brand.css">
-<?php echo '<pre>' . print_r($arr, true) . '</pre>'; ?>
+<?php //echo '<pre>' . print_r($arr, true) . '</pre>'; ?>
 <div class="app__window garage-block">
   <div class="conteiner">
     <!--        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="--><? //=SITE_TEMPLATE_PATH
