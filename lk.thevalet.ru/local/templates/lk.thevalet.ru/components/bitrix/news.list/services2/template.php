@@ -27,7 +27,7 @@ $this->setFrameMode(true);
 
     <?php foreach ($arResult["ITEMS"] as $arItems) : ?>
       <?php foreach ($arItems['ELEMENTS'] as $arItem) : ?>
-        <button class="swiper-slide vlt_servise">
+        <button class="swiper-slide vlt_servise serv-button-second">
           <a href="#popup__service" class="service__icon">
             <img src="<?= SITE_TEMPLATE_PATH ?>/img/layout/services-info.svg" width="26" height="26" alt="">
           </a>

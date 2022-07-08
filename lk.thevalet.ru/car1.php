@@ -13,32 +13,32 @@
           <li class="car__option">
             <div class="option__top">
               <div class="option__name">Год выпуска</div>
-              <a class="option__link" href="#">Изменить</a>
+              <a class="option__link" href="#" data-id = "year-of-manufacturing"><SPAN class = "for-view">Изменить</SPAN><SPAN class = "for-edit"><INPUT></INPUT></SPAN></a>
             </div>
               <div id="car_year" class="option__comm osago__comm"></div>
           </li>
           <li class="car__option">
             <div class="option__top">
               <div class="option__name">Пробег</div>
-              <a class="option__link" href="#">Изменить</a>
+              <a class="option__link" href="#" data-id = "mileage"><SPAN class = "for-view">Изменить</SPAN><SPAN class = "for-edit"><INPUT></INPUT></SPAN></a>
             </div>
           </li>
           <li class="car__option">
             <div class="option__top">
               <div class="option__name">ОСАГО</div>
-              <a class="option__link" href="https://wa.me/000">Изменить</a>
+              <a class="option__link" href="#" data-id = "omi"><SPAN class = "for-view">Изменить</SPAN><SPAN class = "for-edit"><INPUT></INPUT></SPAN></a>
             </div>
           </li>
           <li class="car__option">
             <div class="option__top">
               <div class="option__name">Шины</div>
-              <a class="option__link" href="https://wa.me/000">Изменить</a>
+              <a class="option__link" href="#" data-id = "tires"><SPAN class = "for-view">Изменить</SPAN><SPAN class = "for-edit"><INPUT></INPUT></SPAN></a>
             </div>
           </li>
           <li class="car__option">
             <div class="option__top">
               <div class="option__name">VIN</div>
-              <a class="option__link option__copy" id="copy-vin">Изменить</a>
+              <a class="option__link option__copy" id="copy-vin" data-id = "vin"><SPAN class = "for-view">Изменить</SPAN><SPAN class = "for-edit"><INPUT></INPUT></SPAN></a>
             </div>
           </li>
           <li class="car__option">
@@ -56,7 +56,7 @@
           <li class="car__option">
             <div class="option__top">
               <div class="option__name">Запчасти</div>
-              <a class="option__link" href="https://wa.me/000">Купить</a>
+              <a class="option__link">Купить</a>
             </div>
           </li>
         </ul>

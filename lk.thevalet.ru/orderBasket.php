@@ -5,18 +5,10 @@
     <div class="conteiner">
       <section class="addition__bottom">
         <section class="amenities">
-          <ul id="amenities__list" class="amenities__list">
-            <!--                        <li class="amenities__item">-->
-            <!--                            <div class="amenities__wrapper">-->
-            <!--                                <div class="amenities__name amenities__add">Добавить услугу</div>-->
-            <!--                                <button class="amenities__trigger"><img class="amenities__icon" src="--><? //=SITE_TEMPLATE_PATH
-                                                                                                                        ?>
-            <!--/img/layout/plus.svg" width="17"></button>-->
-            <!--                            </div>-->
-            <!--                        </li>-->
-          </ul>
+          <ul id="amenities__list" class="amenities__list"></ul>
+
           <button class="amenities__button" type="button">
-              <a href="#planning">Запланировать</a>
+              <a href="#planning" class="order__popup__link">Запланировать</a>
           </button>
         </section>
         <section class="extensions">
@@ -68,11 +60,4 @@
       </section>
     </div>
   </section>
-</div>
-
-<div class="order__popup" id="planning">
-    <div class="order__popup__content">
-        <?php include_once "orderPlanning.php"; ?>
-        <!--Фрейм планирования заказа-->
-    </div>
 </div>

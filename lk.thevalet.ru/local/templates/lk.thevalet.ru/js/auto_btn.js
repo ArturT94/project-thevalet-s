@@ -1,46 +1,53 @@
-const autoBtn = document.querySelectorAll('.auto');
+const serviceButton = document.querySelectorAll(".serv-button");
+const serviceButtonSecond = document.querySelectorAll(".serv-button-second");
+const buttonNext = document.querySelector(".button_nextt");
 
-autoBtn.forEach(onTabClick);
-
-function onTabClick(item) {
-    item.addEventListener('click', function() {
-        let currentBtn = item;
-        let tabId = currentBtn.getAttribute('data-tab');
-        let currentTab = document.querySelector(tabId);
-
-        if(!currentBtn.classList.contains('active')){
-            autoBtn.forEach(function(item) {
-                item.classList.remove('active');
-            });
-    
-            currentBtn.classList.add('active');
-           
+if (serviceButton) {
+  for (let i = 0; i < serviceButton.length; i++) {
+    btnFlag = false;
+    serviceButton[i].addEventListener("click", function () {
+      flag = false;
+      for (let j = 0; j < serviceButtonSecond.length; j++) {
+        if (serviceButtonSecond[j].classList.contains("active")) {
+          alert("Следует выбрать одну или ряд ислуг из ОДНОГО раздела ;)");
+          flag = true;
         }
-
-        
-    });
-};
-
-document.querySelector('.auto').click()
-
-const serv1Btn = document.querySelectorAll('.vlt_servise');
-serv1Btn.forEach(onTabClickVLTS1);
-
-function onTabClickVLTS1(item) {
-    item.addEventListener('click', function() {
-        let currentBtn1 = item;
-        let tabId = currentBtn1.getAttribute('data-tab');
-        let currentTab = document.querySelector(tabId);
-
-        if(!currentBtn1.classList.contains('active')){
-            serv1Btn.forEach(function(item) {
-                item.classList.remove('active');
-            });
-    
-            currentBtn1.classList.add('active');
-           
+      }
+      if (!flag) {
+        if (serviceButton[i].classList.contains("active")) {
+          serviceButton[i].classList.remove("active");
+          if (!document.querySelector(".serv-button.active")) {
+            buttonNext.innerHTML = "выберите услугу";
+          }
+        } else {
+          serviceButton[i].classList.add("active");
+          buttonNext.innerHTML = "далее";
         }
-
-        
+      }
     });
-};
+  }
+
+  for (let i = 0; i < serviceButtonSecond.length; i++) {
+    serviceButtonSecond[i].addEventListener("click", function () {
+      flag = false;
+      btnFlag = false;
+      for (let j = 0; j < serviceButton.length; j++) {
+        if (serviceButton[j].classList.contains("active")) {
+          alert("Следует выбрать одну или ряд ислуг из ОДНОГО раздела ;)");
+          flag = true;
+        }
+      }
+      if (!flag) {
+        if (serviceButtonSecond[i].classList.contains("active")) {
+          serviceButtonSecond[i].classList.remove("active");
+          if (!document.querySelector(".serv-button-second.active")) {
+            buttonNext.innerHTML = "выберите услугу";
+          }
+        } else {
+          serviceButtonSecond[i].classList.add("active");
+          buttonNext.innerHTML = "далее";
+        }
+      }
+    });
+  }
+}

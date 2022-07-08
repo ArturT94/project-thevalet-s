@@ -51,7 +51,18 @@
     font-size: 17px;
     color: #5a5959;
 }
-
+.option__link.editing > .for-view
+  {display: none;     
+  }
+.option__link.editing > .for-edit
+  {display: inline;
+  }
+.option__link.editing > .for-edit > input
+  {font-size: 17px;     
+  }
+.option__link > .for-edit
+  {display: none;     
+  }
 .option__link:hover,
 .option__link:focus {
     color: #5a5959;

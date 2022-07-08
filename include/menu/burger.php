@@ -1,1 +1,0 @@
-<a href="#user__popup" class="profile"> <img src="<?=SITE_TEMPLATE_PATH?>/img/burger.png" alt=""> </a>

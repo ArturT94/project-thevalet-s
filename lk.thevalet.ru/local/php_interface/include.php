@@ -15,7 +15,7 @@ window.updateVehiclePhotos = function()
       $(this).addClass('--processed');
      });
   }
-$(function()
+window.addEventListener('load', function()
   {$(window.updateVehiclePhotos);
    window.setInterval(window.updateVehiclePhotos, 430);
   });

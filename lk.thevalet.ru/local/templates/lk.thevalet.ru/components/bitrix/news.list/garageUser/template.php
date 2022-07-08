@@ -24,8 +24,6 @@
         <img class="img__trash" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/trash.svg" alt="">
       </li>
       <?php foreach ($arResult['NEW_SECTION'] as $arItem) : ?>
-        <!--            --><?php //echo '<pre>' . print_r($arResult, true) . '</pre>'; 
-                            ?>
         <?php $carImgs = CFile::GetPath($arItem['PROPERTY_FOTO_VALUE']) ?>
         <li class="garage-mobile__item" onclick="getData({
                     'img':'<?= $carImgs ?>',
@@ -36,7 +34,9 @@
                     'osago':'<?= $arItem['PROPERTY_OSAGO_VALUE'] ?>',
                     'wheels':'<?= $arItem['PROPERTY_SHINY_VALUE'] ?>',
                     'vin':'<?= $arItem['PROPERTY_VIN_VALUE'] ?>',
+                'deleteElement':'<?= $arItem['EXTERNAL_ID'] ?>'
                     })">
+            <?php //echo '<pre>' . print_r($arItem['EXTERNAL_ID'], true) . '</pre>'; ?>
           <div class="car__profile">
             <a href="#car" class="garage__link user__popup__lvl__2__link">
               <div class="number__message__item2">
@@ -50,7 +50,6 @@
             <div class=""><span class="js-garage-number"><?= $arItem['PROPERTY_GOSNOMER_VALUE'] ?></span><a class="car__copy js-garage-copy"><img class="copy__img" width="18" height="18" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/copy.png"></a></div>
           </div>
           <img class="img__trash" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/trash.svg" alt="">
-
         </li>
       <?php endforeach; ?>
     </ul>

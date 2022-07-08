@@ -291,11 +291,10 @@ $arUsers = $userGetParamsFromId->Fetch();
         ); ?>
       </div>
       <!--Фрейм списка услуг-->
-      <section class="order-button"> <button type="button" class="button__order js-button-order" disabled=""><a href="#addition" class="order__popup__link">выберите услугу</a></button> <button type="button" class="button__order js-button-order button__hide js-button-next">далее</button> </section>
+      <section class="order-button"> <button type="button" class="button__order js-button-order" disabled=""><a href="#addition" class="order__popup__link button_nextt">выберите услугу</a></button> <button type="button" class="button__order js-button-order button__hide js-button-next">далее</button> </section>
     </div>
   </div>
   <?php require_once "map.php"; ?>
-  <?php require_once "popUps.php"; ?>
   <!--Google Карта-->
   <div class="header__mobile">
     <!--Обертка для показа на Mobile-->
@@ -307,6 +306,7 @@ $arUsers = $userGetParamsFromId->Fetch();
     <!--Фрейм списка автомобилей-->
   </div>
 </div>
+
 <!--PopUp окна в заказе-->
 <div class="order__popup" id="addition">
   <div class="order__popup__content">
@@ -314,6 +314,15 @@ $arUsers = $userGetParamsFromId->Fetch();
     <!--Фрейм подтверждения заказа-->
   </div>
 </div>
+
+<!--PopUp планирования заказа-->
+<div class="order__popup order__popup--plan" id="planning">
+  <div class="order__popup__content">
+    <?php include_once "orderPlanning.php"; ?>
+    <!--Фрейм планирования заказа-->
+  </div>
+</div>
+
 <div class="order__popup" id="orderPage">
   <div class="order__popup__content">
     <?php include_once "orderPage.php"; ?>
@@ -327,6 +336,10 @@ $arUsers = $userGetParamsFromId->Fetch();
   </div>
 </div>
 <?php include_once "popup-service-info.php"; ?>
+<?php include_once "popUps.php"; ?>
+
+
+
 <!--PopUp Фрейма описания услуг-->
 <!--PopUp окна меню-->
 <!--PopUp окна меню-->

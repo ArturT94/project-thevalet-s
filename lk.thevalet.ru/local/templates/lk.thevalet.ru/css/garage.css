@@ -7,6 +7,16 @@
   margin-bottom: 40px;
   position: relative;
 }
+.img__trash-l {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+  transform: translate(0px, -100%);
+  transition: all 0.3s ease 0s;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
 .img__trash {
   position: absolute;
   top: 50%;
@@ -14,6 +24,10 @@
   transform: translate(0px, -100%);
   transition: all 0.3s ease 0s;
   opacity: 0.5;
+  cursor: pointer;
+}
+.img__trash-l:hover {
+  opacity: 1;
 }
 .img__trash:hover {
   opacity: 1;

@@ -18,7 +18,6 @@
   height: 24px;
 }
 
-
 .servise__name {
   transition: all 0.3s ease 0s;
   background: rgba(0, 0, 0, 0.5);
@@ -31,6 +30,13 @@
   align-items: center;
   color: #ffffff;
   font-size: 15px;
+}
+.heit {
+  height: 100% !important;
+}
+.servise__namee {
+  width: 100%;
+  height: 100%;
 }
 @media screen and (max-width: 767px) {
   .vlt_servise {

@@ -24,6 +24,7 @@
   position: absolute;
   right: 1rem;
   top: 1rem;
+  z-index: 5000;
 }
 .profile__exit {
   display: flex;

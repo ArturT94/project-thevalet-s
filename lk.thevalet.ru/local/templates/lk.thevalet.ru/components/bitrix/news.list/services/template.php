@@ -26,7 +26,7 @@ $this->setFrameMode(true);
   <div class="swiper-wrapper">
     <?php foreach ($arResult["ITEMS"] as $arItems) : ?>
       <?php foreach ($arItems['ELEMENTS'] as $arItem) : ?>
-        <button id="services" class="swiper-slide vlt_servise" onclick="getData({
+        <button id="services" class="swiper-slide vlt_servise serv-button " onclick="getData({
                     'services':'<?= $arItem['NAME'] ?>',
                     'id':'<?= $arItem['ID'] ?>',
                     'money':'100',
