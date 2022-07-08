@@ -17,7 +17,7 @@
         </div>
         <div class="swiper vltServise">
           <div class="swiper-wrapper">
-            <button class="swiper-slide heit vlt_servise">
+            <button class="swiper-slide heit vlt-heit-btn vlt_servise">
               <a href="#popup__service" class="service__icon">
                 <img src="<?= SITE_TEMPLATE_PATH ?>/img/layout/services-info.svg" width="26" height="26" alt="">
               </a>
@@ -31,7 +31,7 @@
               <img class="vlt_servise_img" draggable=false src="<?= SITE_TEMPLATE_PATH ?>/img/data/parking.png" width="100%" height="100%" alt="">
               <p class="servise__name servise__namee">ПРИПАРКОВАТЬ</p>
             </button>
-            <button class="swiper-slide heit vlt_servise">
+            <button class="swiper-slide heit vlt-heit-btn vlt_servise">
               <a href="#popup__service" class="service__icon">
                 <img src="<?= SITE_TEMPLATE_PATH ?>/img/layout/services-info.svg" width="26" height="26" alt="">
               </a>
@@ -45,7 +45,7 @@
               <img class="vlt_servise_img" draggable=false src="<?= SITE_TEMPLATE_PATH ?>/img/data/wash.png" width="100%" height="100%" alt="">
               <p class="servise__name servise__namee">ЗАПРАВИТЬ</p>
             </button>
-            <button class="swiper-slide heit vlt_servise ">
+            <button class="swiper-slide heit vlt-heit-btn vlt_servise ">
               <a href="#popup__service" class="service__icon">
                 <img src="<?= SITE_TEMPLATE_PATH ?>/img/layout/services-info.svg" width="26" height="26" alt="">
               </a>
@@ -59,7 +59,7 @@
               <img class="vlt_servise_img" draggable=false src="<?= SITE_TEMPLATE_PATH ?>/img/data/parking.png" width="100%" height="100%" alt="">
               <p class="servise__name servise__namee">ПРИПАРКОВАТЬ</p>
             </button>
-            <button class="swiper-slide heit vlt_servise">
+            <button class="swiper-slide heit vlt-heit-btn vlt_servise">
               <a href="#popup__service" class="service__icon">
                 <img src="<?= SITE_TEMPLATE_PATH ?>/img/layout/services-info.svg" width="26" height="26" alt="">
               </a>

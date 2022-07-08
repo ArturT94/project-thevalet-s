@@ -49,7 +49,7 @@
             <div class=""><?= $arItem['NAME'] ?></div>
             <div class=""><span class="js-garage-number"><?= $arItem['PROPERTY_GOSNOMER_VALUE'] ?></span><a class="car__copy js-garage-copy"><img class="copy__img" width="18" height="18" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/copy.png"></a></div>
           </div>
-          <img class="img__trash" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/trash.svg" alt="">
+          <img id="clickDel" class="img__trash" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/trash.svg" alt="">
         </li>
       <?php endforeach; ?>
     </ul>

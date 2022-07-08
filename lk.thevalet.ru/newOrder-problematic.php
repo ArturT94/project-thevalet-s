@@ -291,17 +291,10 @@ $arUsers = $userGetParamsFromId->Fetch();
         ); ?>
       </div>
       <!--Фрейм списка услуг-->
-      <section class="order-button">
-
-        <button type="button" class="button__order js-button-order button_nextt_con" disabled="">
-          <a href="#addition" class="order__popup__link button_nextt">выберите услугу</a>
-        </button>
-        <!-- <button type="button" class="button__order js-button-order button__hide js-button-next button_next">далее</button> -->
-      </section>
+      <section class="order-button"> <button type="button" class="button__order js-button-order" disabled=""><a href="#addition" class="order__popup__link button_nextt">выберите услугу</a></button> <button type="button" class="button__order js-button-order button__hide js-button-next">далее</button> </section>
     </div>
   </div>
   <?php require_once "map.php"; ?>
-    <?php require_once "popUps.php"; ?>
   <!--Google Карта-->
   <div class="header__mobile">
     <!--Обертка для показа на Mobile-->
@@ -343,10 +336,6 @@ $arUsers = $userGetParamsFromId->Fetch();
   </div>
 </div>
 <?php include_once "popup-service-info.php"; ?>
-<?php include_once "popUps.php"; ?>
-
-
-
 <!--PopUp Фрейма описания услуг-->
 <!--PopUp окна меню-->
 <!--PopUp окна меню-->
@@ -389,13 +378,6 @@ $arUsers = $userGetParamsFromId->Fetch();
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
     <?php include_once "favorites.php"; ?>
-    <!--Фрейм избранное-->
-  </div>
-</div>
-<div class="user__popup__lvl__2" id="chat">
-  <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
-  <div class="user__popup__lvl__2__content">
-    <?php include_once "chat.php"; ?>
     <!--Фрейм избранное-->
   </div>
 </div>

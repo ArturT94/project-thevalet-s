@@ -7,12 +7,12 @@
 
         <ul class="chat__list">
           <li class="chat__item">
-            <a href="#" class="chat__link">
+            <a href="whatsapp://send?phone=79854754162" class="chat__link">
               WHATS’APP
             </a>
           </li>
           <li class="chat__item">
-            <a href="#" class="chat__link">
+            <a href="https://t.me/TheValet" class="chat__link">
               TELEGRAM
             </a>
           </li>

@@ -280,6 +280,14 @@ input::placeholder {
   visibility: hidden;
   transition: all 0.5s ease 0s;
 }
+.button_nextt {
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+.button_nextt_con {
+  padding: 0;
+}
 .user__popup.open {
   opacity: 1;
   visibility: visible;

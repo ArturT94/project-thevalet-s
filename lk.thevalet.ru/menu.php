@@ -35,7 +35,13 @@ GarbageDataByArtur::set('accountImg', $accountImg);
         </li>
       </ul>
       <div class="profile__exit">
-        <a href="#" class="profile__exit-link">выйти</a>
+        <a href="?logout=yes" class="profile__exit-link">выйти</a>
+          <?php
+          if($_GET['logout'] == 'yes'){
+              $USER->Logout();
+              header("Location: /");
+          }
+          ?>
       </div>
     </div>
   </div>

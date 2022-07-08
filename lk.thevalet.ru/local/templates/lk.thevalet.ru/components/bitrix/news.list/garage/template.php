@@ -87,89 +87,90 @@ while ($result = $res->Fetch()) {
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script>
-  orderPlaning = (time) => {
-    $('.amenities__button a').html(time);
-  }
+    orderPlaning = (time) => {
+        $('.amenities__button a').html(time);
+    }
 
-  planingInput = () => {
-    $('.planing__list').addClass('d-none');
-    $('.planing__picker').removeClass('d-none');
-  }
+    planingInput = () => {
+        $('.planing__list').addClass('d-none');
+        $('.planing__picker').removeClass('d-none');
+    }
 
-  function getData(car) {
-    $.ajax({
-      url: '/sender.php',
-      method: 'post',
-      dataType: 'json',
-      data: "param=" + JSON.stringify(car),
-      success: function(res) {
-        console.log(res)
-        if (res) {
-          let amenities_item = $(".amenities__item"),
-            service = $("#service_" + res.id),
-            addHtml = true;
+    function getData(car) {
+        $.ajax({
+            url: '/sender.php',
+            method: 'post',
+            dataType: 'json',
+            data: "param=" + JSON.stringify(car),
+            success: function (res) {
+                console.log(res.deleteElement)
+                if (res) {
+                    let amenities_item = $(".amenities__item"),
+                        service = $("#service_"+res.id),
+                        addHtml = true;
 
-          if (amenities_item.length > 0) {
-            amenities_item.each((index, value) => {
-              if ($(value).data('id') == res.id) {
-                if (!service.is(':checked')) {
-                  $(value).remove();
-                }
-                addHtml = false;
-              }
-            });
-          }
+                    if (amenities_item.length > 0) {
+                        amenities_item.each((index, value) => {
+                            if ($(value).data('id') == res.id) {
+                                if (!service.is(':checked')) {
+                                    $(value).remove();
+                                }
+                                addHtml = false;
+                            }
+                        });
+                    }
 
-          if (addHtml) {
-            service.prop('checked', true);
-            $("#amenities__list").append(
-              `<li class="amenities__item" data-id="${res.id}">
+                    if (addHtml) {
+                        service.prop('checked', true);
+                        $("#amenities__list").append(
+                            `<li class="amenities__item" data-id="${res.id}">
                                 <div class="amenities__wrapper">
                                     <div class="amenities__name">${res.services.toUpperCase()}</div>
                                 </div>
                             </li>`
-            );
-          }
+                        );
+                    }
 
-          // Парсим json объект и записываем полученные данные в data
-          // Например дана имеет такую структуру:
-          // data = {
-          // name: "Иван",
-          // lastname: "Иванов"
-          // }
-          // тогда выбираем элемент, в который хотим поместить
-          // значение data.name и data.lastname по классу либо по идентификатору
-          $(".car__img").attr('src', res.img);
-          $(".car__name").text(res.name);
-          $(".car__model").text(res.gosNumber);
-          $("#year").text(res.year);
-          $("#probeg").text(res.probeg);
-          $("#osago").text(res.osago);
-          $("#wheels").text(res.wheels);
-          $("#vin").text(res.vin);
-          // данные должны отобразиться
-          $('#clickDel').click(function() {
-            var params = {
-              'IBLOCK_TYPE_ID': 'lists',
-              'IBLOCK_ID': '93',
-              'ELEMENT_ID': res.deleteElement,
-            };
-            BX24.callMethod(
-              'https://it-valet.ru/rest/1/9rdwqbwoy85dgv16/lists.element.delete.json',
-              params,
-              function(result) {
-                if (result.error())
-                  alert("Error: " + result.error());
-                else
-                  alert("Success: " + result.data());
-              }
-            );
-          });
-        } else {
-          console.err('Произошла ошибка')
-        }
+                    // Парсим json объект и записываем полученные данные в data
+                    // Например дана имеет такую структуру:
+                    // data = {
+                    // name: "Иван",
+                    // lastname: "Иванов"
+                    // }
+                    // тогда выбираем элемент, в который хотим поместить
+                    // значение data.name и data.lastname по классу либо по идентификатору
+                    $(".car__img").attr('src', res.img);
+                    $(".car__name").text(res.name);
+                    $(".car__model").text(res.gosNumber);
+                    $("#year").text(res.year);
+                    $("#probeg").text(res.probeg);
+                    $("#osago").text(res.osago);
+                    $("#wheels").text(res.wheels);
+                    $("#vin").text(res.vin);
+                    // данные должны отобразиться
+                } else {
+                    console.err('Произошла ошибка')
+                }
+                $('#clickDel').on('click', function() {
+                    var params = {
+                        'IBLOCK_TYPE_ID': 'lists',
+                        'IBLOCK_ID': '93',
+                        'ELEMENT_ID': res.deleteElement,
+                    };
+                    BX24.callMethod(
+                        'https://it-valet.ru/rest/1/9rdwqbwoy85dgv16/lists.element.delete.json',
+                        params,
+                        function(result)
+                        {
+                            if(result.error())
+                                alert("Error: " + result.error());
+                            else
+                                alert("Success: " + result.data());
+                        }
+                    );
+                });
 
-      }
-    });
-  }
+            }
+        });
+    }
 </script>
