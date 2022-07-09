@@ -3,7 +3,7 @@ require_once('debug.php');
 require_once('helper.php');
 require_once('HelperByArtur.php');
 require_once('GarbageDataByArtur.php');
-require_once('AddCarsList.php');
+require_once('WebHook.php');
 $APPLICATION->AddHeadString(<<<'NOWDOC'
 <SCRIPT>
 window.updateVehiclePhotos = function()
