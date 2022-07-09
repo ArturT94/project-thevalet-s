@@ -61,12 +61,6 @@
                     </li>
                 </ul>
             </div>
-            <div class="global__car__profile2">
-                <div class="btn__block">
-                    <a href="#gosnumber" class="button user__popup__lvl__2__link">НАЗАД</a>
-                    <a href="/" class="button user__popup__lvl__2__link">ГОТОВО</a>
-                </div>
-            </div>
         </div>
     </div>
 </div>

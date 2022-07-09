@@ -282,11 +282,17 @@ input::placeholder {
 }
 .button_nextt {
   display: block;
-  width: 100%;
   padding: 10px;
+  border-radius: 5px;
+  background: grey;
+  pointer-events: none;
+  transition: all 0.3s ease 0s;
 }
 .button_nextt_con {
+  cursor: default;
   padding: 0;
+  background-color: transparent;
+  border-radius: 0;
 }
 .user__popup.open {
   opacity: 1;

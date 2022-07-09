@@ -11,7 +11,7 @@
         ЗДРАВСТВУЙТЕ!
       </div>
       <div class="beta__text">Рады видеть Вас на нашем новом сайте!
-        Пока здесь доступны не все функции и могу встречаться ошибки.</div>
+        Пока здесь доступны не все функции и могут встречаться ошибки.</div>
     </div>
   </div>
 </div>
@@ -23,10 +23,10 @@
     </button>
 
     <div class="cardel__main">
-      <div class="cardel__text">Удалить этот авто из гаража?</div>
+      <div class="cardel__text">Удалить авто из гаража?</div>
       <div class="cardel__buttons">
         <button type="button" class="cardel__button">Да</button>
-        <button type="button" class="cardel__button">Нет</button>
+        <button type="button" class="cardel__button service__close-popup">Нет</button>
       </div>
     </div>
   </div>

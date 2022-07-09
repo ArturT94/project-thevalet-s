@@ -37,7 +37,9 @@ while ($result = $res->Fetch()) {
           </div>
         </a>
       </button>
-      <?php foreach ($arResult['NEW_SECTION'] as $arItem) : ?>
+      <?php
+      if ($USER->IsAuthorized()){
+      foreach ($arResult['NEW_SECTION'] as $arItem) : ?>
         <?php //echo '<pre>' . print_r($arResult, true) . '</pre>';
         ?>
         <?php $carImgs = CFile::GetPath($arItem['PROPERTY_FOTO_VALUE']) ?>
@@ -66,7 +68,9 @@ while ($result = $res->Fetch()) {
             </div>
           </a>
         </button>
-      <?php endforeach; ?>
+      <?php endforeach;
+      }
+      ?>
       <a href="#brand" class="swiper-slide auto add__auto user__popup__lvl__2__link">
         <div class=" number__message__item">
           <div class="number__message">

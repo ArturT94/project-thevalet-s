@@ -12,16 +12,21 @@ if (serviceButton) {
         if (serviceButtonSecond[j].classList.contains("active")) {
           alert("Следует выбрать одну или ряд ислуг из ОДНОГО раздела ;)");
           flag = true;
+          break;
         }
       }
       if (!flag) {
         if (serviceButton[i].classList.contains("active")) {
           serviceButton[i].classList.remove("active");
           if (!document.querySelector(".serv-button.active")) {
+            buttonNext.style.pointerEvents = "none";
+            buttonNext.style.backgroundColor = "gray";
             buttonNext.innerHTML = "выберите услугу";
           }
         } else {
           serviceButton[i].classList.add("active");
+          buttonNext.style.pointerEvents = "all";
+          buttonNext.style.backgroundColor = "black";
           buttonNext.innerHTML = "далее";
         }
       }
@@ -36,16 +41,21 @@ if (serviceButton) {
         if (serviceButton[j].classList.contains("active")) {
           alert("Следует выбрать одну или ряд ислуг из ОДНОГО раздела ;)");
           flag = true;
+          break;
         }
       }
       if (!flag) {
         if (serviceButtonSecond[i].classList.contains("active")) {
           serviceButtonSecond[i].classList.remove("active");
           if (!document.querySelector(".serv-button-second.active")) {
+            buttonNext.style.pointerEvents = "none";
+            buttonNext.style.backgroundColor = "gray";
             buttonNext.innerHTML = "выберите услугу";
           }
         } else {
           serviceButtonSecond[i].classList.add("active");
+          buttonNext.style.pointerEvents = "all";
+          buttonNext.style.backgroundColor = "black";
           buttonNext.innerHTML = "далее";
         }
       }

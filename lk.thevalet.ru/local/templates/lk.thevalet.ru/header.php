@@ -16,7 +16,10 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)    die();
     <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/formSearchAdress.css">
     <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/garageOnOrder.css">
     <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/serviceListOnOrder.css">
-    <?php $APPLICATION->ShowHead(); ?>
-<?php  $APPLICATION->ShowPanel(); ?>
+    <?php
+    $APPLICATION->ShowHead();
+    $APPLICATION->ShowPanel();
+    ?>
+
 </head>
 <body>

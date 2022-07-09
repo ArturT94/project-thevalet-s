@@ -3,8 +3,6 @@ $userId = CUser::GetID();
 $userGetParamsFromId = CUser::GetByID($userId);
 $arUser = $userGetParamsFromId->Fetch();
 $accountImg = CFile::GetPath($arUser['PERSONAL_PHOTO']);
-GarbageDataByArtur::set('accountUser', $arUser);
-GarbageDataByArtur::set('accountImg', $accountImg);
 ?>
 <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/css/menu.css">
 
@@ -35,11 +33,15 @@ GarbageDataByArtur::set('accountImg', $accountImg);
         </li>
       </ul>
       <div class="profile__exit">
+          <?php if($USER->IsAuthorized()): ?>
         <a href="?logout=yes" class="profile__exit-link">выйти</a>
+          <?php else: ?>
+              <a href="index.php" class="profile__exit-link">войти</a>
+          <?php endif; ?>
           <?php
           if($_GET['logout'] == 'yes'){
               $USER->Logout();
-              header("Location: /");
+              header("Location: /newOrder.php");
           }
           ?>
       </div>

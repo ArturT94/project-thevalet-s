@@ -21,9 +21,12 @@
           <div class="">Land Rover Defender</div>
           <div class=""><span class="js-garage-number">Р352НА710</span><a class="car__copy js-garage-copy"><img class="copy__img" width="18" height="18" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/copy.png"></a></div>
         </div>
+          <?php if($USER->IsAuthorized()): ?>
         <img class="img__trash" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/trash.svg" alt="">
+          <?php endif; ?>
       </li>
-      <?php foreach ($arResult['NEW_SECTION'] as $arItem) : ?>
+      <?php if ($USER->IsAuthorized()){
+      foreach ($arResult['NEW_SECTION'] as $arItem) : ?>
         <?php $carImgs = CFile::GetPath($arItem['PROPERTY_FOTO_VALUE']) ?>
         <li class="garage-mobile__item" onclick="getData({
                     'img':'<?= $carImgs ?>',
@@ -51,7 +54,8 @@
           </div>
           <img id="clickDel" class="img__trash" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/trash.svg" alt="">
         </li>
-      <?php endforeach; ?>
+      <?php endforeach;
+      }?>
     </ul>
     <div class="garage__add">
       <a href="#brand" class="button__garage__block user__popup__lvl__2__link">

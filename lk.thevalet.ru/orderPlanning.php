@@ -19,71 +19,63 @@
           </ul>
 
           <div class="planing__picker d-none">
-              <div class="picker">
-                  <div class="picker-window"></div>
-                  <div class="triangle"></div>
-                  <ul class="picker-day">
-                      <li>adder </li>
-                      <li>Tue Jul <span>2</span></li>
-                      <li>Wed Jul <span>3</span></li>
-                      <li>Thu Jul <span>4</span></li>
-                      <li>Fri Jul <span>5</span></li>
-                      <li>Sat Jul <span>6</span></li>
-                      <li>Sun Jul <span>7</span></li>
-                      <li>Mon Jul <span>8</span></li>
-                      <li>Tue Jul <span>9</span></li>
-                      <li>Wed Jul 10</li>
-                      <li>Thu Jul 11</li>
-                      <li>Fri Jul 12</li>
-                      <li>Sat Jul 13</li>
-                      <li>Sun Jul 14</li>
-                      <li>Mon Jul 15</li>
-                      <li>Tue Jul 16</li>
-                      <li>Wed Jul 17</li>
-                      <li>Thu Jul 18</li>
-                      <li>Fri Jul 19</li>
-                      <li>Sat Jul 20</li>
-                      <li>Sun Jul 21</li>
-                      <li>Mon Jul 22</li>
-                      <li>Tue Jul 23</li>
-                      <li>Wed Jul 24</li>
-                      <li>Thu Jul 25</li>
-                      <li>Fri Jul 26</li>
-                      <li>Sat Jul 27</li>
-                      <li>Sun Jul 28</li>
-                  </ul>
-                  <ul class="picker-hour">
-                      <li>1</li>
-                      <li>2</li>
-                      <li>3</li>
-                      <li>4</li>
-                      <li>5</li>
-                      <li>6</li>
-                      <li>7</li>
-                      <li>8</li>
-                      <li>9</li>
-                      <li>10</li>
-                      <li>11</li>
-                      <li>12</li>
-                  </ul>
-                  <ul class="picker-minute">
-                      <li>00</li>
-                      <li>05</li>
-                      <li>10</li>
-                      <li>15</li>
-                      <li>20</li>
-                      <li>25</li>
-                      <li>30</li>
-                      <li>35</li>
-                      <li>40</li>
-                      <li>45</li>
-                      <li>50</li>
-                      <li>55</li>
-                  </ul>
-              </div>
-
-              <div class='button-container'>
-                  <button onclick="orderPlaning('scroll')">Pick a date</button>
+              <div class="datepicker">
+                  <div class="datepicker-top">
+                      <div class="btn-group">
+                          <button class="tag">Today</button>
+                          <button class="tag">Tomorrow</button>
+                          <button class="tag">In 2 days</button>
+                      </div>
+                      <div class="month-selector">
+                          <button class="arrow"><i class="material-icons"><</i></button>
+                          <span class="month-name">December 2020</span>
+                          <button class="arrow"><i class="material-icons">></i></button>
+                      </div>
+                  </div>
+                  <div class="datepicker-calendar">
+                      <span class="day">Mo</span>
+                      <span class="day">Tu</span>
+                      <span class="day">We</span>
+                      <span class="day">Th</span>
+                      <span class="day">Fr</span>
+                      <span class="day">Sa</span>
+                      <span class="day">Su</span>
+                      <button class="date faded">30</button>
+                      <button class="date">1</button>
+                      <button class="date">2</button>
+                      <button class="date">3</button>
+                      <button class="date">4</button>
+                      <button class="date">5</button>
+                      <button class="date">6</button>
+                      <button class="date">7</button>
+                      <button class="date">8</button>
+                      <button class="date current-day">9</button>
+                      <button class="date">10</button>
+                      <button class="date">11</button>
+                      <button class="date">12</button>
+                      <button class="date">13</button>
+                      <button class="date">14</button>
+                      <button class="date">15</button>
+                      <button class="date">16</button>
+                      <button class="date">17</button>
+                      <button class="date">18</button>
+                      <button class="date">19</button>
+                      <button class="date">20</button>
+                      <button class="date">21</button>
+                      <button class="date">22</button>
+                      <button class="date">23</button>
+                      <button class="date">24</button>
+                      <button class="date">25</button>
+                      <button class="date">26</button>
+                      <button class="date">27</button>
+                      <button class="date">28</button>
+                      <button class="date">29</button>
+                      <button class="date">30</button>
+                      <button class="date">31</button>
+                      <button class="date faded">1</button>
+                      <button class="date faded">2</button>
+                      <button class="date faded">3</button>
+                  </div>
               </div>
           </div>
       </section>
