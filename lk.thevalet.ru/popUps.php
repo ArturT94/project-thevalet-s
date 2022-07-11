@@ -25,8 +25,8 @@
     <div class="cardel__main">
       <div class="cardel__text">Удалить авто из гаража?</div>
       <div class="cardel__buttons">
-        <button type="button" class="cardel__button">Да</button>
-        <button type="button" class="cardel__button service__close-popup">Нет</button>
+        <button type="button" class="cardel__button btn-yes">Да</button>
+        <button type="button" class="cardel__button service__close-popup btn-no">Нет</button>
       </div>
     </div>
   </div>

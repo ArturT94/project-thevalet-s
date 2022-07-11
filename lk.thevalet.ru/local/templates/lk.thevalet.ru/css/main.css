@@ -149,6 +149,9 @@ input::placeholder {
   margin-right: 0 !important;
   margin-left: 0 !important;
 }
+.no-padding-bottom {
+  padding-bottom: 0 !important;
+}
 
 .app {
   display: grid;

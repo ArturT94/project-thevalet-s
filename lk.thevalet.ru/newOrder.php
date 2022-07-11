@@ -28,7 +28,7 @@ $arUsers = $userGetParamsFromId->Fetch();
               "EDIT_TEMPLATE" => "",
               "PATH" => "/include/menu/burger.php"
             )
-          ); ?> <a href="#" class="vlt"><img src="/lk.thevalet.ru/localevalet.ru/local/templates/lk.thevalet.ru/img/layout/mb__logo.png" alt=""></a>
+          ); ?> <a href="#" class="vlt"><img src="<?= SITE_TEMPLATE_PATH ?>/img/layout/mb__logo.png" alt=""></a>
         </div>
         <!--Иконка бургера и Лого VLT-->
       </div>

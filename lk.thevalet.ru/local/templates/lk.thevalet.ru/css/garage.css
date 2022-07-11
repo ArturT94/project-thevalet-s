@@ -93,7 +93,8 @@
 .number__message2 {
   width: 25px;
   height: 25px;
-  background-image: url("/local/templates/lk.thevalet.ru/img/layout/MESSAGE2.png");
+  /* вызывает 404! */
+  /* background-image: url("/local/templates/lk.thevalet.ru/img/layout/MESSAGE2.png"); */
   background-position: center center;
   background-size: cover;
   display: flex;

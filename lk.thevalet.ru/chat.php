@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/css/chat.css">
 <div class="app__window garage-block">
   <div class="conteiner">
     <div class="chat">

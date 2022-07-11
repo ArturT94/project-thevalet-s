@@ -6,7 +6,7 @@
       <section class="addition__bottom">
         <section class="amenities">
           <ul id="amenities__list" class="amenities__list"></ul>
-          <button class="amenities__button" type="button">
+          <button class="amenities__button" id="amenities__button" type="button">
             <a href="#planning" class="order__popup__link">Запланировать</a>
           </button>
         </section>
