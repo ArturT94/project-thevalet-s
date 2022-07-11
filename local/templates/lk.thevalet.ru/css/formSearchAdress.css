@@ -1,0 +1,41 @@
+.search__adres__form {
+  position: relative;
+  margin-top: 1rem;
+}
+.search__field {
+  border: none;
+  outline: none;
+  width: 100%;
+  border-bottom: 1px solid #7a7779;
+  padding: 0px 30px 15px 7px;
+  background-color: transparent;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.search__submit {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.search__icon {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  width: 100%;
+  border-bottom: 1px solid #7a7779;
+  padding: 0px 15px 15px 7px;
+  background-color: transparent;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .search__adres__form {
+  }
+  .search__field {
+  }
+  .search__submit {
+  }
+  .search__icon {
+  }
+}
