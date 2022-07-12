@@ -19,9 +19,9 @@
       <div class="global__brand2">
         <div class="btn__block">
           <a href="#model" class="button user__popup__lvl__2__link">НАЗАД</a>
-            <script>
-                let brand = "<? $_POST['brandNumber'] ?>"
-            </script>
+          <script>
+            let brand = "<? $_POST['brandNumber'] ?>"
+          </script>
           <a href="#car1" class="button user__popup__lvl__2__link get-gosnumber" onclick="window.number = document.getElementById('gos').value; goUploadAjax(null, window.brandName, window.modelName, window.number)">ГОТОВО</a>
         </div>
       </div>

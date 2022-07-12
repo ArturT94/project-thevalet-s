@@ -33,17 +33,17 @@ $accountImg = CFile::GetPath($arUser['PERSONAL_PHOTO']);
         </li>
       </ul>
       <div class="profile__exit">
-          <?php if($USER->IsAuthorized()): ?>
-        <a href="?logout=yes" class="profile__exit-link">выйти</a>
-          <?php else: ?>
-              <a href="index.php" class="profile__exit-link">войти</a>
-          <?php endif; ?>
-          <?php
-          if($_GET['logout'] == 'yes'){
-              $USER->Logout();
-              header("Location: /newOrder.php");
-          }
-          ?>
+        <?php if ($USER->IsAuthorized()) : ?>
+          <a href="?logout=yes" class="profile__exit-link">выйти</a>
+        <?php else : ?>
+          <a href="index.php" class="profile__exit-link">войти</a>
+        <?php endif; ?>
+        <?php
+        if ($_GET['logout'] == 'yes') {
+          $USER->Logout();
+          header("Location: /newOrder.php");
+        }
+        ?>
       </div>
     </div>
   </div>

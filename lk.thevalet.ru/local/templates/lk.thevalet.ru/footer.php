@@ -6,10 +6,13 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
   <script src="<?= SITE_TEMPLATE_PATH ?>/libs/jquery/jquery-3.6.0.min.js"></script>
   <!--JQuery-->
   <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script src="<?= SITE_TEMPLATE_PATH ?>/js/i18n/datepicker-ru.js"></script>
   <!--JQuery-UI-->
   <script src="<?= SITE_TEMPLATE_PATH ?>/js/openServicePopUP.js"></script>
   <!--Отвечает за открытие PopUp-->
   <script src="<?= SITE_TEMPLATE_PATH ?>/js/ajax.js"></script>
+  <!--При нажатии на авто выводит информацию об автомобиле-->
+  <script src="<?= SITE_TEMPLATE_PATH ?>/js/ajaxAddCars.js"></script>
   <!--Передача AJAX запросов-->
   <script src="<?= SITE_TEMPLATE_PATH ?>/js/js.js"></script>
   <!--Костыль для работы поп-апов-->
@@ -27,7 +30,8 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
   <!--Запрещаем выпад контекстного меню в браузере-->
   <?php global $APPLICATION; ?>
   <?php $APPLICATION->AddHeadScript("/libs/jquery/jquery-3.6.0.min.js"); ?>
-  <?php $APPLICATION->AddHeadScript("/js/ajax.js"); ?>
+    <?php $APPLICATION->AddHeadScript("/js/ajaxGarageInfoCars.js"); ?>
+  <?php $APPLICATION->AddHeadScript("/js/ajaxAddCars.js"); ?>
   <?php $APPLICATION->AddHeadScript("/js/js.js"); ?>
   <?php $APPLICATION->AddHeadScript("/js/script.js"); ?>
   <?php $APPLICATION->AddHeadScript("/js/openServicePopUP.js"); ?>

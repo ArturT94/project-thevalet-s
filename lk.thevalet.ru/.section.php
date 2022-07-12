@@ -5,4 +5,3 @@ $arDirProperties = array(
    "keywords" => "мягкая мебель, офисная мебель, мебель для кухни, детская мебель",
    "robots" => "index, follow"
 );
-?>

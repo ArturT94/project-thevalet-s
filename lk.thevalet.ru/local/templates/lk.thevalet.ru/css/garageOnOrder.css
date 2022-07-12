@@ -1,122 +1,110 @@
-.nav_group-garage{
-    position: relative;
-    display: flex;
-    width: 120%;
-    left: -2.8rem;
-    bottom: -4.5rem;
+.nav_group-garage {
+  position: relative;
+  display: flex;
+  width: 120%;
+  left: -2.8rem;
+  bottom: -4.5rem;
 }
 
-.garage{
-
+.garage {
 }
 .auto {
-    display: flex;
-    flex-direction: column;
-    height: 10rem;
-    width: 12rem;
-    align-items: center;
-    transition-duration: 0.3s;
-    transition: .3s all ease;
+  display: flex;
+  flex-direction: column;
+  height: 10rem;
+  width: 12rem;
+  align-items: center;
+  transition-duration: 0.3s;
+  transition: 0.3s all ease;
 }
 .auto.active {
-    background: #EDEDED;
-    border-radius: 10px;
+  background: #ededed;
+  border-radius: 10px;
 }
-.number__message__item{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 5px;
-    margin-bottom: -27px;
-    margin-right: -4px
+.number__message__item {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+  margin-bottom: -27px;
+  margin-right: -4px;
 }
-.number__message{
-    width: 25px;
-    height: 25px;
-    background-image: url("/lk.thevalet.ru/localevalet.ru/local/templates/lk.thevalet.ru/img/layout/MESSAGE2.png");
-    background-position: center center;
-    background-size: cover;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.number__message {
+  width: 25px;
+  height: 25px;
+  background-image: url("/lk.thevalet.ru/localevalet.ru/local/templates/lk.thevalet.ru/img/layout/MESSAGE2.png");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.number__message p{
-    font-size: 0.6rem;
-    color: #ffff;
+.number__message p {
+  font-size: 0.6rem;
+  color: #ffff;
 }
-.auto_img{
-    
+.auto_img {
 }
-.auto_img img{
-
+.auto_img img {
 }
-.add__auto{
-
+.add__auto {
 }
-.data__auto{
-    padding: 0.5rem 0rem 1rem 0rem;
+.data__auto {
+  padding: 0.5rem 0rem 1rem 0rem;
 }
-.data__model{
-    font-size: 1rem;
+.data__model {
+  font-size: 1rem;
 }
-.data__number{
-    font-size: 1rem;
+.data__number {
+  font-size: 1rem;
 }
-.add__auto .number__message__item{
-    display: none;
-
+.add__auto .number__message__item {
+  display: none;
 }
 @media screen and (max-width: 767px) {
-    .nav_group-garage{
-        display: none;
-        width: 0;
-        height: 0;
-    }
-    .garage__on__order{
-        position: relative;
-    }
-    .garage{
+  .nav_group-garage {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+  .garage__on__order {
+    position: relative;
+  }
+  .garage {
+  }
+  .auto {
+  }
+  .auto.active {
+    background: #ededed;
+    border-radius: 0px;
+  }
+  .number__message__item {
+    margin-top: 6px;
+    margin-right: -3px;
+    margin-bottom: -20px;
+  }
 
-    }
-    .auto {
-
-    }
-    .auto.active {
-        background: #EDEDED;
-        border-radius: 0px;
-    }
-    .number__message__item{
-        margin-top: 6px;
-        margin-right: -3px;
-        margin-bottom: -20px;
-    }
-    
-    .number__message{
-
-    }
-    .number__message p{
-
-    }
-    .auto_img{
-    
-    }
-    .auto_img img{
-        width: 90%;
-        margin-left: 0.5rem;
-    }
-    .add__auto{
-    
-    }
-    .add__auto .auto_img img{
-        width: 90%;
-    }
-    .data__model{
-        display: none;
-    }
-    .data__number{
-        font-size: 0.9rem;
-    }
-    .add__auto .number__message__item{
-        display: none;
-    
-    }
+  .number__message {
+  }
+  .number__message p {
+  }
+  .auto_img {
+  }
+  .auto_img img {
+    width: 90%;
+    margin-left: 0.5rem;
+  }
+  .add__auto {
+  }
+  .add__auto .auto_img img {
+    width: 90%;
+  }
+  .data__model {
+    display: none;
+  }
+  .data__number {
+    font-size: 0.9rem;
+  }
+  .add__auto .number__message__item {
+    display: none;
+  }
 }

@@ -1,109 +1,109 @@
 .global__car__profile {
-    height: 90.8%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+  height: 90.8%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 .car__profile {
-    text-align: center;
-    padding-bottom: 50px;
-    position: relative;
+  text-align: center;
+  padding-bottom: 50px;
+  position: relative;
 }
 
 .car__name {
-    color: #5a5959;
-    margin-bottom: 5px;
-    font-size: 18px;
-    line-height: 22px;
+  color: #5a5959;
+  margin-bottom: 5px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .car__model {
-    color: #000000;
-    text-transform: uppercase;
-    font-size: 18px;
-    line-height: 22px;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .car__copy {
-    cursor: pointer;
-    margin-left: 10px;
-    display: inline-block;
+  cursor: pointer;
+  margin-left: 10px;
+  display: inline-block;
 }
 
 .car__option {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .option__top {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .option__name {
-    width: 60%;
-    flex-grow: 1;
+  width: 60%;
+  flex-grow: 1;
 }
 
 .option__link {
-    width: 40%;
-    flex-grow: 1;
-    text-align: right;
-    font-size: 17px;
-    color: #5a5959;
+  width: 40%;
+  flex-grow: 1;
+  text-align: right;
+  font-size: 17px;
+  color: #5a5959;
 }
-.option__link.editing > .for-view
-  {display: none;     
-  }
-.option__link.editing > .for-edit
-  {display: inline;
-  }
-.option__link.editing > .for-edit > input
-  {font-size: 17px;     
-  }
-.option__link > .for-edit
-  {display: none;     
-  }
+.option__link.editing > .for-view {
+  display: none;
+}
+.option__link.editing > .for-edit {
+  display: inline;
+}
+.option__link.editing > .for-edit > input {
+  font-size: 17px;
+}
+.option__link > .for-edit {
+  display: none;
+}
 .option__link:hover,
 .option__link:focus {
-    color: #5a5959;
+  color: #5a5959;
 }
 
 .option__copy {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .option__comm {
-    font-size: 13px;
-    color: #3f3f3f;
-    text-transform: uppercase;
+  font-size: 13px;
+  color: #3f3f3f;
+  text-transform: uppercase;
 }
 
 .osago__comm {
-    text-transform: none;
+  text-transform: none;
 }
-.btn__block{
-    display: flex;
-    justify-content: space-around;
-    color: #fff;
+.btn__block {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
 }
-.button{
-    width: 183px;
-    height: 39px;
-    background: #000000;
-    border-radius: 5px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.button {
+  width: 183px;
+  height: 39px;
+  background: #000000;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media screen and (max-width: 767px) {
-    .car__menu{
-        width: 100%;
-        height: auto;
-        padding: 0px 0px 40px 0px;
-        overflow-x: auto;
-    }
-    .car__img1{
-        height: 7em;
-    }
+  .car__menu {
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 40px 0px;
+    overflow-x: auto;
+  }
+  .car__img1 {
+    height: 7em;
+  }
 }

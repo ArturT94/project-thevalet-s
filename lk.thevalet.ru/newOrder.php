@@ -1,9 +1,9 @@
 <?php require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php"); ?>
 <?php
 if (!$USER->IsAuthorized()) {
-$userId = CUser::GetID();
-$userGetParamsFromId = CUser::GetByID($userId);
-$arUsers = $userGetParamsFromId->Fetch();
+  $userId = CUser::GetID();
+  $userGetParamsFromId = CUser::GetByID($userId);
+  $arUsers = $userGetParamsFromId->Fetch();
 }
 ?>
 
@@ -295,19 +295,19 @@ $arUsers = $userGetParamsFromId->Fetch();
       <section class="order-button">
 
         <button type="button" class="button__order js-button-order button_nextt_con" disabled="">
-            <?php
-            if (!$USER->IsAuthorized()): ?>
-          <a href="index.php" class="order__popup__link button_nextt">выберите услугу</a>
-            <?php else: ?>
-                <a href="#addition" class="order__popup__link button_nextt">выберите услугу</a>
-            <?php endif; ?>
+          <?php
+          if (!$USER->IsAuthorized()) : ?>
+            <a href="index.php" class="order__popup__link button_nextt">выберите услугу</a>
+          <?php else : ?>
+            <a href="#addition" class="order__popup__link button_nextt">выберите услугу</a>
+          <?php endif; ?>
         </button>
         <!-- <button type="button" class="button__order js-button-order button__hide js-button-next button_next">далее</button> -->
       </section>
     </div>
   </div>
   <?php require_once "map.php"; ?>
-    <?php require_once "popUps.php"; ?>
+  <?php require_once "popUps.php"; ?>
   <!--Google Карта-->
   <div class="header__mobile">
     <!--Обертка для показа на Mobile-->
@@ -422,7 +422,7 @@ $arUsers = $userGetParamsFromId->Fetch();
 <div class="user__popup__lvl__2" id="car1">
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
-    <?php !$USER->IsAuthorized() ? include_once "index.php" : include_once "car1.php"?>
+    <?php !$USER->IsAuthorized() ? include_once "index.php" : include_once "car1.php" ?>
     <!--Фрейм Добавить автомобиль в гараже клиента в бургере-->
   </div>
 </div>
