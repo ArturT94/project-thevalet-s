@@ -1,8 +1,11 @@
 <?php
+require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_before.php");
 $userId = CUser::GetID();
 $userGetParamsFromId = CUser::GetByID($userId);
 $arUser = $userGetParamsFromId->Fetch();
 $accountImg = CFile::GetPath($arUser['PERSONAL_PHOTO']);
+GarbageDataByArtur::set('accountUser', $arUser);
+GarbageDataByArtur::set('accountImg', $accountImg);
 ?>
 <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/css/menu.css">
 

@@ -13,10 +13,10 @@
         <section class="extensions">
           <ul class="extensions__list">
             <li class="extensions__item">
-              <input type="checkbox" class="visually-hidden extensions__checkbox" data-id="149" id="service_149">
-              <label class="extensions__button extensions__park" for="service_149" onclick="getDataServices({
+              <input type="checkbox" class="visually-hidden extensions__checkbox" data-id="3554" id="service_3554">
+              <label class="extensions__button extensions__park" for="service_3554" onclick="getDataServices({
                         'services':'Припарковать',
-                        'id':'149',
+                        'id':'3554',
                         'money':'100',
                         'time':'1:00',
                         })">
@@ -24,10 +24,10 @@
               <div class="extensions__name">Припарковать</div>
             </li>
             <li class="extensions__item">
-              <input type="checkbox" class="visually-hidden extensions__checkbox" data-id="151" id="service_151">
-              <label type="button" class="extensions__button extensions__wash" for="service_151" onclick="getDataServices({
+              <input type="checkbox" class="visually-hidden extensions__checkbox" data-id="3556" id="service_3556">
+              <label type="button" class="extensions__button extensions__wash" for="service_3556" onclick="getDataServices({
                         'services':'Помыть',
-                        'id':'151',
+                        'id':'3556',
                         'money':'100',
                         'time':'1:00',
                         })">
@@ -35,10 +35,10 @@
               <div class="extensions__name">Помыть</div>
             </li>
             <li class="extensions__item">
-              <input type="checkbox" class="visually-hidden extensions__checkbox" data-id="150" id="service_150">
-              <label type="button" class="extensions__button extensions__refuel" for="service_150" onclick="getDataServices({
+              <input type="checkbox" class="visually-hidden extensions__checkbox" data-id="3555" id="service_3555">
+              <label type="button" class="extensions__button extensions__refuel" for="service_3555" onclick="getDataServices({
                         'services':'Заправить',
-                        'id':'150',
+                        'id':'3555',
                         'money':'100',
                         'time':'1:00',
                         })">

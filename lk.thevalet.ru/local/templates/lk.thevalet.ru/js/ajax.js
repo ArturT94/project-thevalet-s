@@ -1,10 +1,24 @@
-function getCheckboxesData()
-  {let element = new Object();
-   $('.extensions__list > .extensions__item > input[id]').each(function()
-     {element[+ $(this).attr('id').split('_')[1]] = $(this).is(':checked');        
+function getNewOrderData() {
+      return {
+          services: getCheckboxesData(),
+          money: document.querySelector('.result__money').innerText,
+          time: document.querySelector('.result__time').innerText,
+          planedTime: document.querySelector('#amenities__button > .order__popup__link').innerHTML
+      };
+  }
+
+function getCheckboxesData() {
+    let element = new Object();
+   $('.extensions__list > .extensions__item > input[id]').each(function() {
+         element[+ $(this).attr('id').split('_')[1]] = $(this).is(':checked');
      });
    return element;     
   }
+$('form#send-services > .user__popup__lvl__2__link').click(function() {
+      $.post('/AjaxAddServicesCrm.php', getNewOrderData(), function(data) {
+         console.log(data);
+     }, 'json');
+  });
 getData = (car) => {
     $.ajax({
         url: "/AjaxGarageInfoCars.php",
@@ -30,33 +44,6 @@ getData = (car) => {
 };
 
 
-//Код Эдуарда
-/*let amenities_item = $(".amenities__item"),
-    service = $("#service_" + res.id),
-    addHtml = true;
-
-if (amenities_item.length > 0) {
-  amenities_item.each((index, value) => {
-    if ($(value).data("id") == res.id) {
-      if (!service.is(":checked")) {
-        $(value).remove();
-      }
-      addHtml = false;
-    }
-  });
-}
-
-if (addHtml) {
-  service.prop("checked", true);
-  $("#amenities__list").append(
-      `<li class="amenities__item" data-id="${res.id}">
-                              <div class="amenities__wrapper">
-                                  <div class="amenities__name">${res.services.toUpperCase()}</div>
-                              </div>
-                          </li>`
-  );
-}*/
-
 getDataServices = (service) => {
     $.ajax({
         url: "/AjaxAddServices.php",
@@ -65,7 +52,6 @@ getDataServices = (service) => {
         data: "services=" + JSON.stringify(service),
         success: function (res) {
             if(res){
-                console.log(res);
                 let amenities_item = $(".amenities__item"),
                     service = $("#service_" + res.id),
                     addHtml = true;

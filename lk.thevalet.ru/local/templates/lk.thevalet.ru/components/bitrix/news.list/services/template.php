@@ -20,15 +20,14 @@ $this->setFrameMode(true);
   <div class="swiper-button-prev sw-Btn-service-Prev"></div>
   <div class="swiper-button-next sw-Btn-service-Next"></div>
 </div>
-<?php //echo '<pre>' . print_r($arResult['ITEMS'], true) . '</pre>';
-?>
 <div class="swiper vltServise">
   <div class="swiper-wrapper">
     <?php foreach ($arResult["ITEMS"] as $arItems) : ?>
       <?php foreach ($arItems['ELEMENTS'] as $arItem) : ?>
+<?php //echo '<pre>' . print_r($arItem['EXTERNAL_ID'], true) . '</pre>';?>
         <button id="services" class="swiper-slide vlt_servise serv-button " onclick="getDataServices({
                     'services':'<?= $arItem['NAME'] ?>',
-                    'id':'<?= $arItem['ID'] ?>',
+                    'id':'<?= $arItem['EXTERNAL_ID'] ?>',
                     'money':'100',
                     'time':'1:00',
                     })">
