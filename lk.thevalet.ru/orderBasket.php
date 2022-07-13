@@ -13,7 +13,7 @@
         <section class="extensions">
           <ul class="extensions__list">
             <li class="extensions__item">
-              <input type="checkbox" class="visually-hidden extensions__checkbox" id="service_149">
+              <input type="checkbox" class="visually-hidden extensions__checkbox" data-id="149" id="service_149">
               <label class="extensions__button extensions__park" for="service_149" onclick="getDataServices({
                         'services':'Припарковать',
                         'id':'149',
@@ -24,7 +24,7 @@
               <div class="extensions__name">Припарковать</div>
             </li>
             <li class="extensions__item">
-              <input type="checkbox" class="visually-hidden extensions__checkbox" id="service_151">
+              <input type="checkbox" class="visually-hidden extensions__checkbox" data-id="151" id="service_151">
               <label type="button" class="extensions__button extensions__wash" for="service_151" onclick="getDataServices({
                         'services':'Помыть',
                         'id':'151',
@@ -35,7 +35,7 @@
               <div class="extensions__name">Помыть</div>
             </li>
             <li class="extensions__item">
-              <input type="checkbox" class="visually-hidden extensions__checkbox" id="service_150">
+              <input type="checkbox" class="visually-hidden extensions__checkbox" data-id="150" id="service_150">
               <label type="button" class="extensions__button extensions__refuel" for="service_150" onclick="getDataServices({
                         'services':'Заправить',
                         'id':'150',
@@ -52,7 +52,7 @@
           <div class="result__block result__time">~ 1ч 25 мин</div>
         </div>
         <a href="#systemPay" class="user__popup__lvl__2__link">
-          <button type="submit" class="button__order" style="margin-bottom: 30px"">Заказать</button>
+          <button type="submit" name="button" class="button__order" style="margin-bottom: 30px"">Заказать</button>
         </a>
       </form>
     </div>

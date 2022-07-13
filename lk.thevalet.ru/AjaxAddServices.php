@@ -5,4 +5,5 @@ if($_POST['services']){
     echo json_encode($service);
     //echo '<pre>' . print_r($service, true) . '</pre>';
 }
+
 ?>

@@ -103,7 +103,7 @@ input::placeholder {
 .beta {
   border-radius: 10px;
   position: absolute;
-  left: 87%;
+  right: 2%;
   top: 33px;
   z-index: 1;
   background: #ffffff;
@@ -167,10 +167,7 @@ input::placeholder {
   height: 100vh;
   left: 0;
   background: #ffffff;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.order {
-  background-color: #ffffff;
+  /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); */
   box-shadow: 0px 0px 7.36px 0.64px rgba(0, 0, 0, 0.39);
   z-index: 4;
   box-sizing: border-box;
@@ -318,9 +315,10 @@ input::placeholder {
 .user__popup__lvl__2 {
   position: fixed;
   height: 100%;
-  z-index: 100;
+  transition: all 0.5s ease 0s;
   top: 0;
-  left: 32rem;
+  left: 0;
+  z-index: 100;
   background-color: rgb(255, 255, 255);
   opacity: 0;
   visibility: hidden;
@@ -331,6 +329,7 @@ input::placeholder {
   background: #fff;
   opacity: 1;
   visibility: visible;
+  left: 32rem;
 }
 .user__popup__lvl__2.open .user__popup__lvl__2__content {
   overflow-y: scroll;
@@ -370,7 +369,6 @@ input::placeholder {
 /*--Стилизуем POP-UP второго уровня в заказе--*/
 .order__popup {
   position: fixed;
-  z-index: 20;
   height: 100%;
   z-index: 20;
   top: 0;
@@ -502,4 +500,17 @@ input:checked + .slider:before {
   color: #000000;
   text-transform: uppercase;
   margin-bottom: 36px;
+}
+
+@media (max-width: 1200px) {
+  .app {
+    grid-template-columns: 27rem 1fr;
+  }
+  .app__window {
+    width: 27rem;
+    padding: 32px 24px;
+  }
+  .user__popup__lvl__2.open {
+    left: 27rem;
+  }
 }
