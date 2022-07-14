@@ -22,9 +22,6 @@ $('form#send-services > .user__popup__lvl__2__link').click(function() {
      }, 'json');
 });
 
-// $('a.order__popup__link.button_nextt').click(function () {
-//     document.getElementById("changeLink").href="#orderPage.php";
-// })
 getData = (car) => {
     $.ajax({
         url: "/AjaxGarageInfoCars.php",
@@ -90,3 +87,13 @@ getDataServices = (service) => {
         },
     });
 };
+
+function deleteCar(car) {
+    $('button.cardel__button.btn-yes').click(function () {
+        $.post('/AjaxCarDelete.php', car, function(data) {
+            console.log(data);
+        }, 'json');
+        $('button.menu__close__popup.service__close-popup').click();
+        document.getElementById("delCar").remove();
+    });
+}

@@ -236,7 +236,7 @@ input::placeholder {
   align-items: center;
   background-color: #fff;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
   margin-bottom: 15px;
 }
 
