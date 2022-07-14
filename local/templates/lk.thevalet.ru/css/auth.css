@@ -20,8 +20,6 @@
 }
 .auth__phone {
   display: grid;
-  grid-gap: 28px;
-  grid-template-columns: auto 1fr;
   margin-bottom: 27px;
 }
 
@@ -110,7 +108,6 @@ select.auth__country::-ms-expand {
 }
 
 .input__field {
-  width: 457px;
   border-width: 1px;
   border-color: #cbcbcb;
   border-style: solid;
@@ -156,7 +153,7 @@ select.auth__country::-ms-expand {
   }
 
   .auth {
-    max-width: 275px;
+    max-width: 60%;
   }
   .auth__code {
     grid-gap: 19px;
@@ -165,7 +162,6 @@ select.auth__country::-ms-expand {
   .auth__phone {
     width: 100%;
     margin-bottom: 38px;
-    grid-gap: 18px;
   }
 
   .auth__title {
@@ -226,5 +222,11 @@ select.auth__country::-ms-expand {
     margin-bottom: 25px;
     font-size: 13px;
     line-height: 13px;
+  }
+}
+
+@media (max-width: 568px) {
+  .auth {
+    max-width: unset;
   }
 }

@@ -100,10 +100,10 @@ input::placeholder {
   right: 1rem;
   top: 1rem;
 }
+
 .beta {
-  border-radius: 10px;
   position: absolute;
-  left: 87%;
+  right: 2%;
   top: 33px;
   z-index: 1;
   background: #ffffff;
@@ -112,7 +112,6 @@ input::placeholder {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  background: #ffffff;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   padding: 3px 15px;
@@ -130,6 +129,9 @@ input::placeholder {
   width: 120%;
   left: -2.8rem;
   bottom: -5.5rem;
+}
+.swiper-button-next {
+  right: 0px;
 }
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
@@ -152,7 +154,9 @@ input::placeholder {
 .no-padding-bottom {
   padding-bottom: 0 !important;
 }
-
+.sp-margin {
+  margin-bottom: -26px;
+}
 .app {
   display: grid;
   grid-template-columns: 32rem 1fr;
@@ -167,17 +171,16 @@ input::placeholder {
   height: 100vh;
   left: 0;
   background: #ffffff;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.order {
-  background-color: #ffffff;
+  /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); */
   box-shadow: 0px 0px 7.36px 0.64px rgba(0, 0, 0, 0.39);
   z-index: 4;
   box-sizing: border-box;
   position: relative;
   overflow-y: scroll;
 }
-
+.image-width-spesh {
+  width: 160px;
+}
 .order::-webkit-scrollbar {
   width: 5px;
   z-index: 3;
@@ -239,7 +242,7 @@ input::placeholder {
   align-items: center;
   background-color: #fff;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
   margin-bottom: 15px;
 }
 
@@ -283,11 +286,22 @@ input::placeholder {
   visibility: hidden;
   transition: all 0.5s ease 0s;
 }
+.spesh_con_plus {
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-bottom: 5px;
+}
+.spesh_con_plus img {
+  width: 50px;
+  height: 50px;
+}
 .button_nextt {
   display: block;
   padding: 10px;
   border-radius: 5px;
-  background: grey;
+  background: #c4c4c4;
   pointer-events: none;
   transition: all 0.3s ease 0s;
 }
@@ -316,11 +330,13 @@ input::placeholder {
 }
 /*--Стилизуем POP-UP второго уровня в "Бургер-меню" (Выезжающий слайдер влево)--*/
 .user__popup__lvl__2 {
+  z-index: 5;
   position: fixed;
   height: 100%;
-  z-index: 100;
+  transition: all 0.5s ease 0s;
   top: 0;
-  left: 32rem;
+  left: 0;
+  z-index: 100;
   background-color: rgb(255, 255, 255);
   opacity: 0;
   visibility: hidden;
@@ -331,6 +347,7 @@ input::placeholder {
   background: #fff;
   opacity: 1;
   visibility: visible;
+  left: 32rem;
 }
 .user__popup__lvl__2.open .user__popup__lvl__2__content {
   overflow-y: scroll;
@@ -370,7 +387,6 @@ input::placeholder {
 /*--Стилизуем POP-UP второго уровня в заказе--*/
 .order__popup {
   position: fixed;
-  z-index: 20;
   height: 100%;
   z-index: 20;
   top: 0;
@@ -482,17 +498,14 @@ input::placeholder {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
-
 input:checked + .slider {
   background-color: #2196f3;
 }
-
 input:checked + .slider:before {
   -webkit-transform: translateX(24px);
   -ms-transform: translateX(24px);
   transform: translateX(24px);
 }
-
 .chat__title {
   font-style: normal;
   font-weight: 400;
@@ -502,4 +515,30 @@ input:checked + .slider:before {
   color: #000000;
   text-transform: uppercase;
   margin-bottom: 36px;
+}
+.spesh_height {
+  height: 150px !important;
+}
+.car__close-icon {
+  transform: rotate(180deg);
+}
+@media (min-width: 767px) {
+  .d-3 {
+    display: none;
+  }
+  .image-width-spesh {
+    width: 110px;
+  }
+}
+@media (max-width: 1200px) {
+  .app {
+    grid-template-columns: 27rem 1fr;
+  }
+  .app__window {
+    width: 27rem;
+    padding: 32px 24px;
+  }
+  .user__popup__lvl__2.open {
+    left: 27rem;
+  }
 }

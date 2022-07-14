@@ -63,8 +63,8 @@
             <p>2</p>
           </div>
         </div>
-        <div class="auto_img">
-          <img draggable=false src="<?= SITE_TEMPLATE_PATH ?>/img/data/add.png" alt="">
+        <div class="auto_img spesh_con_plus">
+          <img draggable=false src="<?= SITE_TEMPLATE_PATH ?>/img/data/add.svg" alt="">
         </div>
         <div class="data__auto">
           <div class="data__model"></div>
