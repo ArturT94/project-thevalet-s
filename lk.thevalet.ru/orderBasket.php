@@ -51,7 +51,7 @@
           <div class="result__block result__money">2500 ₽</div>
           <div class="result__block result__time">~ 1ч 25 мин</div>
         </div>
-        <a href="#systemPay" class="user__popup__lvl__2__link">
+        <a href="#orderPage"  id="changeLink" class="user__popup__lvl__2__link">
           <button type="submit" name="button" class="button__order" style="margin-bottom: 30px"">Заказать</button>
         </a>
       </form>

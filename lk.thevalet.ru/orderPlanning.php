@@ -6,6 +6,7 @@
         </button>
         <div class="addition__con">
             <section class="addition__bottom">
+                <p class="planing__title">Запланировать</p>
                 <ul class="planing__list">
                     <li class="planing__item">
                         <a href="#" onclick="orderPlaning(15)">15 минут</a>
@@ -31,10 +32,13 @@
                         </div>
                     </div>
 
-                    <button class="amenities__button" type="button"
-                            onclick="orderPlaning(`${$('#datepicker').val()} ${$('.timepicker .top .h').text()}:${$('.timepicker .top .m').text()}`)">
-                        Запланировать
-                    </button>
+                    <div class="button__flex">
+                        <button class="planing__button" type="button"
+                                onclick="orderPlaning(`${$('#datepicker').val()} ${$('.timepicker .top .h').text()}:${$('.timepicker .top .m').text()}`)">
+                            Далее
+                        </button>
+                        <button class="profile__exit-link timepicker__default">Сбросить</button>
+                    </div>
                 </div>
             </section>
         </div>

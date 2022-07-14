@@ -24,11 +24,41 @@
   display: none;
 }
 
+.planing__title {
+  margin: 3.5rem 0 1rem;
+  font-size: 18px;
+}
+.button__flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.planing__button {
+  width: auto;
+  box-shadow: 0px 0px 4px 1px rgb(0 0 0 / 25%);
+  border-radius: 5px;
+  padding: 9px 3rem;
+  box-sizing: border-box;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.planing__picker {
+  margin-bottom: 2rem;
+}
+
 .calendar {
   width: 330px;
   left: 50%;
   top: 50%;
-  margin: 0 0 1rem;
+  margin: 0 auto 1rem auto;
   background: #fff;
   border-radius: 4px;
   overflow: hidden;
@@ -124,6 +154,7 @@
   height: 450px;
   background-color: white;
   position: relative;
+  margin: auto;
 }
 .timepicker .top {
   background-color: #009788;

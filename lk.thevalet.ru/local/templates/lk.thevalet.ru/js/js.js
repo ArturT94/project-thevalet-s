@@ -138,21 +138,25 @@ $(document).ready(function () {
     $(".timepicker .top .h").text(currentTime.getHours());
     $(".timepicker .top .m").text(currentTime.getMinutes());
 
-    $(".timepicker .top span").click(() => {
-      if (!$(this).hasClass("active")) {
-        if ($(this).hasClass("h")) {
-          selectHours();
-        } else {
-          selectMinutes();
-        }
+    $(".timepicker__default").click(() => {
+      if (!$(".timepicker .top .h").hasClass("active")) {
+        selectHours();
+        let date = new Date();
+        $(".timepicker .top .h").text(date.getHours());
+        $(".timepicker .top .m").text(date.getMinutes());
+        $("#amenities__button").text('Запланировать');
       }
     });
 
-    $(".timepicker .action.ok").click(() => {
-      var selectedTime =
-        $(".timepicker .top .h").text() + ":" + $(".timepicker .top .m").text();
-      alert(selectedTime);
-    });
+    // $(".timepicker .top span").click(() => {
+    //   if (!$(this).hasClass("active")) {
+    //     if ($(this).hasClass("h")) {
+    //       selectHours();
+    //     } else {
+    //       selectMinutes();
+    //     }
+    //   }
+    // });
   };
   timepicker();
 });

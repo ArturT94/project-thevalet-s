@@ -40,7 +40,7 @@ while ($result = $res->Fetch()) {
       <?php
       if ($USER->IsAuthorized()){
       foreach ($arResult['NEW_SECTION'] as $arItem) : ?>
-        <?php //echo '<pre>' . print_r($arResult, true) . '</pre>';
+        <?php //echo '<pre>' . print_r($arItem, true) . '</pre>';
         ?>
         <?php $carImgs = CFile::GetPath($arItem['PROPERTY_FOTO_VALUE']) ?>
         <button class="swiper-slide auto" onclick="getData({
@@ -52,6 +52,7 @@ while ($result = $res->Fetch()) {
                         'osago':'<?= $arItem['PROPERTY_OSAGO_VALUE'] ?>',
                         'wheels':'<?= $arItem['PROPERTY_SHINY_VALUE'] ?>',
                         'vin':'<?= $arItem['PROPERTY_VIN_VALUE'] ?>',
+                        'externalId':'<?= $arItem['EXTERNAL_ID'] ?>',
                         })">
           <a href="#car" class="order__popup__link user__popup__lvl__2__link">
             <div class="number__message__item">

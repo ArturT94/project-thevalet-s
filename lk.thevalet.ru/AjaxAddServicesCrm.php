@@ -6,6 +6,7 @@ if ($_POST) {
     $time = $_POST['time'];
     $planedTime = $_POST['planedTime'];
     $services = $_POST['services'];
+    $externalId = $_POST['getExternalCar'];
 
     $userId = CUser::GetID();
     $userGetParamsFromId = CUser::GetByID($userId);
@@ -19,9 +20,9 @@ if ($_POST) {
         new WebHook('lists.element.add', [
             'IBLOCK_ID' => 82, 'IBLOCK_TYPE_ID' => 'lists', 'ELEMENT_CODE' =>
                 'services',
-            'FIELDS' => ['NAME' => 'Заявка от ' . $arUser['NAME'], 'PROPERTY_403' => $planedTime, 'PROPERTY_407' => $userId, 'PROPERTY_409' => $arUser['PERSONAL_PHONE'], 'PROPERTY_530' => [$result]]
+            'FIELDS' => ['NAME' => 'Заявка от ' . $arUser['NAME'], 'PROPERTY_403' => $planedTime, 'PROPERTY_407' => $userId, 'PROPERTY_409' => $arUser['PERSONAL_PHONE'], 'PROPERTY_530' => [$result], 'PROPERTY_405' => $externalId, 'PROPERTY_408' => $userId]
         ]);
 }
-$results = json_encode($time);
+$results = json_encode($_POST);
 echo $results;
 ?>

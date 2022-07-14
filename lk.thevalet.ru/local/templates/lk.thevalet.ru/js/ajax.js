@@ -1,5 +1,7 @@
+let getExternalCar = '';
 function getNewOrderData() {
       return {
+          getExternalCar,
           services: getCheckboxesData(),
           money: document.querySelector('.result__money').innerText,
           time: document.querySelector('.result__time').innerText,
@@ -12,13 +14,17 @@ function getCheckboxesData() {
    $('.extensions__list > .extensions__item > input[id]').each(function() {
          element[+ $(this).attr('id').split('_')[1]] = $(this).is(':checked');
      });
-   return element;     
+   return element;
   }
 $('form#send-services > .user__popup__lvl__2__link').click(function() {
       $.post('/AjaxAddServicesCrm.php', getNewOrderData(), function(data) {
          console.log(data);
      }, 'json');
-  });
+});
+
+// $('a.order__popup__link.button_nextt').click(function () {
+//     document.getElementById("changeLink").href="#orderPage.php";
+// })
 getData = (car) => {
     $.ajax({
         url: "/AjaxGarageInfoCars.php",
@@ -35,13 +41,14 @@ getData = (car) => {
                 $("#osago").text(res.osago);
                 $("#wheels").text(res.wheels);
                 $("#vin").text(res.vin);
-                // данные должны отобразиться
+                getExternalCar = res.externalId;
             } else {
                 console.err("Произошла ошибка");
             }
         },
     });
 };
+
 
 
 getDataServices = (service) => {
