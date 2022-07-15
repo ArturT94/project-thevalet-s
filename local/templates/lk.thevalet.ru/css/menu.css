@@ -136,7 +136,7 @@
   border: 3px solid grey; /* отступ вокруг бегунка */
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .user__popup {
     position: fixed;
     z-index: 10;
@@ -240,9 +240,6 @@
   .menu__item--active .menu__link {
     color: #ffffff;
     transition: left ease-out 0.3s;
-  }
-  .menu__item .menu__link {
-    color: #000000;
   }
   .menu__link {
     display: block;

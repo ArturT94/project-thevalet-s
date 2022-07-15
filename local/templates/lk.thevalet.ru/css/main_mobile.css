@@ -62,16 +62,13 @@
     box-sizing: border-box;
     overflow-y: hidden;
   }
-
   .order::-webkit-scrollbar {
     width: 5px;
     z-index: 3;
   }
-
   .order::-webkit-scrollbar-track {
     background: transparent;
   }
-
   .order::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 5px;
@@ -89,11 +86,10 @@
     margin-right: -50%;
     transform: translate(-50%, -50%);
   }
-
   .service {
+    margin-bottom: 20px;
     height: auto;
   }
-
   .search__form {
     background: #fff;
     position: sticky;
@@ -158,7 +154,9 @@
     background-color: #c4c4c4;
     cursor: not-allowed;
   }
-
+  .addition__bottom {
+    margin: 0 13px !important;
+  }
   .double__popup {
     position: fixed;
     z-index: 20;
@@ -171,7 +169,7 @@
 
     transition: all 0.3s ease 0s;
   }
-
+  
   .double__popup__content {
     display: flex;
     align-items: flex-end;

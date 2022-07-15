@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/css/orderBasket.css">
 <div class="app__window">
   <section class="addition">
-    <button class="car__close close__order__popup"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
     <div class="addition__con">
       <section class="addition__bottom">
         <section class="amenities">
@@ -51,8 +50,8 @@
           <div class="result__block result__money">2500 ₽</div>
           <div class="result__block result__time">~ 1ч 25 мин</div>
         </div>
-        <a href="#systemPay" class="user__popup__lvl__2__link">
-          <button type="button" class="button__order" style="margin-bottom: 30px">Заказать</button>
+        <a href="#systemPay" class="user__popup__lvl__2__link ss_mar-b_con">
+          <button type="button" class="button__order ss_mar-b">Заказать</button>
         </a>
       </section>
     </div>

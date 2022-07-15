@@ -426,6 +426,7 @@ if (!$USER->IsAuthorized()) {
 
 <!--PopUp окна в заказе-->
 <div class="order__popup" id="addition">
+  <button class="car__close close__order__popup"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="order__popup__content">
     <?php include_once "orderBasket.php"; ?>
     <!--Фрейм подтверждения заказа-->

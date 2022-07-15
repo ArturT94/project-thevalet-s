@@ -531,6 +531,12 @@ input:checked + .slider:before {
   }
 }
 @media (max-width: 1200px) {
+  .order__popup {
+    left: 0;
+  }
+  .order__popup.open {
+    left: 27rem;
+  }
   .app {
     grid-template-columns: 27rem 1fr;
   }
