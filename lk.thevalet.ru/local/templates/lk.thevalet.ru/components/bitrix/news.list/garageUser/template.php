@@ -28,7 +28,7 @@
       <?php if ($USER->IsAuthorized()){
       foreach ($arResult['NEW_SECTION'] as $arItem) : ?>
         <?php $carImgs = CFile::GetPath($arItem['PROPERTY_FOTO_VALUE']) ?>
-        <li id="delCar" class="garage-mobile__item" onclick="getData({
+        <li id="delCar_<?=$arItem['ID']?>" class="garage-mobile__item" onclick="getData({
                     'img':'<?= $carImgs ?>',
                     'name':'<?= $arItem['NAME'] ?>',
                     'gosNumber':'<?= $arItem['PROPERTY_GOSNOMER_VALUE'] ?>',

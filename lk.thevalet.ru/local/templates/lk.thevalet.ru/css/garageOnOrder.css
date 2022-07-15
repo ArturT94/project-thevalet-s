@@ -60,13 +60,14 @@
 .add__auto .number__message__item {
   display: none;
 }
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .nav_group-garage {
     display: none;
     width: 0;
     height: 0;
   }
   .garage__on__order {
+    margin: 0;
     position: relative;
   }
   .garage {
@@ -91,12 +92,8 @@
   }
   .auto_img img {
     width: 90%;
-    margin-left: 0.5rem;
   }
   .add__auto {
-  }
-  .add__auto .auto_img img {
-    width: 90%;
   }
   .data__model {
     display: none;

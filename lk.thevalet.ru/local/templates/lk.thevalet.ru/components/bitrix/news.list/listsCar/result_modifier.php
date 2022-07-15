@@ -14,4 +14,3 @@ foreach($arSections as $arSection){
     $arElementGroups[] = $arSection;
 }
 $arResult["ITEMS"] = $arElementGroups;
-?>

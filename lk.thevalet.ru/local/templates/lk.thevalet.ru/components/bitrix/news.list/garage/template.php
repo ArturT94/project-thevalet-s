@@ -11,7 +11,7 @@ while ($result = $res->Fetch()) {
 }
 ?>
 <!--Весь фрейм автомобилей на экране совершения заказа-->
-<section class="garage__on__order" style="margin-bottom: -26px;">
+<section class="garage__on__order sp-margin">
   <h2 class="no-margin chapter__title chapter__title__mobile"><?= $blockText['IBLOCK_NAME']; ?></h2>
   <!--Пагинация и навигация в слайдере-->
   <div class="nav_group nav_group-garage">
@@ -29,7 +29,7 @@ while ($result = $res->Fetch()) {
             </div>
           </div>
           <div class="auto_img">
-            <img draggable=false src="<?= SITE_TEMPLATE_PATH ?>/img/test.png" alt="" style="width: 160px">
+            <img draggable=false class="image-width-spesh" src="<?= SITE_TEMPLATE_PATH ?>/img/test.png" alt="">
           </div>
           <div class="data__auto">
             <div class="data__model">Land Rover Defender</div>
@@ -38,12 +38,12 @@ while ($result = $res->Fetch()) {
         </a>
       </button>
       <?php
-      if ($USER->IsAuthorized()){
-      foreach ($arResult['NEW_SECTION'] as $arItem) : ?>
-        <?php //echo '<pre>' . print_r($arItem, true) . '</pre>';
-        ?>
-        <?php $carImgs = CFile::GetPath($arItem['PROPERTY_FOTO_VALUE']) ?>
-        <button class="swiper-slide auto" onclick="getData({
+      if ($USER->IsAuthorized()) {
+        foreach ($arResult['NEW_SECTION'] as $arItem) : ?>
+          <?php //echo '<pre>' . print_r($arItem, true) . '</pre>';
+          ?>
+          <?php $carImgs = CFile::GetPath($arItem['PROPERTY_FOTO_VALUE']) ?>
+          <button class="swiper-slide auto" onclick="getData({
                         'img':'<?= $carImgs ?>',
                         'name':'<?= $arItem['NAME'] ?>',
                         'gosNumber':'<?= $arItem['PROPERTY_GOSNOMER_VALUE'] ?>',
@@ -54,32 +54,32 @@ while ($result = $res->Fetch()) {
                         'vin':'<?= $arItem['PROPERTY_VIN_VALUE'] ?>',
                         'externalId':'<?= $arItem['EXTERNAL_ID'] ?>',
                         })">
-          <a href="#car" class="order__popup__link user__popup__lvl__2__link">
-            <div class="number__message__item">
-              <div class="number__message">
-                <p></p>
+            <a href="#car" class="order__popup__link user__popup__lvl__2__link">
+              <div class="number__message__item">
+                <div class="number__message">
+                  <p></p>
+                </div>
               </div>
-            </div>
-            <div class="auto_img">
-              <img draggable=false src="<?= $carImgs ?>" alt="" style="width: 160px">
-            </div>
-            <div class="data__auto">
-              <div class="data__model"><?= $arItem['NAME'] ?></div>
-              <div class="data__number"><?= $arItem['PROPERTY_GOSNOMER_VALUE'] ?></div>
-            </div>
-          </a>
-        </button>
+              <div class="auto_img">
+                <img draggable=false class="image-width-spesh" src="<?= $carImgs ?>" alt="">
+              </div>
+              <div class="data__auto">
+                <div class="data__model"><?= $arItem['NAME'] ?></div>
+                <div class="data__number"><?= $arItem['PROPERTY_GOSNOMER_VALUE'] ?></div>
+              </div>
+            </a>
+          </button>
       <?php endforeach;
       }
       ?>
-      <a href="#brand" class="swiper-slide auto add__auto user__popup__lvl__2__link">
+      <a href="#brand" class="swiper-slide auto add__auto user__popup__lvl__2__link pl_spesh">
         <div class=" number__message__item">
           <div class="number__message">
             <p></p>
           </div>
         </div>
-        <div class="auto_img">
-          <img draggable=false src="<?= SITE_TEMPLATE_PATH ?>/img/data/add.png" alt="">
+        <div class="auto_img spesh_con_plus">
+          <img draggable=false src="<?= SITE_TEMPLATE_PATH ?>/img/data/add.svg" alt="">
         </div>
         <div class="data__auto">
           <div class="data__model"></div>

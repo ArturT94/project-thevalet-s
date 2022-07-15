@@ -48,7 +48,7 @@
     opacity: 1;
   }
   .popup__content {
-    margin-top: 45%;
+    margin-top: 30vh;
     width: 90%;
   }
   .menu__close__popup {

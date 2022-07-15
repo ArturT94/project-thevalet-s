@@ -46,8 +46,6 @@ getData = (car) => {
     });
 };
 
-
-
 getDataServices = (service) => {
     $.ajax({
         url: "/AjaxAddServices.php",
@@ -94,6 +92,6 @@ function deleteCar(car) {
             console.log(data);
         }, 'json');
         $('button.menu__close__popup.service__close-popup').click();
-        document.getElementById("delCar").remove();
+        document.getElementById("delCar_" + car.IdCar).remove();
     });
 }

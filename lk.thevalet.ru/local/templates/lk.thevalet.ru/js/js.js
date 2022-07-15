@@ -22,6 +22,10 @@ for (i = 0; i < deleteCarBtnL.length; i++) {
 $(document).ready(function () {
   $("#datepicker").datepicker( $.datepicker.regional[ "ru" ] );
 
+  $('#datepicker').change(function() {
+    dropDateTime();
+  });
+
   //Функции на преобразование даты
   padTo2Digits = (num) => {
     return num.toString().padStart(2, '0');
@@ -54,7 +58,6 @@ $(document).ready(function () {
     $(".planing__list").addClass("d-none");
     $(".planing__picker").removeClass("d-none");
   };
-
 
 /*Эдуардовский циферблат*/
   timepicker = () => {
@@ -139,13 +142,9 @@ $(document).ready(function () {
     $(".timepicker .top .m").text(currentTime.getMinutes());
 
     $(".timepicker__default").click(() => {
-      if (!$(".timepicker .top .h").hasClass("active")) {
-        selectHours();
-        let date = new Date();
-        $(".timepicker .top .h").text(date.getHours());
-        $(".timepicker .top .m").text(date.getMinutes());
-        $("#amenities__button").text('Запланировать');
-      }
+      dropDateTime();
+      $(".planing__list").removeClass("d-none");
+      $(".planing__picker").addClass("d-none");
     });
 
     // $(".timepicker .top span").click(() => {
@@ -159,5 +158,15 @@ $(document).ready(function () {
     // });
   };
   timepicker();
+
+  dropDateTime = () => {
+    if (!$(".timepicker .top .h").hasClass("active")) {
+      selectHours();
+      let date = new Date();
+      $(".timepicker .top .h").text(date.getHours());
+      $(".timepicker .top .m").text(date.getMinutes());
+      $("#amenities__button").text('Запланировать');
+    }
+  }
 });
 /*/Эдуардовский циферблат*/

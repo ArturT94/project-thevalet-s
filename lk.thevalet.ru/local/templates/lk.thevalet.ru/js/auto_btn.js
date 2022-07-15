@@ -20,7 +20,7 @@ if (serviceButton) {
           serviceButton[i].classList.remove("active");
           if (!document.querySelector(".serv-button.active")) {
             buttonNext.style.pointerEvents = "none";
-            buttonNext.style.backgroundColor = "gray";
+            buttonNext.style.backgroundColor = "#c4c4c4";
             buttonNext.innerHTML = "выберите услугу";
           }
         } else {
@@ -49,7 +49,7 @@ if (serviceButton) {
           serviceButtonSecond[i].classList.remove("active");
           if (!document.querySelector(".serv-button-second.active")) {
             buttonNext.style.pointerEvents = "none";
-            buttonNext.style.backgroundColor = "gray";
+            buttonNext.style.backgroundColor = "#c4c4c4";
             buttonNext.innerHTML = "выберите услугу";
           }
         } else {

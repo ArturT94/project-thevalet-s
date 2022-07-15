@@ -21,10 +21,11 @@ $this->setFrameMode(true);
   <div class="swiper-button-next sw-Btn-service-Next"></div>
 </div>
 <div class="swiper vltServise">
-  <div class="swiper-wrapper">
+  <div class="swiper-wrapper spesh_height">
     <?php foreach ($arResult["ITEMS"] as $arItems) : ?>
       <?php foreach ($arItems['ELEMENTS'] as $arItem) : ?>
-<?php //echo '<pre>' . print_r($arItem['EXTERNAL_ID'], true) . '</pre>';?>
+        <?php //echo '<pre>' . print_r($arItem['EXTERNAL_ID'], true) . '</pre>';
+        ?>
         <button id="services" class="swiper-slide vlt_servise serv-button " onclick="getDataServices({
                     'services':'<?= $arItem['NAME'] ?>',
                     'id':'<?= $arItem['EXTERNAL_ID'] ?>',

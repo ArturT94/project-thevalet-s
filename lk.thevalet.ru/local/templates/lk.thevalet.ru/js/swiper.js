@@ -8,7 +8,7 @@ new Swiper(".garage", {
   },
   breakpoints: {
     320: {
-      slidesPerView: 2.5,
+      slidesPerView: "auto",
     },
     767: {
       slidesPerView: 2,
@@ -16,38 +16,20 @@ new Swiper(".garage", {
   },
 });
 new Swiper(".vltServise", {
-  slidesPerView: 2,
-  autoHeight: true,
+  slidesPerView: "auto",
+  
   spaceBetween: 10,
   navigation: {
     nextEl: ".sw-Btn-service-Next",
     prevEl: ".sw-Btn-service-Prev",
   },
-  breakpoints: {
-    320: {
-      slidesPerView: 2.5,
-      spaceBetween: 10,
-    },
-    767: {
-      slidesPerView: 2,
-    },
-  },
 });
 new Swiper(".vltServise2", {
-  slidesPerView: 2,
-  autoHeight: true,
+  slidesPerView: "auto",
+  
   spaceBetween: 10,
   navigation: {
     nextEl: ".sw-Btn-service2-Next",
     prevEl: ".sw-Btn-service2-Prev",
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 2.5,
-      spaceBetween: 10,
-    },
-    767: {
-      slidesPerView: 2,
-    },
   },
 });

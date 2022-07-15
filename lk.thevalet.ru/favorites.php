@@ -16,7 +16,7 @@
           <div class="swiper-button-next sw-Btn-service-Next"></div>
         </div>
         <div class="swiper vltServise">
-          <div class="swiper-wrapper">
+          <div class="swiper-wrapper spesh_height">
             <button class="swiper-slide heit vlt-heit-btn vlt_servise">
               <a href="#popup__service" class="service__icon">
                 <img src="<?= SITE_TEMPLATE_PATH ?>/img/layout/services-info.svg" width="26" height="26" alt="">

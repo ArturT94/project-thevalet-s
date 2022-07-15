@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/css/map.css">
 <div class="map" style="position: relative">
-  <a href="#popup__beta" class="beta_pop">
+  <a href="#popup__beta" class="beta_pop d-3-none">
     <div class="beta">beta</div>
   </a>
 

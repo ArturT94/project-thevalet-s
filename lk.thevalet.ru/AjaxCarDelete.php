@@ -6,4 +6,3 @@ $IdCar = $_POST['IdCar'];
 new WebHook('lists.element.delete', ['IBLOCK_ID' => $iblockId, 'IBLOCK_TYPE_ID' => 'lists', 'ELEMENT_ID' => $IdCar]);
 
 echo json_encode($_POST);
-?>

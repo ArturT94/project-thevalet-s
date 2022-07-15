@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/css/orderBasket.css">
 <div class="app__window">
   <section class="addition">
-    <button class="car__close close__order__popup"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
+   <!-- <button class="car__close close__order__popup"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button> -->
     <div class="addition__con">
       <form id="send-services" class="addition__bottom">
         <section class="amenities">

@@ -23,7 +23,7 @@ $this->setFrameMode(true);
 <?php //echo '<pre>' . print_r($arResult['ITEMS'], true) . '</pre>';
 ?>
 <div class="swiper vltServise2">
-  <div class="swiper-wrapper">
+  <div class="swiper-wrapper spesh_height">
 
     <?php foreach ($arResult["ITEMS"] as $arItems) : ?>
       <?php foreach ($arItems['ELEMENTS'] as $arItem) : ?>
