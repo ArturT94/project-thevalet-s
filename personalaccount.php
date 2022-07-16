@@ -12,8 +12,8 @@ $imgUser = GarbageDataByArtur::get('accountImg');
       <div class="menu__profile2">
         <img class="profile__img2" src="<?= $imgUser ?>">
         <div class="profile__name2"><?= $accountUser['NAME'] ?></div>
-        <?php if (!empty($accountUser['PERSONAL_MOBILE'])) : ?>
-          <div class="profile__name2"><?= $accountUser['PERSONAL_MOBILE'] ?></div>
+        <?php if (!empty($accountUser['PERSONAL_PHONE'])) : ?>
+          <div class="profile__name2"><?= $accountUser['PERSONAL_PHONE'] ?></div>
         <?php else : ?>
           <div class="profile__name2" style="color: grey;">Телефон</div>
         <?php endif; ?>

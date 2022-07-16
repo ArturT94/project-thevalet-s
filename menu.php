@@ -1,8 +1,11 @@
 <?php
+require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_before.php");
 $userId = CUser::GetID();
 $userGetParamsFromId = CUser::GetByID($userId);
 $arUser = $userGetParamsFromId->Fetch();
 $accountImg = CFile::GetPath($arUser['PERSONAL_PHOTO']);
+GarbageDataByArtur::set('accountUser', $arUser);
+GarbageDataByArtur::set('accountImg', $accountImg);
 ?>
 <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/css/menu.css">
 
@@ -11,7 +14,11 @@ $accountImg = CFile::GetPath($arUser['PERSONAL_PHOTO']);
   <div class="menu__con">
     <div class="menu__cont">
       <div class="menu__profile">
-        <img class="profile__img" src="<?= $accountImg ?>">
+        <?php if (!$accountImg) : ?>
+          <img class="profile__img" src="<?= SITE_TEMPLATE_PATH ?>/img/profil.png" style="width: 250px">
+        <?php else : ?>
+          <img class="profile__img" src="<?= $accountImg ?>">
+        <?php endif; ?>
         <div class="profile__name"><?= $arUser['NAME'] ?></div>
         <a class="profile__link user__popup__lvl__2__link" href="#personalaccount">Посмотреть профиль</a>
       </div>

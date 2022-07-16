@@ -6,7 +6,7 @@
                                                                                                             ?>
     <!--/img/layout/arrow-right.png"></button>-->
     <div class="global__mobile__block">
-      <div class="car__profile car__profile__mobile">
+      <div id="carInfo" class="car__profile car__profile__mobile">
         <img class="car__img" src="<?= SITE_TEMPLATE_PATH ?>/img/test.png">
         <div class="car__name">Land Rover Defender</div>
         <div class="car__model"><span id="number">Р352НА710</span>

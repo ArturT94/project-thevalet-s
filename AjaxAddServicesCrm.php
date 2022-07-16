@@ -20,7 +20,7 @@ if ($_POST) {
   new WebHook('lists.element.add', [
     'IBLOCK_ID' => 82, 'IBLOCK_TYPE_ID' => 'lists', 'ELEMENT_CODE' =>
     'services',
-    'FIELDS' => ['NAME' => 'Заявка от ' . $arUser['NAME'], 'PROPERTY_403' => $planedTime, 'PROPERTY_407' => $userId, 'PROPERTY_409' => $arUser['PERSONAL_PHONE'], 'PROPERTY_530' => [$result], 'PROPERTY_405' => $externalId, 'PROPERTY_408' => $userId]
+    'FIELDS' => ['NAME' => 'Заявка от ' . $arUser['NAME'], 'PROPERTY_403' => $planedTime, 'PROPERTY_407' => $userId, 'PROPERTY_409' => $arUser['PERSONAL_PHONE'], 'PROPERTY_530' => [$result], 'PROPERTY_405' => $externalId, 'PROPERTY_408' => $userId, 'PROPERTY_532' => date("F j, Y, H:i:s")]
   ]);
 }
 $results = json_encode($_POST);

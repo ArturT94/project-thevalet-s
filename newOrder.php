@@ -297,7 +297,7 @@ if (!$USER->IsAuthorized()) {
         <button type="button" class="button__order js-button-order button_nextt_con" disabled="">
           <?php
           if (!$USER->IsAuthorized()) : ?>
-            <a href="index.php" class="order__popup__link button_nextt">выберите услугу</a>
+            <a href="index.php" class="button_nextt">выберите услугу</a>
           <?php else : ?>
             <a href="#addition" class="order__popup__link button_nextt">выберите услугу</a>
           <?php endif; ?>

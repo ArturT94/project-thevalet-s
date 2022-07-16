@@ -264,7 +264,25 @@ input::placeholder {
   cursor: not-allowed;
 }
 
-/*--*/
+.cls-1 path {
+  fill: none;
+  stroke: white;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+.cls-1.favourite path {
+  fill: white;
+  stroke: white;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+.cls-2 path {
+  fill: gray;
+  stroke: gray;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
 .app__window {
   top: 0;
   left: 0;

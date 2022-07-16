@@ -3,6 +3,14 @@ const betaPop = document.querySelector("#popup__beta");
 const deleteCarBtn = document.querySelectorAll(".img__trash");
 const deleteCarBtnL = document.querySelectorAll(".img__trash-l");
 const deleteCarPop = document.querySelector("#delete__car");
+const hearthIcon = document.querySelectorAll(".cls-1");
+const hearthIconSecond = document.querySelectorAll(".cls-2");
+
+for (let i = 0; i < hearthIcon.length; i++) {
+  hearthIcon[i].addEventListener("click", function (e) {
+    hearthIcon[i].classList.toggle("favourite");
+  });
+}
 
 for (let i = 0; i < betaBtn.length; i++) {
   betaBtn[i].addEventListener("click", function (e) {
