@@ -66,6 +66,9 @@
     width: 5px;
     z-index: 3;
   }
+  .tires {
+    margin-top: 30px;
+  }
   .order::-webkit-scrollbar-track {
     background: transparent;
   }
@@ -169,7 +172,7 @@
 
     transition: all 0.3s ease 0s;
   }
-  
+
   .double__popup__content {
     display: flex;
     align-items: flex-end;
