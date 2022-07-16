@@ -198,7 +198,7 @@ function onTabClick(item) {
 
 function goBackPop(id) {
   const popupses = document.querySelectorAll(".user__popup__lvl__2");
-  const popapus = document.getElementById("brand"); // тут можно будет передавать id, если окон будет больше
+  const popapus = document.getElementById(id); // тут можно будет передавать id, если окон будет больше
   popupses.forEach((element) => {
     element.classList.remove("open");
   });
@@ -207,7 +207,7 @@ function goBackPop(id) {
 
 function goNextPop(id) {
   const popupses = document.querySelectorAll(".user__popup__lvl__2__link");
-  const popapus = document.getElementById("gosnumber"); // тут можно будет передавать id, если окон будет больше
+  const popapus = document.getElementById(id); // тут можно будет передавать id, если окон будет больше
   popupses.forEach((element) => {
     element.classList.remove("open");
   });

@@ -263,7 +263,134 @@ input::placeholder {
   background-color: #c4c4c4;
   cursor: not-allowed;
 }
+.tirest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tirest__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 18px;
+}
+.tiresm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tiresm__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.tiresm__gap {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  bottom: -1rem;
+  position: relative;
+}
+.tiresm__step {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.tiresm__input {
+  max-width: 185px;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0px 0px 4px 1px rgb(0 0 0 / 25%);
+  text-transform: uppercase;
+  box-sizing: border-box;
+  max-height: 37px;
+  background: #ffffff;
+  border: 1px solid #e3dfdf;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-size: 30px;
+  line-height: 37px;
+  color: #c7c7c7;
+  display: flex;
+  align-items: center;
+}
+.tiresc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 27px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
 
+/* Hide default HTML checkbox */
+.switch input {
+  display: none;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: black !important;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px black;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
 .cls-1 path {
   fill: none;
   stroke: white;

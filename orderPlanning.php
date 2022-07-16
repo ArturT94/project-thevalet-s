@@ -33,7 +33,7 @@
           </div>
 
           <div class="button__flex">
-            <button class="planing__button" type="button" onclick="orderPlaning(`${$('#datepicker').val()} ${$('.timepicker .top .h').text()}:${$('.timepicker .top .m').text()}`)">
+            <button class="planing__button" type="button" onclick="orderPlaning(`${$('#datepicker').val()} ${$('.timepicker .top .h').text()}:${$('.timepicker .top .m').text()}:00`)">
               Далее
             </button>
             <button class="profile__exit-link timepicker__default">Сбросить</button>

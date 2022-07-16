@@ -551,4 +551,11 @@ if (!$USER->IsAuthorized()) {
     <!--Фрейм Добавить Госномер при добавлении авто в гараже клиента в бургере-->
   </div>
 </div>
+<div class="user__popup__lvl__2" id="tires">
+  <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
+  <div class="user__popup__lvl__2__content">
+    <?php include_once "tires.php"; ?>
+    <!--Фрейм Добавить Госномер при добавлении авто в гараже клиента в бургере-->
+  </div>
+</div>
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
