@@ -470,6 +470,7 @@ if (!$USER->IsAuthorized()) {
   </div>
 </div>
 <div class="user__popup__lvl__2" id="garage">
+  <div class="drag__element Close__user__popup__lvl__2"></div>
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
     <?php include_once "garage.php"; ?>
@@ -477,6 +478,7 @@ if (!$USER->IsAuthorized()) {
   </div>
 </div>
 <div class="user__popup__lvl__2" id="systemPay">
+  <div class="drag__element Close__user__popup__lvl__2"></div>
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
     <?php include_once "systemPay.php"; ?>
@@ -484,6 +486,7 @@ if (!$USER->IsAuthorized()) {
   </div>
 </div>
 <div class="user__popup__lvl__2" id="add__pay__card">
+  <div class="drag__element Close__user__popup__lvl__2"></div>
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
     <?php include_once "add__pay__card.php"; ?>
@@ -491,6 +494,7 @@ if (!$USER->IsAuthorized()) {
   </div>
 </div>
 <div class="user__popup__lvl__2" id="history">
+  <div class="drag__element Close__user__popup__lvl__2"></div>
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
     <?php include_once "history.php"; ?>
@@ -498,6 +502,7 @@ if (!$USER->IsAuthorized()) {
   </div>
 </div>
 <div class="user__popup__lvl__2" id="favorites">
+  <div class="drag__element Close__user__popup__lvl__2"></div>
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
     <?php include_once "favorites.php"; ?>
@@ -505,6 +510,7 @@ if (!$USER->IsAuthorized()) {
   </div>
 </div>
 <div class="user__popup__lvl__2" id="chat">
+  <div class="drag__element Close__user__popup__lvl__2"></div>
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
     <?php include_once "chat.php"; ?>
@@ -512,6 +518,7 @@ if (!$USER->IsAuthorized()) {
   </div>
 </div>
 <div class="user__popup__lvl__2" id="personalaccount">
+  <div class="drag__element Close__user__popup__lvl__2"></div>
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
     <?php include_once "personalaccount.php"; ?>
@@ -519,6 +526,7 @@ if (!$USER->IsAuthorized()) {
   </div>
 </div>
 <div class="user__popup__lvl__2" id="car">
+  <div class="drag__element Close__user__popup__lvl__2"></div>
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
     <?php include_once "car.php"; ?>
@@ -526,6 +534,7 @@ if (!$USER->IsAuthorized()) {
   </div>
 </div>
 <div class="user__popup__lvl__2" id="car1">
+  <div class="drag__element Close__user__popup__lvl__2"></div>
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
     <?php !$USER->IsAuthorized() ? include_once "index.php" : include_once "car1.php" ?>
@@ -533,6 +542,7 @@ if (!$USER->IsAuthorized()) {
   </div>
 </div>
 <div class="user__popup__lvl__2" id="brand">
+  <div class="drag__element Close__user__popup__lvl__2"></div>
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
     <?php include_once "brand.php"; ?>
@@ -540,6 +550,7 @@ if (!$USER->IsAuthorized()) {
   </div>
 </div>
 <div class="user__popup__lvl__2" id="model">
+  <div class="drag__element Close__user__popup__lvl__2"></div>
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
 
@@ -547,6 +558,7 @@ if (!$USER->IsAuthorized()) {
   </div>
 </div>
 <div class="user__popup__lvl__2" id="gosnumber">
+  <div class="drag__element Close__user__popup__lvl__2"></div>
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
     <?php include_once "gosnumber.php"; ?>
@@ -554,6 +566,7 @@ if (!$USER->IsAuthorized()) {
   </div>
 </div>
 <div class="user__popup__lvl__2" id="tires">
+  <div class="drag__element Close__user__popup__lvl__2"></div>
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
     <?php include_once "tires.php"; ?>

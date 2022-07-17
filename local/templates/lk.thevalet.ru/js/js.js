@@ -183,6 +183,95 @@ $(document).ready(function () {
     }
   };
 });
+function getCookie(name, defaultValue) {
+  let matches = document.cookie.match(new RegExp(
+    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+  ));
+  let result = matches ? decodeURIComponent(matches[1]) : defaultValue;
+  try
+    {let convertedResult = JSON.parse(result);
+     result = convertedResult;
+    }
+  catch(e)
+    {
+    }
+  return result;
+}
+function setCookie(name, value, options) {
+if(typeof options == 'number')
+  {options = {'max-age': options};
+  }
+if(options === undefined)
+{
+  options = {
+    path: '/',
+    // при необходимости добавьте другие значения по умолчанию
+  };
+  }
+
+  if (options.expires instanceof Date) {
+    options.expires = options.expires.toUTCString();
+  }
+  if(value instanceof Object)
+    {value = JSON.stringify(value);       
+    }
+  let updatedCookie = encodeURIComponent(name) + "=" + encodeURIComponent(value);
+
+  for (let optionKey in options) {
+    updatedCookie += "; " + optionKey;
+    let optionValue = options[optionKey];
+    if (optionValue !== true) {
+      updatedCookie += "=" + optionValue;
+    }
+  }
+
+  document.cookie = updatedCookie;
+}
+function unsetCookie(name) {
+  setCookie(name, "", {
+    'max-age': -1
+  })
+}
+window.Favorites = new Object();
+window.Favorites.CACHE_ID = '--fav';
+window.Favorites.get = function()
+  {return getCookie(this.CACHE_ID, new Array());    
+  }
+window.Favorites.set = function(value)
+  {return setCookie(this.CACHE_ID, value);    
+  }
+window.Favorites.isIn = function(id)
+  {return this.get().indexOf(id) >= 0;     
+  }
+window.Favorites.removeIn = function(id)
+  {$('#favorites .swiper-wrapper .swiper-slide[data-id="' + id + '"]').remove();     
+  }
+window.Favorites.showIn = function(id)
+  {$('.swiper-slide[data-id="' + id + '"]').filter(function(element)
+     {return $(element).parents('#favorites').length == 0;        
+     }).clone(true).appendTo($('#favorites .swiper-wrapper'));     
+  }
+window.Favorites.shift = function(id)
+  {let result;
+   if(result = this.isIn.apply(this, arguments))
+     {let ids = this.get();
+      ids.splice(ids.indexOf(id), 1);
+      this.set(ids);
+      this.removeIn(id);
+     }
+   return result;     
+  }
+window.Favorites.push = function(id)
+  {let result;
+   if(result = !this.isIn.apply(this, arguments))
+     {this.set(this.get().concat([id]));
+      this.showIn(id);  
+     }
+   return result;
+  }
+window.Favorites.init = function()
+  {this.get().forEach(this.showIn.bind(this)); 
+  }
 function processNew(cssSelector, processFunctio)
   {const FUNCTION = arguments.callee;
    document.querySelectorAll(cssSelector).forEach(function(element)
@@ -194,7 +283,10 @@ function processNew(cssSelector, processFunctio)
   }
 processNew.NAME_OF_THE_CLASS = '--binded';
 function updateView()
-  {processNew('[file-to]', function()
+  {processNew('body', function()
+     {window.Favorites.init();        
+     });
+   processNew('[file-to]', function()
      {this.addEventListener('click', function(event)
         {const ELEMENT = event.target;
          var input = document.createElement('input');
@@ -225,8 +317,10 @@ function updateView()
      });
    processNew('div.hearth__icon', function()
      {this.addEventListener('click', function(event)
-        {var $button = $(event.target).parents('.swiper-slide').eq(0);        
-         
+        {var $button = $(event.target).parents('.swiper-slide').eq(0), id = $button.get(0).dataset.id, nameOfTheMethod = ($button.parents('#favorites').length > 0) ? 'shift' : 'push';
+         if(Favorites[nameOfTheMethod](id))
+           {$button.clone(true).appendTo($('#favorites .swiper-wrapper'));              
+           }
         });
      });
   }

@@ -667,6 +667,9 @@ input:checked + .slider:before {
 .car__close-icon {
   transform: rotate(180deg);
 }
+.drag__container .drag__element {
+  z-index: 1;
+}
 @media (min-width: 767px) {
   .d-3 {
     display: none;
@@ -691,5 +694,14 @@ input:checked + .slider:before {
   }
   .user__popup__lvl__2.open {
     left: 27rem;
+  }
+}
+
+@media (max-width: 514px) {
+  .cardel__buttons {
+    gap: 10px !important;
+  }
+  .cardel__button {
+    width: 110px !important;
   }
 }
