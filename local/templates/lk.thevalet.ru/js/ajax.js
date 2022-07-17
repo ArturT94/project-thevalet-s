@@ -91,7 +91,6 @@ getDataServices = (service) => {
 function deleteCar(car) {
     $('button.cardel__button.btn-yes').click(function () {
         $.post('/AjaxCarDelete.php', car, function(data) {
-            console.log(data.IdCar);
         }, 'json');
         $('button.menu__close__popup.service__close-popup').click();
         document.getElementById("delCar_" + car.IdCar).remove();

@@ -5,6 +5,7 @@
                                                             src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"> -->
     </button>
     <div class="addition__con">
+      <div class="drag__element close__order__popup"></div>
       <section class="addition__bottom">
         <p class="planing__title">Запланировать</p>
         <ul class="planing__list">

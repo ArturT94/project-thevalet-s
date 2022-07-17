@@ -1,7 +1,7 @@
-const serviceButton = document.querySelectorAll(".serv-button");
-const serviceButtonSecond = document.querySelectorAll(".serv-button-second");
-const vltButton = document.querySelectorAll(".vlt-heit-btn");
-const buttonNext = document.querySelector(".button_nextt");
+window.serviceButton = document.querySelectorAll(".serv-button");
+window.serviceButtonSecond = document.querySelectorAll(".serv-button-second");
+window.vltButton = document.querySelectorAll(".vlt-heit-btn");
+window.buttonNext = document.querySelector(".button_nextt");
 
 if (serviceButton) {
   for (let i = 0; i < serviceButton.length; i++) {

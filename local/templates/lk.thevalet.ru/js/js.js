@@ -65,6 +65,7 @@ $(document).ready(function () {
     } else {
       $("#amenities__button a").html(time);
     }
+   $('#planning').removeClass('open');
   };
 
   planingInput = () => {
@@ -182,4 +183,52 @@ $(document).ready(function () {
     }
   };
 });
+function processNew(cssSelector, processFunctio)
+  {const FUNCTION = arguments.callee;
+   document.querySelectorAll(cssSelector).forEach(function(element)
+     { if(!element.classList.contains(FUNCTION.NAME_OF_THE_CLASS))
+         {processFunctio.call(element);
+          element.classList.add(FUNCTION.NAME_OF_THE_CLASS);      
+         }        
+     });     
+  }
+processNew.NAME_OF_THE_CLASS = '--binded';
+function updateView()
+  {processNew('[file-to]', function()
+     {this.addEventListener('click', function(event)
+        {const ELEMENT = event.target;
+         var input = document.createElement('input');
+         input.addEventListener('change', function(event)
+           {const FILE = event.target.files[0];
+            if(FILE.type.indexOf('image/') == 0)
+              {const READER = new FileReader();
+               READER.addEventListener('load', function(event)
+                 {const REQUEST = new XMLHttpRequest();
+                  REQUEST.open('POST', '/server.php?action=file-to&target=' + ELEMENT.getAttribute('file-to'));
+                  REQUEST.setRequestHeader('Content-Type', FILE.type);
+                  REQUEST.addEventListener('loadend', function()
+                    {if(REQUEST.status == 200)
+                       {                          
+                       }
+                    });
+                  REQUEST.send(event.target.result);
+                 });
+               READER.addEventListener('error', function(event)
+                 {let result = event.target.result;
+                 });
+               READER.readAsBinaryString(FILE);           
+              }               
+           });
+         input.type = 'file';
+         input.click();
+        });        
+     });
+   processNew('div.hearth__icon', function()
+     {this.addEventListener('click', function(event)
+        {var $button = $(event.target).parents('.swiper-slide').eq(0);        
+         
+        });
+     });
+  }
+updateView();
 /*/Эдуардовский циферблат*/

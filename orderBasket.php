@@ -3,6 +3,7 @@
   <section class="addition">
     <!-- <button class="car__close close__order__popup"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button> -->
     <div class="addition__con">
+      <div class="drag__element close__order__popup"></div>
       <form id="send-services" class="addition__bottom">
         <section class="amenities">
           <ul id="amenities__list" class="amenities__list">

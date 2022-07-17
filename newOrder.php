@@ -9,7 +9,9 @@ if (!$USER->IsAuthorized()) {
 
 <div class="app">
   <div class="order">
-    <div class="drag__element">
+    <div class="drag__container">
+      <div class="drag__element">
+      </div>
     </div>
     <!--Drag элемент для Order. Виден в Mobile-->
     <div class="conteiner">
