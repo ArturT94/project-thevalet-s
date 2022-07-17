@@ -5,7 +5,10 @@
     <div class="addition__con">
       <form id="send-services" class="addition__bottom">
         <section class="amenities">
-          <ul id="amenities__list" class="amenities__list"></ul>
+          <ul id="amenities__list" class="amenities__list">
+
+          </ul>
+          <buttnon class="amenities__add_btn">Добавить услугу</buttnon>
           <button class="amenities__button" id="amenities__button" type="button">
             <a href="#planning" class="order__popup__link">Запланировать</a>
           </button>
@@ -52,7 +55,7 @@
           <div class="result__block result__time">~ 1ч 25 мин</div>
         </div>
         <a href="#orderPage" id="changeLink" class="user__popup__lvl__2__link">
-          <button type="submit" name="button" class="button__order" style="margin-bottom: 30px"">Заказать</button>
+          <button type="submit" name="button" class="button__order ss_mar-b">Заказать</button>
         </a>
       </form>
     </div>

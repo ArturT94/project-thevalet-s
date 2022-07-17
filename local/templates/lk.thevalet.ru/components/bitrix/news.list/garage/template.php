@@ -22,7 +22,7 @@ while ($result = $res->Fetch()) {
   <div class="swiper garage">
     <div class="swiper-wrapper">
       <button class="swiper-slide auto">
-        <a href="#car" class="order__popup__link user__popup__lvl__2__link">
+        <a href="#car" class="user__pop_btn_doubleclick">
           <div class="number__message__item">
             <div class="number__message">
               <p></p>
@@ -54,7 +54,7 @@ while ($result = $res->Fetch()) {
                         'vin':'<?= $arItem['PROPERTY_VIN_VALUE'] ?>',
                         'externalId':'<?= $arItem['EXTERNAL_ID'] ?>',
                         })">
-            <a href="#car" class="order__popup__link user__popup__lvl__2__link">
+            <a href="#car" class="user__pop_btn_doubleclick">
               <div class="number__message__item">
                 <div class="number__message">
                   <p></p>

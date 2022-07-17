@@ -1,5 +1,4 @@
 .addition {
-  overflow-y: scroll;
   position: absolute;
   top: 0;
   left: 0;
@@ -23,7 +22,24 @@
 }
 
 .amenities__list {
+  margin-bottom: 7px;
+}
+
+.amenities__add_btn {
+  border-top: 1px solid #c7c7c7;
+  padding-top: 9px;
   margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #c7c7c7;
+  display: block;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+.amenities__add_btn:hover {
+  color: #000;
 }
 .amenities__item {
   padding-bottom: 10px;
@@ -177,6 +193,18 @@ input[type="checkbox"] {
   margin-bottom: 30px;
 }
 @media (max-width: 767px) {
+  .amenities__list {
+    margin-bottom: 10px;
+  }
+
+  .amenities__add_btn {
+    border-top: 1px solid #c7c7c7;
+    padding-top: 7px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
   .addition__result {
     padding-bottom: 75px;
   }
