@@ -46,8 +46,6 @@ getData = (car) => {
     });
 };
 
-
-
 getDataServices = (service) => {
     $.ajax({
         url: "/AjaxAddServices.php",
