@@ -1,0 +1,28 @@
+.elements__history {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.services__block {
+  padding-bottom: 5%;
+}
+.favorites__driver__person {
+  margin-bottom: 0;
+}
+.favorites__address__block {
+  width: 100%;
+}
+.favorites__address__wrap {
+  border-bottom: 1px solid #c7c7c7;
+  margin-top: 12px;
+  padding-bottom: 12px;
+}
+@media screen and (max-width: 767px) {
+  .favorites__address__block {
+    width: 94.5%;
+  }
+  .favorites__block {
+    width: 94.5%;
+  }
+}

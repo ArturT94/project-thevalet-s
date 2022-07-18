@@ -1,0 +1,121 @@
+.global__payment {
+  height: 94.5%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.form__card__payment {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nomber__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form-card__input {
+  width: 24rem;
+  height: 2.4rem;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+.card__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.date__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.number__and__date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.code {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.date {
+  width: 2.7rem;
+  height: 1.8rem;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+}
+.recept__block {
+  margin-top: 7rem;
+}
+.recept {
+  margin-left: 0.5rem;
+}
+.recept__and__checkmarc {
+  display: flex;
+  align-items: center;
+}
+::placeholder {
+  text-indent: 5px;
+}
+.custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.custom-checkbox + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.custom-checkbox + label::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+.custom-checkbox:checked + label::before {
+  border-color: #838383;
+  background-color: #838383;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+@media screen and (max-width: 767px) {
+  .form-card__input {
+    width: 100%;
+  }
+  
+  
+  .date {
+    width: 3.7rem;
+    height: 2.8rem;
+  }
+  input[type="number"]::placeholder {
+    text-indent: 30px;
+  }
+  .global__payment {
+    margin-top: 105px;
+  }
+  .form {
+    width: 100%;
+  }
+  .nomber__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+}

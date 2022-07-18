@@ -1,0 +1,35 @@
+.app__header {
+}
+.profile {
+}
+.profile img {
+}
+.vlt {
+  display: none;
+}
+.vlt img {
+}
+@media (max-width: 767px) {
+  .app__header {
+    display: flex;
+    border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgb(0, 0, 0); /* Цвет границы */
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .profile {
+  }
+  .profile img {
+    width: 25px;
+  }
+  .vlt {
+    display: block;
+    margin: 0 auto;
+  }
+  .vlt img {
+    width: 60px;
+  }
+}

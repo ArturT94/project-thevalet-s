@@ -1,0 +1,135 @@
+.nav_group-garage {
+  position: relative;
+  display: flex;
+  width: 120%;
+  left: -2.8rem;
+  bottom: -4.5rem;
+}
+
+.garage {
+}
+.auto {
+  display: flex;
+  flex-direction: column;
+  height: 10rem;
+  width: 12rem;
+  align-items: center;
+  transition-duration: 0.3s;
+  transition: 0.3s all ease;
+}
+.auto.active {
+  background: #ededed;
+  border-radius: 10px;
+}
+.number__message__item {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+  margin-bottom: -27px;
+  margin-right: -4px;
+}
+.number__message {
+  width: 25px;
+  height: 25px;
+  background-image: url("/lk.thevalet.ru/localevalet.ru/local/templates/lk.thevalet.ru/img/layout/MESSAGE2.png");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.number__message p {
+  font-size: 0.6rem;
+  color: #ffff;
+}
+.auto_img {
+}
+.auto_img img {
+}
+.add__auto {
+}
+.data__auto {
+  padding: 0.5rem 0rem 1rem 0rem;
+}
+.data__model {
+  font-size: 1rem;
+}
+.data__number {
+  font-size: 1rem;
+}
+.add__auto .number__message__item {
+  display: none;
+}
+@media (max-width: 767px) {
+  .nav_group-garage {
+    width: 100%;
+    position: relative;
+    left: 0rem;
+    bottom: -4.5rem;
+  }
+  .swiper-button-next {
+    transition: all 0.3s ease 0s;
+    right: 5px;
+    background-color: gray;
+    color: #fff;
+    border-radius: 5px;
+    opacity: 0.8;
+  }
+  .swiper-button-prev {
+    transition: all 0.3s ease 0s;
+    left: 5px;
+    border-radius: 5px;
+    background-color: gray;
+    color: #fff;
+
+    opacity: 0.8;
+  }
+  .swiper-button-next:hover {
+    opacity: 1;
+    background-color: gray;
+    color: #fff;
+  }
+  .swiper-button-prev:hover {
+    opacity: 1;
+    background-color: gray;
+    color: #fff;
+  }
+  .garage__on__order {
+    margin: 0;
+    position: relative;
+  }
+  .garage {
+  }
+  .auto {
+  }
+  .auto.active {
+    background: #ededed;
+    border-radius: 0px;
+  }
+  .number__message__item {
+    margin-top: 6px;
+    margin-right: -3px;
+    margin-bottom: -20px;
+  }
+
+  .number__message {
+  }
+  .number__message p {
+  }
+  .auto_img {
+  }
+  .auto_img img {
+    width: 90%;
+  }
+  .add__auto {
+  }
+  .data__model {
+    display: none;
+  }
+  .data__number {
+    font-size: 0.9rem;
+  }
+  .add__auto .number__message__item {
+    display: none;
+  }
+}

@@ -1,0 +1,142 @@
+.global__driver__block {
+  height: 94.5%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.driver__status {
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 20px;
+}
+
+.driver__wrapper {
+  background: #ededed;
+  border-radius: 5px;
+  padding: 28px 26px 25px 26px;
+  box-sizing: border-box;
+}
+
+.driver__img {
+  border-radius: 50%;
+  width: 108px;
+  height: 108px;
+  object-fit: cover;
+  margin-bottom: 14px;
+}
+.driver__name {
+  font-size: 17px;
+  line-height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.driver__name svg {
+  width: 20px;
+  height: 20px;
+}
+.hearth__icon_avatar {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  z-index: 100;
+}
+.driver__rating {
+  font-size: 17px;
+  color: #acacac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.driver__car {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.driver__carpic {
+  width: 206px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.driver__number {
+  margin-bottom: 9px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 14.56px 1.44px rgba(0, 0, 0, 0.13);
+  padding: 14px 16px;
+  width: 140px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.driver__model {
+  font-size: 17px;
+}
+.driver__first {
+  margin-bottom: 20px;
+}
+
+.driver__buttons {
+  display: none;
+}
+
+.driver__bottom {
+}
+
+.driver__bottom-item {
+  width: 87px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.driver__phone {
+  display: none;
+}
+
+.driver__show {
+  display: block;
+}
+
+.driver__chat {
+  margin-right: 78px;
+}
+
+.driver__bottom-link {
+  display: block;
+  margin-bottom: 22px;
+  cursor: pointer;
+}
+
+.amenities__button {
+  width: 100%;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 9px;
+  box-sizing: border-box;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+@media screen and (max-width: 767px) {
+  .global__driver__block {
+    margin-top: 25px;
+  }
+  .driver__person {
+    margin-bottom: 20px;
+  }
+  .driver__rating {
+    display: none;
+  }
+  .driver__status {
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 0px;
+  }
+}

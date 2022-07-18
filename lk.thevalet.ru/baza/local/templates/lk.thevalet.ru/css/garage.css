@@ -1,0 +1,173 @@
+.garage-mobile__list {
+  margin-bottom: 50px;
+}
+.garage-mobile__item {
+  text-align: center;
+  border-bottom: 1px solid #c7c7c7;
+  margin-bottom: 40px;
+  position: relative;
+}
+.img__trash-l {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+  transform: translate(0px, -100%);
+  transition: all 0.3s ease 0s;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.img__trash {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0px, -100%);
+  transition: all 0.3s ease 0s;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.img__trash-l:hover {
+  opacity: 1;
+}
+.img__trash:hover {
+  opacity: 1;
+}
+.garage-block .car__profile {
+  padding-bottom: 25px;
+}
+
+.garage-mobile__string {
+  font-size: 18px;
+  line-height: 22px;
+}
+.garage-mobile__more {
+  display: none;
+}
+.garage__link {
+  display: block;
+}
+.button__garage {
+  background-color: #c4c4c4;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.garage__add {
+  text-align: center;
+}
+
+.add__text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+.car__close {
+  position: absolute;
+  top: 38px;
+  right: -61px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 7.36px 0.64px rgba(0, 0, 0, 0.39);
+  z-index: 200;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number__message__item2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+  margin-bottom: -16px;
+  margin-right: 21%;
+}
+.number__message2 {
+  width: 25px;
+  height: 25px;
+  /* вызывает 404! */
+  /* background-image: url("/local/templates/lk.thevalet.ru/img/layout/MESSAGE2.png"); */
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+}
+.number__message p {
+  font-size: 0.6rem;
+  color: #ffff;
+}
+
+@media (max-width: 767px) {
+  .garage-block {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: 4;
+    background-color: #ffffff;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0px 0px 7.36px 0.64px rgba(0, 0, 0, 0.39);
+    box-sizing: border-box;
+  }
+  .garage-mobile__list {
+    margin-bottom: 50px;
+  }
+  .garage-mobile__item {
+    text-align: center;
+    border-bottom: 1px solid #c7c7c7;
+    margin-bottom: 35px;
+  }
+
+  .garage-block .car__profile {
+    padding-bottom: 20px;
+  }
+
+  .garage-mobile__string {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .garage-mobile__more {
+    display: none;
+  }
+  .garage__link {
+    display: block;
+  }
+  .garage__link img {
+    width: 40%;
+    height: 40%;
+  }
+  .button__garage {
+    background-color: #c4c4c4;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  .garage__add {
+    text-align: center;
+  }
+
+  .add__text {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .car__close {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 7.36px 0.64px rgba(0, 0, 0, 0.39);
+    width: 40px;
+    height: 40px;
+  }
+}
