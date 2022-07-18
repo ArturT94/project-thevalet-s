@@ -495,7 +495,6 @@ input:checked + .slider:before {
   left: 32rem;
 }
 .user__popup__lvl__2.open .user__popup__lvl__2__content {
-  overflow-x: hidden;
   overflow-y: scroll;
   position: relative;
   background: #fff;
@@ -668,9 +667,6 @@ input:checked + .slider:before {
 .car__close-icon {
   transform: rotate(180deg);
 }
-.drag__container .drag__element {
-  z-index: 1;
-}
 @media (min-width: 767px) {
   .d-3 {
     display: none;
@@ -697,12 +693,6 @@ input:checked + .slider:before {
     left: 27rem;
   }
 }
-
-@media (max-width: 514px) {
-  .cardel__buttons {
-    gap: 10px !important;
+[file-to]
+  {cursor: pointer;     
   }
-  .cardel__button {
-    width: 110px !important;
-  }
-}

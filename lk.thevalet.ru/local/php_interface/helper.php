@@ -22,6 +22,11 @@ class Helper
    public static function fromJSON($value)
      {return json_decode($value, true);        
      }
+   public static function outJSON($value)
+     {header('Content-Type: application/json; charset=utf-8');
+      header('Content-Length: '.strlen($value = \My\Helper::toJSON(['success' => true, 'result' => $value])));
+      die($value);
+     }
    public static function toJSON($value)
      {return json_encode($value, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);        
      }

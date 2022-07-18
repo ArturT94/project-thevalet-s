@@ -60,13 +60,42 @@
 .add__auto .number__message__item {
   display: none;
 }
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .nav_group-garage {
-    display: none;
-    width: 0;
-    height: 0;
+    width: 100%;
+    position: relative;
+    left: 0rem;
+    bottom: -4.5rem;
+  }
+  .swiper-button-next {
+    transition: all 0.3s ease 0s;
+    right: 10px;
+    background-color: gray;
+    color: #fff;
+    border-radius: 5px;
+    opacity: 0.8;
+  }
+  .swiper-button-prev {
+    transition: all 0.3s ease 0s;
+    left: 10px;
+    border-radius: 5px;
+    background-color: gray;
+    color: #fff;
+
+    opacity: 0.8;
+  }
+  .swiper-button-next:hover {
+    opacity: 1;
+    background-color: gray;
+    color: #fff;
+  }
+  .swiper-button-prev:hover {
+    opacity: 1;
+    background-color: gray;
+    color: #fff;
   }
   .garage__on__order {
+    margin: 0;
     position: relative;
   }
   .garage {
@@ -91,12 +120,8 @@
   }
   .auto_img img {
     width: 90%;
-    margin-left: 0.5rem;
   }
   .add__auto {
-  }
-  .add__auto .auto_img img {
-    width: 90%;
   }
   .data__model {
     display: none;

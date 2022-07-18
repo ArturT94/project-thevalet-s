@@ -1,7 +1,7 @@
-const serviceButton = document.querySelectorAll(".serv-button");
-const serviceButtonSecond = document.querySelectorAll(".serv-button-second");
-const vltButton = document.querySelectorAll(".vlt-heit-btn");
-const buttonNext = document.querySelector(".button_nextt");
+window.serviceButton = document.querySelectorAll(".serv-button");
+window.serviceButtonSecond = document.querySelectorAll(".serv-button-second");
+window.vltButton = document.querySelectorAll(".vlt-heit-btn");
+window.buttonNext = document.querySelector(".button_nextt");
 
 if (serviceButton) {
   for (let i = 0; i < serviceButton.length; i++) {
@@ -20,7 +20,7 @@ if (serviceButton) {
           serviceButton[i].classList.remove("active");
           if (!document.querySelector(".serv-button.active")) {
             buttonNext.style.pointerEvents = "none";
-            buttonNext.style.backgroundColor = "gray";
+            buttonNext.style.backgroundColor = "#c4c4c4";
             buttonNext.innerHTML = "выберите услугу";
           }
         } else {
@@ -49,7 +49,7 @@ if (serviceButton) {
           serviceButtonSecond[i].classList.remove("active");
           if (!document.querySelector(".serv-button-second.active")) {
             buttonNext.style.pointerEvents = "none";
-            buttonNext.style.backgroundColor = "gray";
+            buttonNext.style.backgroundColor = "#c4c4c4";
             buttonNext.innerHTML = "выберите услугу";
           }
         } else {

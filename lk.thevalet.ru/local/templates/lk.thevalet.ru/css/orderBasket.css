@@ -4,7 +4,6 @@
   left: 0;
   height: 100%;
   width: 100%;
-  padding-top: 2rem;
   background-color: #ffffff;
   box-shadow: 0px 0px 7.36px 0.64px rgba(0, 0, 0, 0.39);
   z-index: 199;
@@ -19,11 +18,28 @@
   border-radius: 5px;
   padding: 30px 30px 17px 30px;
   box-sizing: border-box;
-  margin-top: 48px;
+  margin-top: 24px;
 }
 
 .amenities__list {
+  margin-bottom: 7px;
+}
+
+.amenities__add_btn {
+  border-top: 1px solid #c7c7c7;
+  padding-top: 9px;
   margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #c7c7c7;
+  display: block;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+.amenities__add_btn:hover {
+  color: #000;
 }
 .amenities__item {
   padding-bottom: 10px;
@@ -145,23 +161,25 @@ input[type="checkbox"] {
   background-image: url("/local/templates/lk.thevalet.ru/img/layout/refuel-icon.png");
 }
 .extensions__name {
-  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
 }
-
 .addition__bottom {
   margin: 0 28px;
   display: flex;
   flex-direction: column;
   height: 100%;
 }
-
 .addition__result {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 30px;
 }
-
 .result__block {
   border-radius: 10px;
   background-color: #dfdfdf;
@@ -171,16 +189,47 @@ input[type="checkbox"] {
   box-sizing: border-box;
   text-align: center;
 }
-.addition__button {
+.ss_mar-b {
+  margin-bottom: 30px;
 }
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
+  .amenities__list {
+    margin-bottom: 10px;
+  }
+
+  .amenities__add_btn {
+    border-top: 1px solid #c7c7c7;
+    padding-top: 7px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .addition__result {
+    padding-bottom: 75px;
+  }
+  .ss_mar-b_con {
+    width: 95%;
+    height: 2.8rem;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-family: "Montserrat Regular";
+    font-weight: 200;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 10px;
+  }
+  .ss_mar-b {
+    margin-bottom: 0;
+  }
   .addition {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    padding-top: 5rem;
     background-color: #ffffff;
     box-shadow: 0px 0px 7.36px 0.64px rgba(0, 0, 0, 0.39);
     z-index: 199;
@@ -189,10 +238,40 @@ input[type="checkbox"] {
     flex-direction: column;
     justify-content: space-between;
   }
+  .extensions__park {
+    background-size: 26px;
+  }
+  .extensions__wash {
+    background-size: 18px 23px;
+  }
+  .extensions__refuel {
+    background-size: 20px;
+  }
+  .extensions__button {
+    width: 51px;
+    height: 51px;
+  }
+  #changeLink {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    width: 90%;
+    bottom: 10px;
+  }
   .extensions__list {
     grid-gap: 0px;
   }
+  .extensions__name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+  }
   .amenities {
-    margin-bottom: 0;
+    margin-top: 66px;
+    margin-bottom: 48px;
+    padding: 20px;
   }
 }

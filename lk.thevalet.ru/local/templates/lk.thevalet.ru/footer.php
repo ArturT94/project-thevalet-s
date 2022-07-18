@@ -30,7 +30,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
   <!--Запрещаем выпад контекстного меню в браузере-->
   <?php global $APPLICATION; ?>
   <?php $APPLICATION->AddHeadScript("/libs/jquery/jquery-3.6.0.min.js"); ?>
-    <?php $APPLICATION->AddHeadScript("/js/ajaxGarageInfoCars.js"); ?>
+  <?php $APPLICATION->AddHeadScript("/js/ajaxGarageInfoCars.js"); ?>
   <?php $APPLICATION->AddHeadScript("/js/ajaxAddCars.js"); ?>
   <?php $APPLICATION->AddHeadScript("/js/js.js"); ?>
   <?php $APPLICATION->AddHeadScript("/js/script.js"); ?>

@@ -4,7 +4,6 @@ $dbResSect = CIBlockSection::GetList(["SORT" => "ASC"], ["IBLOCK_ID" => $arParam
 while($sectRes = $dbResSect->GetNext()){
     $arSections[] = $sectRes;
 }
-
 foreach($arSections as $arSection){
     foreach($arResult['ITEMS'] as $key => $arItem){
         if($arSection['ID'] === $arItem['IBLOCK_SECTION_ID']){
@@ -14,4 +13,3 @@ foreach($arSections as $arSection){
     $arElementGroups[] = $arSection;
 }
 $arResult["ITEMS"] = $arElementGroups;
-?>

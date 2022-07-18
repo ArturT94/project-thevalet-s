@@ -40,12 +40,12 @@
     </button>
 <?endif;?>
 <?if($arParams["SHOW_WHERE"]):?>
-	&nbsp;<select name="where">
+    <!--<select name="where">
 	<option value=""><?=GetMessage("SEARCH_ALL")?></option>
 	<?foreach($arResult["DROPDOWN"] as $key=>$value):?>
 	<option value="<?=$key?>"<?if($arResult["REQUEST"]["WHERE"]==$key) echo " selected"?>><?=$value?></option>
 	<?endforeach?>
-	</select>
+	</select>-->
 <?endif;?>
 	<input type="hidden" name="how" value="<?echo $arResult["REQUEST"]["HOW"]=="d"? "d": "r"?>" />
 <?if($arParams["SHOW_WHEN"]):?>

@@ -1,4 +1,4 @@
-let getExternalCar = '';
+let getExternalCar = null
 function getNewOrderData() {
       return {
           getExternalCar,
@@ -18,7 +18,7 @@ function getCheckboxesData() {
   }
 $('form#send-services > .user__popup__lvl__2__link').click(function() {
       $.post('/AjaxAddServicesCrm.php', getNewOrderData(), function(data) {
-         console.log(data);
+          console.log(data);
      }, 'json');
 });
 
@@ -91,9 +91,8 @@ getDataServices = (service) => {
 function deleteCar(car) {
     $('button.cardel__button.btn-yes').click(function () {
         $.post('/AjaxCarDelete.php', car, function(data) {
-            console.log(data);
         }, 'json');
         $('button.menu__close__popup.service__close-popup').click();
-        document.getElementById("delCar").remove();
+        document.getElementById("delCar_" + car.IdCar).remove();
     });
 }

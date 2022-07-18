@@ -4,6 +4,7 @@ const userPopupMenuLinks = document.querySelectorAll(".profile");
 const userPopup2MenuLinks = document.querySelectorAll(
   ".user__popup__lvl__2__link"
 );
+const userPopupDouble = document.querySelectorAll(".user__pop_btn_doubleclick");
 const orderPopupLinks = document.querySelectorAll(".order__popup__link");
 
 let unlockPopupUserMenuLink = true;
@@ -61,6 +62,45 @@ if (userPopup2MenuLinks.length > 0) {
       popupOpenUser(curentPopup);
       e.preventDefault();
     });
+  }
+}
+if (userPopupDouble.length > 0) {
+  for (let index = 0; index < userPopupDouble.length; index++) {
+    const userPopup2MenuLink = userPopupDouble[index];
+    var touchtime = 0;
+    $(userPopup2MenuLink).on("click", function (e) {
+      if (touchtime == 0) {
+        // set first click
+        touchtime = new Date().getTime();
+      } else {
+        // compare first click to this click and see if they occurred within double click threshold
+        if (new Date().getTime() - touchtime < 800) {
+          // double click occurred
+          const btnActive = document.querySelectorAll(".auto");
+          for (let i = 0; i < btnActive.length; i++) {
+            if (btnActive[i].classList.contains("active")) {
+              btnActive.forEach((e) => {
+                e.classList.remove("active");
+              });
+              userPopup2MenuLink.parentNode.classList.add("active");
+            } else {
+              userPopup2MenuLink.parentNode.classList.add("active");
+            }
+          }
+          const popupName = userPopup2MenuLink
+            .getAttribute("href")
+            .replace("#", "");
+          const curentPopup = document.getElementById(popupName);
+          popupOpenUser(curentPopup);
+          e.preventDefault();
+          touchtime = 0;
+        } else {
+          // not a double click so set as a new first click
+          touchtime = new Date().getTime();
+        }
+      }
+    });
+    // userPopup2MenuLink.addEventListener("dblclick", function (e) {});
   }
 }
 const ClosePopup2UserMenuLink = document.querySelectorAll(
@@ -198,7 +238,7 @@ function onTabClick(item) {
 
 function goBackPop(id) {
   const popupses = document.querySelectorAll(".user__popup__lvl__2");
-  const popapus = document.getElementById("brand"); // тут можно будет передавать id, если окон будет больше
+  const popapus = document.getElementById(id); // тут можно будет передавать id, если окон будет больше
   popupses.forEach((element) => {
     element.classList.remove("open");
   });
@@ -207,7 +247,7 @@ function goBackPop(id) {
 
 function goNextPop(id) {
   const popupses = document.querySelectorAll(".user__popup__lvl__2__link");
-  const popapus = document.getElementById("gosnumber"); // тут можно будет передавать id, если окон будет больше
+  const popapus = document.getElementById(id); // тут можно будет передавать id, если окон будет больше
   popupses.forEach((element) => {
     element.classList.remove("open");
   });

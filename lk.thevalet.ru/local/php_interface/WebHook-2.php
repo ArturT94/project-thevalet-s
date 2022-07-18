@@ -18,12 +18,8 @@ self::request($this->url, $method, $params);
                 CURLOPT_URL => implode('/', [$url, implode('.', [$method, 'json'])]),
                 CURLOPT_POSTFIELDS => http_build_query($params),
             ]);
-     $this->result = \My\Helper::fromJSON(curl_exec($curl));
-     foreach(['result'] as $possibleKeyInTheResult)
-       {if(array_key_exists($possibleKeyInTheResult, $this->result))
-          {$this->result = $this->result[$possibleKeyInTheResult];             
-          }          
-       }
+     $this->result = \My\Helper::fromJSON(curl_exec($curl))['result'];
+     dd([$url, $method, $params, \My\Helper::fromJSON(curl_exec($curl))]);
         \__Debug::log($result, 'results-of-the-requests');
     }
     public function getLastResult()

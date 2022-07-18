@@ -243,9 +243,6 @@
 .swiper-rtl .swiper-button-prev:after {
   content: "next";
 }
-.swiper-button-lock {
-  display: none;
-}
 .swiper-pagination {
   position: absolute;
   text-align: center;

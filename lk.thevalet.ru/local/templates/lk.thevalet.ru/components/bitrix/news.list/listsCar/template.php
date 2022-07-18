@@ -18,11 +18,12 @@
         <div class="radio__block">
           <div class="brand__block">
             <?php foreach ($arResult['ITEMS'] as $arBrands) : ?>
-                <?php //echo '<pre>' . print_r($arItem, true) . '</pre>';?>
+              <?php //echo '<pre>' . print_r($arBrands, true) . '</pre>';
+              ?>
 
-                <label class="user__popup__lvl__2__input">
+              <label class="user__popup__lvl__2__input">
                 <input type="radio" id="<?= $arBrands['ID'] ?>" name="brand" value="<?= $arBrands['NAME'] ?>">
-                <a href="#model" class="user__popup__lvl__2__link pop-mod send-brand" onclick="window.brandId = <?=$arBrands['ID']?>; window.brandName = '<?=$arBrands['NAME']?>';goUploadAjax(window.brandId, window.brandName)"><?= $arBrands['NAME'] ?></a></label>
+                <a href="#model" class="user__popup__lvl__2__link pop-mod send-brand" onclick="window.brandId = <?= $arBrands['ID'] ?>; window.brandName = '<?= $arBrands['NAME'] ?>';goUploadAjax(window.brandId, window.brandName)"><?= $arBrands['NAME'] ?></a></label>
             <?php endforeach; ?>
           </div>
         </div>

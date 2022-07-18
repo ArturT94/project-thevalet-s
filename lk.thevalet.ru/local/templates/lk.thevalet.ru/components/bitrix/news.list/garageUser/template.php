@@ -21,14 +21,15 @@
           <div class="">Land Rover Defender</div>
           <div class=""><span class="js-garage-number">Р352НА710</span><a class="car__copy js-garage-copy"><img class="copy__img" width="18" height="18" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/copy.png"></a></div>
         </div>
-          <?php if($USER->IsAuthorized()): ?>
-        <img class="img__trash" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/trash.svg" alt="">
-          <?php endif; ?>
+        <?php if ($USER->IsAuthorized()) : ?>
+          <img class="img__trash" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/trash.svg" alt="">
+        <?php endif; ?>
       </li>
-      <?php if ($USER->IsAuthorized()){
-      foreach ($arResult['NEW_SECTION'] as $arItem) : ?>
-        <?php $carImgs = CFile::GetPath($arItem['PROPERTY_FOTO_VALUE']) ?>
-        <li id="delCar" class="garage-mobile__item" onclick="getData({
+      <?php if ($USER->IsAuthorized()) {
+        foreach ($arResult['NEW_SECTION'] as $arItem) : ?>
+        <?php //echo '<pre>' . print_r($arItem, true) . '</pre>'; ?>
+          <?php $carImgs = CFile::GetPath($arItem['PROPERTY_FOTO_VALUE']) ?>
+          <li id="delCar_<?= $arItem['ID'] ?>" class="garage-mobile__item" onclick="getData({
                     'img':'<?= $carImgs ?>',
                     'name':'<?= $arItem['NAME'] ?>',
                     'gosNumber':'<?= $arItem['PROPERTY_GOSNOMER_VALUE'] ?>',
@@ -39,23 +40,24 @@
                     'vin':'<?= $arItem['PROPERTY_VIN_VALUE'] ?>',
                 'deleteElement':'<?= $arItem['EXTERNAL_ID'] ?>'
                     })">
-            <?php //echo '<pre>' . print_r($arItem, true) . '</pre>'; ?>
-          <div class="car__profile">
-            <a href="#car" class="garage__link user__popup__lvl__2__link">
-              <div class="number__message__item2">
-                <div class="number__message2" style="display: none">
-                  <p>2</p>
+            <?php //echo '<pre>' . print_r($arItem, true) . '</pre>'; 
+            ?>
+            <div class="car__profile">
+              <a href="#car" class="garage__link user__popup__lvl__2__link">
+                <div class="number__message__item2">
+                  <div class="number__message2" style="display: none">
+                    <p>2</p>
+                  </div>
                 </div>
-              </div>
-              <img style="width: 40%;" class="" src="<?= $carImgs ?>">
-            </a>
-            <div class=""><?= $arItem['NAME'] ?></div>
-            <div class=""><span class="js-garage-number"><?= $arItem['PROPERTY_GOSNOMER_VALUE'] ?></span><a class="car__copy js-garage-copy"><img class="copy__img" width="18" height="18" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/copy.png"></a></div>
-          </div>
-          <img onclick="deleteCar({'iblockId': '<?=$arItem['IBLOCK_ID']?>', 'IdCar': '<?=$arItem['ID']?>'})" class="img__trash" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/trash.svg" alt="">
-        </li>
+                <img style="width: 40%;" class="" src="<?= $carImgs ?>">
+              </a>
+              <div class=""><?= $arItem['NAME'] ?></div>
+              <div class=""><span class="js-garage-number"><?= $arItem['PROPERTY_GOSNOMER_VALUE'] ?></span><a class="car__copy js-garage-copy"><img class="copy__img" width="18" height="18" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/copy.png"></a></div>
+            </div>
+            <img onclick="deleteCar({'iblockId': '<?= $arItem['IBLOCK_ID'] ?>', 'IdCar': '<?= $arItem['ID'] ?>'})" class="img__trash" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/trash.svg" alt="">
+          </li>
       <?php endforeach;
-      }?>
+      } ?>
     </ul>
     <div class="garage__add">
       <a href="#brand" class="button__garage__block user__popup__lvl__2__link">

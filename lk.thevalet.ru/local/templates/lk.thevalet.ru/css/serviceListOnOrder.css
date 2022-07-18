@@ -38,6 +38,9 @@
   width: 100%;
   height: 100%;
 }
+.vlt_servise {
+  width: 202px;
+}
 @media screen and (max-width: 767px) {
   .vlt_servise {
   }
