@@ -1,6 +1,5 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_before.php");
-//echo '<pre>' . print_r($_POST, true) . '</pre>';
 if ($_POST) {
   $money = $_POST['money'];
   $time = $_POST['time'];
@@ -17,10 +16,8 @@ if ($_POST) {
       $result[] = $key;
     }
   }
-  new WebHook('lists.element.add', [
-    'IBLOCK_ID' => 82, 'IBLOCK_TYPE_ID' => 'lists', 'ELEMENT_CODE' =>
-    'services',
-    'FIELDS' => ['NAME' => 'Заявка от ' . $arUser['NAME'], 'PROPERTY_403' => $planedTime, 'PROPERTY_407' => $userId, 'PROPERTY_409' => $arUser['PERSONAL_PHONE'], 'PROPERTY_530' => [$result], 'PROPERTY_405' => $externalId, 'PROPERTY_408' => $userId, 'PROPERTY_532' => date("F j, Y, H:i:s")]
+  new WebHook('crm.deal.add', [
+    'fields' => ['CATEGORY_ID' => 5, 'UF_CRM_1657793873362' => $planedTime, 'CLIENT' => $userId, 'UF_CRM_1657710634' => [$result],  'UF_CRM_1658127956' => $externalId, 'UF_CRM_1658127981' => $externalId, 'OPPORTUNITY_WITH_CURRENCY' => (int)$money]
   ]);
 }
 $results = json_encode($_POST);

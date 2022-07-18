@@ -249,7 +249,7 @@ window.Favorites.removeIn = function(id)
 window.Favorites.showIn = function(id)
   {$('.swiper-slide[data-id="' + id + '"]').filter(function(element)
      {return $(element).parents('#favorites').length == 0;        
-     }).clone(true).appendTo($('#favorites .swiper-wrapper')).;
+     }).clone(true).appendTo($('#favorites .swiper-wrapper'));     
   }
 window.Favorites.shift = function(id)
   {let result;

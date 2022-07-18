@@ -470,7 +470,6 @@ if (!$USER->IsAuthorized()) {
   </div>
 </div>
 <div class="user__popup__lvl__2" id="garage">
-  <div class="drag__element Close__user__popup__lvl__2"></div>
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
     <?php include_once "garage.php"; ?>
@@ -478,7 +477,6 @@ if (!$USER->IsAuthorized()) {
   </div>
 </div>
 <div class="user__popup__lvl__2" id="systemPay">
-  <div class="drag__element Close__user__popup__lvl__2"></div>
   <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
   <div class="user__popup__lvl__2__content">
     <?php include_once "systemPay.php"; ?>

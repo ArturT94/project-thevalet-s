@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/css/add__pay__card.css">
 <div class="app__window">
   <div class="conteiner">
-    <a class="car__close Close__user__popup__lvl__2 close__order__popup" href="#systemPay"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></a>
     <div class="global__payment">
       <div class="global__payment1">
         <div class="form__card__payment">

@@ -16,7 +16,6 @@ function goUploadAjax(brandId, brandName, modelName, gosNumber, extraData) {
       ["object"].indexOf(typeof extraData) >= 0 ? extraData : new Object()
     ),
     success: function (html) {
-      console.log(html);
       console.log(brandId, brandName, modelName, gosNumber, extraData);
       $("#model .user__popup__lvl__2__content").html(html);
     },

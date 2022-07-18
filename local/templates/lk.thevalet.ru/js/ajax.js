@@ -1,4 +1,4 @@
-let getExternalCar = '';
+let getExternalCar = null
 function getNewOrderData() {
       return {
           getExternalCar,
@@ -18,7 +18,7 @@ function getCheckboxesData() {
   }
 $('form#send-services > .user__popup__lvl__2__link').click(function() {
       $.post('/AjaxAddServicesCrm.php', getNewOrderData(), function(data) {
-         console.log(data);
+          console.log(data);
      }, 'json');
 });
 

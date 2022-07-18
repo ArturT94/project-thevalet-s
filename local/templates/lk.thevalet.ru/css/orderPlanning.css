@@ -9,7 +9,7 @@
 }
 
 .order__popup--plan {
-  z-index: 21;
+  z-index: 101;
   left: 65rem;
 }
 

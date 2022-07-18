@@ -4,7 +4,7 @@
     <div class="global__car__profile">
       <div class="global__car__profile1">
         <div class="car__profile">
-          <img class="car__img1" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/add-photo.png">
+          <img class="car__img1" file-to = "vehicle-photo" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/add-photo.png">
           <div class="">
             <a href="#brand" class="js-add user__popup__lvl__2__link">Марка, модель,</br> Госномер</a>
           </div>
