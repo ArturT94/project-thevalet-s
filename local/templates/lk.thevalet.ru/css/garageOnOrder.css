@@ -14,8 +14,7 @@
   height: 10rem;
   width: 12rem;
   align-items: center;
-  transition-duration: 0.3s;
-  transition: 0.3s all ease;
+  transition: all 0.3s ease 0s;
 }
 .auto.active {
   background: #ededed;
@@ -60,12 +59,49 @@
 .add__auto .number__message__item {
   display: none;
 }
+.swiper-button-next {
+  transition: all 0.3s ease 0s;
+  background-color: gray;
+  color: #fff;
+  border-radius: 5px;
+}
+.swiper-button-prev {
+  transition: all 0.3s ease 0s;
+
+  border-radius: 5px;
+  background-color: gray;
+  color: #fff;
+}
+.swiper-button-next:hover {
+  background-color: rgb(102, 102, 102);
+  color: #fff;
+}
+.swiper-button-prev:hover {
+  background-color: rgb(102, 102, 102);
+  color: #fff;
+}
+.swiper-button-next:hover {
+  background-color: rgb(102, 102, 102);
+  color: #fff;
+}
+.swiper-button-prev:hover {
+  background-color: rgb(102, 102, 102);
+  color: #fff;
+}
 @media (max-width: 767px) {
   .nav_group-garage {
-    display: none;
-    width: 0;
-    height: 0;
+    width: 100%;
+    position: relative;
+    left: 0rem;
+    bottom: -4.5rem;
   }
+  .swiper-button-next {
+    right: 5px;
+  }
+  .swiper-button-prev {
+    left: 5px;
+  }
+
   .garage__on__order {
     margin: 0;
     position: relative;

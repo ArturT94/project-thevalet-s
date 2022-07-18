@@ -131,7 +131,7 @@ input::placeholder {
   bottom: -5.5rem;
 }
 .swiper-button-next {
-  right: 0px;
+  right: 6px;
 }
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
@@ -392,10 +392,11 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 .cls-1 path {
-  fill: none;
+  fill: transparent;
   stroke: white;
   stroke-miterlimit: 10;
   stroke-width: 2px;
+  transition: all 0.1s ease 0s;
 }
 .cls-1.favourite path {
   fill: white;
@@ -685,6 +686,9 @@ input:checked + .slider:before {
   }
   .order__popup.open {
     left: 27rem;
+  }
+  .swiper-button-next {
+    right: -8px;
   }
   .app {
     grid-template-columns: 27rem 1fr;

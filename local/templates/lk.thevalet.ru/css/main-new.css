@@ -693,6 +693,6 @@ input:checked + .slider:before {
     left: 27rem;
   }
 }
-[file-to]
-  {cursor: pointer;     
-  }
+[file-to] {
+  cursor: pointer;
+}

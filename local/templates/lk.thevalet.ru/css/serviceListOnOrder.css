@@ -17,11 +17,13 @@
   width: 24px;
   height: 24px;
 }
-
+.vlt_servise_img {
+  border-radius: 10px;
+}
 .servise__name {
   transition: all 0.3s ease 0s;
   background: rgba(0, 0, 0, 0.6);
-  width: 202px;
+  width: 201px;
   height: 150px;
   position: absolute;
   top: 0;
@@ -29,7 +31,8 @@
   justify-content: center;
   align-items: center;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 18px;
+  border-radius: 10px;
 }
 .heit {
   height: 100% !important;
@@ -47,8 +50,5 @@
   .vlt_servise.active {
   }
   .service__icon {
-  }
-  .servise__name {
-    font-size: 0.7rem;
   }
 }
