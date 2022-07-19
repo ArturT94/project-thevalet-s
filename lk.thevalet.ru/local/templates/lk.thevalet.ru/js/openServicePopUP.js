@@ -183,11 +183,12 @@ function popupCloseMenu(popupActive, unlockPopupUserMenuLink = true) {
 if (servicePopupLinks.length > 0) {
   for (let index = 0; index < servicePopupLinks.length; index++) {
     const servicePopupLink = servicePopupLinks[index];
-    servicePopupLink.addEventListener("click", function (e) {
+    servicePopupLink.addEventListener("click", function (event) {
       const popupName = servicePopupLink.getAttribute("href").replace("#", "");
       const curentPopup = document.getElementById(popupName);
       popupOpenService(curentPopup);
-      e.preventDefault();
+	  event.stopPropagation();
+      event.preventDefault();
     });
   }
 }

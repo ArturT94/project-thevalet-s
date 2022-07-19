@@ -21,7 +21,10 @@ while ($result = $res->Fetch()) {
   <!--Карточки автомобилей и кнопка добавления-->
   <div class="swiper garage">
     <div class="swiper-wrapper">
-      <button class="swiper-slide auto">
+	  <?
+	  $activeClassPostfix = ' active swiper-slide-active';
+	  ?>
+      <button class="swiper-slide auto<?=(($isAuthorized = $USER->IsAuthorized()) && false) ? '' : $activeClassPostfix?>">
         <a href="#car" class="user__pop_btn_doubleclick">
           <div class="number__message__item">
             <div class="number__message">
@@ -38,12 +41,12 @@ while ($result = $res->Fetch()) {
         </a>
       </button>
       <?php
-      if ($USER->IsAuthorized()) {
-        foreach ($arResult['NEW_SECTION'] as $arItem) : ?>
+      if ($isAuthorized) {
+        foreach ($arResult['NEW_SECTION'] as $arItemIndex => $arItem) : ?>
           <?php //echo '<pre>' . print_r($arItem, true) . '</pre>';
           ?>
           <?php $carImgs = CFile::GetPath($arItem['PROPERTY_FOTO_VALUE']) ?>
-          <button class="swiper-slide auto" onclick="getData({
+          <button class="swiper-slide auto<?=(false && ($arItemIndex == 0)) ? $activeClassPostfix : ''?>" onclick="getData({
                         'img':'<?= $carImgs ?>',
                         'name':'<?= $arItem['NAME'] ?>',
                         'gosNumber':'<?= $arItem['PROPERTY_GOSNOMER_VALUE'] ?>',

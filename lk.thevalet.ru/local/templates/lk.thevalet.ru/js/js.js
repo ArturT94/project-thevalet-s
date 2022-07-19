@@ -323,7 +323,8 @@ function updateView()
                   REQUEST.setRequestHeader('Content-Type', FILE.type);
                   REQUEST.addEventListener('loadend', function()
                     {if(REQUEST.status == 200)
-                       {ELEMENT.setAttribute('src', JSON.parse(REQUEST.response).result);                          
+                       {ELEMENT.setAttribute('src', JSON.parse(REQUEST.response).result);
+                        $(ELEMENT).removeClass('empty');				   
                        }
                     });
                   REQUEST.send(event.target.result);
@@ -350,4 +351,4 @@ function updateView()
 updateView();
 /*/Эдуардовский циферблат*/
 
-
+$('.user__pop_btn_doubleclick');

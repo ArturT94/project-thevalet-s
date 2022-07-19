@@ -15,8 +15,8 @@ GarbageDataByArtur::set('accountImg', $accountImg);
     <div class="menu__cont">
       <div class="menu__profile">
         <?php if (!$accountImg) : ?>
-          <img class="profile__img" file-to = "personal-photo" src="<?= SITE_TEMPLATE_PATH ?>/img/profil.png" style="width: 250px">
-        <?php else : ?>
+		  <IMG class="profile__img empty" file-to = "personal-photo" src="<?= SITE_TEMPLATE_PATH ?>/img/profil.png"></IMG>
+		<?php else : ?>
           <img class="profile__img" file-to = "personal-photo" src="<?= $accountImg ?>">
         <?php endif; ?>
         <div class="profile__name"><?= $arUser['NAME'] ?></div>

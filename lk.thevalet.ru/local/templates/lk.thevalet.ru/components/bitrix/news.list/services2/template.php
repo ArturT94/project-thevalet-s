@@ -27,7 +27,7 @@ $this->setFrameMode(true);
 
     <?php foreach ($arResult["ITEMS"] as $arItems) : ?>
       <?php foreach ($arItems['ELEMENTS'] as $arItem) : ?>
-        <button class="swiper-slide vlt_servise serv-button-second">
+        <button class="swiper-slide vlt_servise serv-button-second 333" data-id = "<?=$arItem['ID']?>">
           <a href="#popup__service" class="service__icon">
             <img src="<?= SITE_TEMPLATE_PATH ?>/img/layout/services-info.svg" width="26" height="26" alt="">
           </a>
@@ -38,7 +38,7 @@ $this->setFrameMode(true);
           </div>
           <?php $imgValServes = CFile::GetPath($arItem['PROPERTIES']['FOTO']['VALUE']); ?>
           <img class="vlt_servise_img" draggable=false src="<?= $imgValServes ?>" width="200px" height="150px" alt="">
-          <p class="servise__name"><?= strtoupper($arItem['NAME']) ?></p>
+          <p class="servise__name"><?=$arItem['NAME']?></p>
         </button>
       <?php endforeach; ?>
     <?php endforeach; ?>

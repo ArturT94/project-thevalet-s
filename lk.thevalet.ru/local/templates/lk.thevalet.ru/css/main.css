@@ -711,3 +711,11 @@ input:checked + .slider:before {
     width: 110px !important;
   }
 }
+[file-to]
+  {border-radius: 50%;
+   object-fit: cover;
+   width: 97px;   
+  }
+img.empty
+  {width: 250px;	  
+  }
