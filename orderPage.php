@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/css/orderPage.css">
 <div class="app__window garage-block">
   <div class="conteiner">
-    <button class="car__close close__order__popup"><img class="car__close-icon" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/arrow-right.png"></button>
     <div class="global__driver__block">
       <div class="global__driver__block1">
         <section class="driver__status">

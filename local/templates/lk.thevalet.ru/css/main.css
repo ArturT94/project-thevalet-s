@@ -550,6 +550,7 @@ input:checked + .slider:before {
   visibility: visible;
 }
 .order__popup.open .order__popup__content {
+  overflow-y: scroll;
   position: relative;
   background: #fff;
   z-index: 20;
