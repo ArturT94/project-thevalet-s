@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/css/car.css">
 <div class="app__window garage-block">
-  <img class="img__trash-l" src="/local/templates/lk.thevalet.ru/img/layout/trash.svg" alt="">
+  <img class="img__trash-l" src="/local/templates/lk.thevalet.ru/img/trash-bin.svg" alt="">
   <div class="conteiner">
     <!--        <button class="car__close Close__user__popup__lvl__2"><img class="car__close-icon" src="--><? //=SITE_TEMPLATE_PATH
                                                                                                             ?>
