@@ -6,6 +6,9 @@ $arSelect = ["IBLOCK_ID", "ID", "IBLOCK_NAME", "NAME", "PROPERTY_FOTO", "PROPERT
 $res = CIBlockElement::GetList([], $arFilter, false, false, $arSelect);
 //$section = CIBlockSection::GetList([], ["IBLOCK_ID" => 19], false, ["ID", "NAME"]);
 $blockText = $res->Fetch();
+
+while ($result = $res->Fetch()) {
+}
 ?>
 <!--Весь фрейм автомобилей на экране совершения заказа-->
 <section class="garage__on__order sp-margin">
@@ -37,7 +40,8 @@ $blockText = $res->Fetch();
       <?php
       if ($USER->IsAuthorized()) {
         foreach ($arResult['NEW_SECTION'] as $arItem) : ?>
-          <?php //echo '<pre>' . print_r($arItem, true) . '</pre>';?>
+          <?php //echo '<pre>' . print_r($arItem, true) . '</pre>';
+          ?>
           <?php $carImgs = CFile::GetPath($arItem['PROPERTY_FOTO_VALUE']) ?>
           <button class="swiper-slide auto" onclick="getData({
                         'img':'<?= $carImgs ?>',
@@ -49,7 +53,8 @@ $blockText = $res->Fetch();
                         'wheels':'<?= $arItem['PROPERTY_SHINY_VALUE'] ?>',
                         'vin':'<?= $arItem['PROPERTY_VIN_VALUE'] ?>',
                         'externalId':'<?= $arItem['EXTERNAL_ID'] ?>',
-                        'idCarMenu': '<?= $arItem['IBLOCK_SECTION_ID'] ?>',
+                        'marka': <?= $arItem['PROPERTY_MARKA_VALUE'] ?>,
+                        'model': <?= $arItem['PROPERTY_MODEL_VALUE'] ?>,
                         })">
             <a href="#car" class="user__pop_btn_doubleclick">
               <div class="number__message__item">
@@ -80,7 +85,7 @@ $blockText = $res->Fetch();
         </div>
         <div class="data__auto">
           <div class="data__model"></div>
-          <div class="data__number">Добавить авто</div>
+          <div class="data__number">Добавить</div>
         </div>
       </a>
     </div>

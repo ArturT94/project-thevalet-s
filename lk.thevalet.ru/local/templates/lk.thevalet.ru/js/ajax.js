@@ -1,6 +1,10 @@
-let getExternalCar = null
+let getExternalCar = null,
+    markaMenu = null,
+    modelMenu = null
 function getNewOrderData() {
       return {
+          markaMenu,
+          modelMenu,
           getExternalCar,
           services: getCheckboxesData(),
           money: document.querySelector('.result__money').innerText,
@@ -39,12 +43,16 @@ getData = (car) => {
                 $("#wheels").text(res.wheels);
                 $("#vin").text(res.vin);
                 getExternalCar = res.externalId;
+                markaMenu = res.marka;
+                modelMenu = res.model;
             } else {
                 console.err("Произошла ошибка");
             }
         },
     });
 };
+
+
 
 getDataServices = (service) => {
     $.ajax({

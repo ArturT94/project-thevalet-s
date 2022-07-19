@@ -51,7 +51,7 @@ $this->setFrameMode(true);
                 <? if ($arParams["DISPLAY_NAME"] != "N" && $arItem["NAME"]) : ?>
                   <? if (!$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])) : ?>
                     <input type="radio" id="model<?= $arItem['ID'] ?>" name="model" value="<?= $arItem["NAME"] ?>">
-                    <label for="model<?= $arItem["ID"] ?>"><a href="#gosnumber" class="user__popup__lvl__2__link pop-mod" onclick="window.modelName = '<?= $arItem["NAME"] ?>'; goNextPop('gosnumber'); goUploadAjax(window.brandId, window.brandName, window.modelName, null);"><?= $arItem["NAME"] ?></a></label>
+                    <label for="model<?= $arItem["ID"] ?>"><a href="#gosnumber" class="user__popup__lvl__2__link pop-mod" onclick="window.modelId = <?= $arItem["ID"] ?>; window.modelName = '<?= $arItem["NAME"] ?>'; goNextPop('gosnumber'); goUploadAjax(window.brandId, window.brandName, window.modelId, window.modelName, null);"><?= $arItem["NAME"] ?></a></label>
                   <? else : ?>
                     <b><? echo $arItem["NAME"] ?></b><br />
                   <? endif; ?>

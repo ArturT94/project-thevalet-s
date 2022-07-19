@@ -3,7 +3,7 @@
 if (CModule::IncludeModule("iblock"))
     $arOrder = [];
 $arFilter = ['IBLOCK_ID' => $arParams['IBLOCK_ID']];
-$arSelect = ['NAME', 'PROPERTY_MARKA', 'PROPERTY_FOTO', 'PROPERTY_GOSNOMER', 'PROPERTY_GOD_VYPUSKA', 'PROPERTY_PROBEG', 'PROPERTY_OSAGO', 'PROPERTY_SHINY', 'PROPERTY_VIN', 'PROPERTY_ID_AVTO', 'PROPERTY_STATUS', 'PROPERTY_NOVOE_POLE', 'PROPERTY_KONTAKT', 'IBLOCK_NAME', 'EXTERNAL_ID'];
+$arSelect = ['NAME', 'PROPERTY_MARKA', 'PROPERTY_FOTO', 'PROPERTY_GOSNOMER', 'PROPERTY_GOD_VYPUSKA', 'PROPERTY_PROBEG', 'PROPERTY_OSAGO', 'PROPERTY_SHINY', 'PROPERTY_VIN', 'PROPERTY_ID_AVTO', 'PROPERTY_STATUS', 'PROPERTY_NOVOE_POLE', 'PROPERTY_KONTAKT', 'IBLOCK_NAME', 'EXTERNAL_ID', 'VALUE', 'PROPERTY_MODEL'];
 $getGarage = CIBlockElement::GetList([], $arFilter, false, false, $arSelect);
 while($getCars = $getGarage->Fetch()){
     if(in_array($USER->GetID(), $getCars)) {
@@ -11,5 +11,5 @@ while($getCars = $getGarage->Fetch()){
     }
 
 }
-//echo '<pre>' . print_r($arResult, true) . '</pre>';
+//echo '<pre>' . print_r($arResult['NEW_SECTION'], true) . '</pre>';
 ?>

@@ -22,7 +22,7 @@
           <script>
             let brand = "<? $_POST['brandName'] ?>"
           </script>
-          <a href="#car1" data-active-btn class="button user__popup__lvl__2__link get-gosnumber" onclick="window.vehicleNumber = document.getElementById('gos').value; goUploadAjax(window.brandId, window.brandName, window.modelName, window.vehicleNumber); $('#car1 .app__window.garage-block a[href=\'#brand\']').html(window.brandName + ', ' + window.modelName + ', <BR /> ' + window.vehicleNumber);">ГОТОВО</a>
+          <a href="#car1" data-active-btn class="button user__popup__lvl__2__link get-gosnumber" onclick="window.vehicleNumber = document.getElementById('gos').value; goUploadAjax(window.brandId, window.brandName, window.modelId, window.modelName, window.vehicleNumber); $('#car1 .app__window.garage-block a[href=\'#brand\']').html(window.brandName + ', ' + window.modelName + ', <BR /> ' + window.vehicleNumber);">ГОТОВО</a>
         </div>
       </div>
     </div>

@@ -26,7 +26,7 @@ new Swiper(".vltServise", {
 });
 new Swiper(".vltServise2", {
   slidesPerView: "auto",
-  
+
   spaceBetween: 10,
   navigation: {
     nextEl: ".sw-Btn-service2-Next",

@@ -69,6 +69,21 @@ if (userPopupDouble.length > 0) {
     const userPopup2MenuLink = userPopupDouble[index];
     var touchtime = 0;
     $(userPopup2MenuLink).on("click", function (e) {
+      const btnActive = document.querySelectorAll(".auto");
+      for (let i = 0; i < btnActive.length; i++) {
+        if (btnActive[i].classList.contains("active")) {
+          btnActive.forEach((e) => {
+            e.classList.remove("active");
+          });
+          userPopup2MenuLink.parentNode.classList.add("active");
+        } else {
+          userPopup2MenuLink.parentNode.classList.add("active");
+        }
+      }
+      const popupName = userPopup2MenuLink
+        .getAttribute("href")
+        .replace("#", "");
+      const curentPopup = document.getElementById(popupName);
       if (touchtime == 0) {
         // set first click
         touchtime = new Date().getTime();
@@ -76,21 +91,7 @@ if (userPopupDouble.length > 0) {
         // compare first click to this click and see if they occurred within double click threshold
         if (new Date().getTime() - touchtime < 800) {
           // double click occurred
-          const btnActive = document.querySelectorAll(".auto");
-          for (let i = 0; i < btnActive.length; i++) {
-            if (btnActive[i].classList.contains("active")) {
-              btnActive.forEach((e) => {
-                e.classList.remove("active");
-              });
-              userPopup2MenuLink.parentNode.classList.add("active");
-            } else {
-              userPopup2MenuLink.parentNode.classList.add("active");
-            }
-          }
-          const popupName = userPopup2MenuLink
-            .getAttribute("href")
-            .replace("#", "");
-          const curentPopup = document.getElementById(popupName);
+
           popupOpenUser(curentPopup);
           e.preventDefault();
           touchtime = 0;

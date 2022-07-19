@@ -31,7 +31,7 @@ $this->setFrameMode(true);
                     'id':'<?= $arItem['EXTERNAL_ID'] ?>',
                     'money':'100',
                     'time':'1:00',
-                    })" data-id = "<?=$arItem['EXTERNAL_ID']?>">
+                    })">
           <a href="#popup__service" class="service__icon">
             <img src="<?= SITE_TEMPLATE_PATH ?>/img/layout/services-info.svg" width="26" height="26" alt="">
           </a>
@@ -41,7 +41,7 @@ $this->setFrameMode(true);
             </svg>
           </div>
           <?php $imgValServes = CFile::GetPath($arItem['PROPERTIES']['FOTO']['VALUE']); ?>
-          <img class="vlt_servise_img" draggable=false src="<?= $imgValServes ?>" width="200px" height="150px" alt="">
+          <div class="image__conts" ><img class="vlt_servise_img" draggable=false src="<?= $imgValServes ?>" alt=""></div>
           <p class="servise__name"><?= strtoupper($arItem['NAME']) ?></p>
         </button>
       <?php endforeach; ?>

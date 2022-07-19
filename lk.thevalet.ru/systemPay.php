@@ -14,7 +14,7 @@
         <div class="global__card1">
           <div class="add__card__block">
             <a href="#add__pay__card" class="add__card__icon user__popup__lvl__2__link">
-              <img class="add__card" src="<?= SITE_TEMPLATE_PATH ?>/img/layout/add a map.svg" alt="">
+              <!-- <img class="add__card" src=" SITE_TEMPLATE_PATH /img/layout/add a map.svg" alt=""> -->
               <div class="add__a__card">Добавить карту</div>
             </a>
           </div>
