@@ -46,7 +46,7 @@
     height: 0;
   }
   .app__window {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     padding: 40px 10px;
     overflow-y: auto;
