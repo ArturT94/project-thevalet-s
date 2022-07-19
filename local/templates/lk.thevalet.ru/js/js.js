@@ -244,12 +244,21 @@ window.Favorites.isIn = function(id)
   {return this.get().indexOf(id) >= 0;     
   }
 window.Favorites.removeIn = function(id)
-  {$('#favorites .swiper-wrapper .swiper-slide[data-id="' + id + '"]').remove();     
+  {$('.swiper-wrapper .swiper-slide[data-id="' + id + '"]').each(function()
+     {if($(this).parents('#favorites').length > 0)
+        {$(this).remove();     
+        }
+      else
+        {$(this).find('.hearth__icon > svg.favourite').removeClass('favourite')           
+        }         
+     });     
   }
 window.Favorites.showIn = function(id)
-  {$('.swiper-slide[data-id="' + id + '"]').filter(function(element)
+  {let elements;
+   (elements = $('.swiper-slide[data-id="' + id + '"]').filter(function(element)
      {return $(element).parents('#favorites').length == 0;        
-     }).clone(true).appendTo($('#favorites .swiper-wrapper')).;
+     })).find('.hearth__icon > svg').addClass('favourite');
+   elements.myClone().appendTo($('#favorites .swiper-wrapper')).find('.hearth__icon > svg').addClass('favourite');
   }
 window.Favorites.shift = function(id)
   {let result;
@@ -269,8 +278,16 @@ window.Favorites.push = function(id)
      }
    return result;
   }
+window.Favorites.toggle = function(id)
+  {return this[this.isIn.apply(this, arguments) ? 'shift' : 'push'].apply(this, arguments); 
+  }
 window.Favorites.init = function()
   {this.get().forEach(this.showIn.bind(this)); 
+  }
+jQuery.fn.myClone = function()
+  {return $(this).clone(true).each(function()
+     {$(this).add($(this).find('*')).filter(['.', processNew.NAME_OF_THE_CLASS].join('')).removeClass(processNew.NAME_OF_THE_CLASS);
+     });
   }
 function processNew(cssSelector, processFunctio)
   {const FUNCTION = arguments.callee;
@@ -323,10 +340,14 @@ function updateView()
      });
    processNew('div.hearth__icon', function()
      {this.addEventListener('click', function(event)
-        {var $button = $(event.target).parents('.swiper-slide').eq(0), id = $button.get(0).dataset.id, nameOfTheMethod = ($button.parents('#favorites').length > 0) ? 'shift' : 'push';
-         Favorites[nameOfTheMethod](id);
+        {var $button = $(event.target).parents('.swiper-slide').eq(0), id = $button.get(0).dataset.id;
+         Favorites.toggle(id);
+         updateView();
+         event.stopPropagation();
         });
      });
   }
 updateView();
 /*/Эдуардовский циферблат*/
+
+

@@ -13,7 +13,7 @@ if (!empty($_POST['brandName'] && $_POST['modelName'] && $_POST['gosNumber'])) {
    $existingElements = (new WebHook('lists.element.get', ['IBLOCK_ID' => 93, 'IBLOCK_TYPE_ID' => 'lists', 'ELEMENT_CODE' =>
     $parent_section.$_POST['gosNumber']]))->getLastResult();
     if(count($existingElements) > 0)
-      {$nameOfTheMethod = 'update';         
+      {$nameOfTheMethod = 'update';
        $id = (int) $existingElements[0]['ID'];
       }
     else
@@ -22,10 +22,10 @@ if (!empty($_POST['brandName'] && $_POST['modelName'] && $_POST['gosNumber'])) {
       }
    $result = (new WebHook('lists.element.'.$nameOfTheMethod, ['IBLOCK_ID' => 93, 'IBLOCK_TYPE_ID' => 'lists', 'ELEMENT_CODE' =>
     $parent_section.$_POST['gosNumber'],
-    'FIELDS' => ['NAME' => $_POST['brandName'], 'PROPERTY_491' => $_POST['modelName'], 'PROPERTY_492' => $_POST['gosNumber'], 'PROPERTY_526' => $USER->GetID(), 'PROPERTY_527' => $USER->GetID()]
+    'FIELDS' => ['NAME' => $_POST['modelName'], 'PROPERTY_491' => $_POST['modelId'], 'PROPERTY_492' => $_POST['gosNumber'], 'PROPERTY_526' => $USER->GetID(), 'PROPERTY_527' => $USER->GetID(), 'PROPERTY_516' => $_POST['brandId'], ]
   ]))->getLastResult();
     if(is_null($id))
-      {$id = $result;  
+      {$id = $result;
       }
     ?>
     <SCRIPT>

@@ -61,33 +61,21 @@
 }
 .swiper-button-next {
   transition: all 0.3s ease 0s;
-  background-color: gray;
-  color: #fff;
+  color: #000;
   border-radius: 5px;
 }
 .swiper-button-prev {
   transition: all 0.3s ease 0s;
-
   border-radius: 5px;
-  background-color: gray;
-  color: #fff;
+  color: #000;
 }
 .swiper-button-next:hover {
-  background-color: rgb(102, 102, 102);
-  color: #fff;
+  background-color: #ededed;
 }
 .swiper-button-prev:hover {
-  background-color: rgb(102, 102, 102);
-  color: #fff;
+  background-color: #ededed;
 }
-.swiper-button-next:hover {
-  background-color: rgb(102, 102, 102);
-  color: #fff;
-}
-.swiper-button-prev:hover {
-  background-color: rgb(102, 102, 102);
-  color: #fff;
-}
+
 @media (max-width: 767px) {
   .nav_group-garage {
     width: 100%;
@@ -97,9 +85,11 @@
   }
   .swiper-button-next {
     right: 5px;
+    color: #fff;
   }
   .swiper-button-prev {
     left: 5px;
+    color: #fff;
   }
 
   .garage__on__order {

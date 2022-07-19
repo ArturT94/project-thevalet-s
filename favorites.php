@@ -72,21 +72,7 @@
           </div>
         </div>
       </div>
-      <div class="elements__history">
-        <div class="services__block">ВОДИТЕЛИ</div>
-        <section class="driver__person favorites__driver__person">
-          <img class="driver__img" src="<?= SITE_TEMPLATE_PATH ?>/img/data/driver.jpg">
-          <div class="driver__name">
-            Константин
-          </div>
-          <div class="driver__favoritee">
-            <svg class="cls-2" id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.74 37.44">
-              <path d="M20,37.51l.21-.19C25.38,32,30.62,26.63,35.8,21.23a10.62,10.62,0,0,0,2.83-9.82,10.24,10.24,0,0,0-7.28-8.29A10.12,10.12,0,0,0,20.71,5.75a9.79,9.79,0,0,0-.71.82,9.45,9.45,0,0,0-.63-.79,10.12,10.12,0,0,0-9.12-3A10.15,10.15,0,0,0,1.78,10,10.67,10.67,0,0,0,4.29,21.31C9.38,26.65,14.57,31.9,19.71,37.19A3,3,0,0,1,20,37.51Z" transform="translate(-0.13 -1.58)" />
-            </svg>
-          </div>
 
-        </section>
-      </div>
       <!--            <div class="elements__history">-->
       <!--                <div class="services__block">АДРЕСА</div> -->
       <!--                <ul class="favorites__address__block">-->

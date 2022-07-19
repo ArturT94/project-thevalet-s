@@ -80,6 +80,10 @@ if (userPopupDouble.length > 0) {
           userPopup2MenuLink.parentNode.classList.add("active");
         }
       }
+      const popupName = userPopup2MenuLink
+        .getAttribute("href")
+        .replace("#", "");
+      const curentPopup = document.getElementById(popupName);
       if (touchtime == 0) {
         // set first click
         touchtime = new Date().getTime();
@@ -88,10 +92,6 @@ if (userPopupDouble.length > 0) {
         if (new Date().getTime() - touchtime < 800) {
           // double click occurred
 
-          const popupName = userPopup2MenuLink
-            .getAttribute("href")
-            .replace("#", "");
-          const curentPopup = document.getElementById(popupName);
           popupOpenUser(curentPopup);
           e.preventDefault();
           touchtime = 0;

@@ -133,7 +133,11 @@
     background-color: #fff;
     z-index: 10;
   }
+  .spesh_con_plus {
+    height: 95px;
+  }
   .spesh_con_plus img {
+    flex: 0 0 60px;
     width: 60px;
     height: 60px;
   }

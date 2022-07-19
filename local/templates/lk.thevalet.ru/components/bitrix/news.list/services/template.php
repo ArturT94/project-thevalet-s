@@ -41,7 +41,7 @@ $this->setFrameMode(true);
             </svg>
           </div>
           <?php $imgValServes = CFile::GetPath($arItem['PROPERTIES']['FOTO']['VALUE']); ?>
-          <img class="vlt_servise_img" draggable=false src="<?= $imgValServes ?>" width="200px" height="150px" alt="">
+          <div class="image__conts" ><img class="vlt_servise_img" draggable=false src="<?= $imgValServes ?>" alt=""></div>
           <p class="servise__name"><?= strtoupper($arItem['NAME']) ?></p>
         </button>
       <?php endforeach; ?>

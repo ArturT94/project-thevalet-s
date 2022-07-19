@@ -433,7 +433,7 @@ input:checked + .slider:before {
   transition: all 0.5s ease 0s;
 }
 .spesh_con_plus {
-  height: 68px;
+  height: 74px;
   display: flex;
   justify-content: center;
   align-items: end;
@@ -442,6 +442,7 @@ input:checked + .slider:before {
 .spesh_con_plus img {
   width: 50px;
   height: 50px;
+  flex: 0 0 50px;
 }
 .button_nextt {
   display: block;

@@ -83,7 +83,7 @@ while ($result = $res->Fetch()) {
         </div>
         <div class="data__auto">
           <div class="data__model"></div>
-          <div class="data__number">Добавить авто</div>
+          <div class="data__number">Добавить</div>
         </div>
       </a>
     </div>
